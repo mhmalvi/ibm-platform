@@ -21,7 +21,7 @@
                 <div class="card text-center p-4">
                   <div class="card-body">
                     <img
-                      class="mb-30"
+                      class="trade-image"
                       :src="
                         image_url + '/frontend/assets/img/courses/business.svg'
                       "
@@ -41,7 +41,7 @@
                 <div class="card text-center p-4">
                   <div class="card-body">
                     <img
-                      class="mb-30"
+                      class="trade-image"
                       :src="
                         image_url + '/frontend/assets/img/courses/trade.svg'
                       "
@@ -61,7 +61,7 @@
                 <div class="card text-center p-4">
                   <div class="card-body">
                     <img
-                      class="mb-30"
+                      class="trade-image"
                       :src="
                         image_url + '/frontend/assets/img/courses/english.svg'
                       "
@@ -150,5 +150,186 @@ export default {
 }
 .card:hover {
   border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+@media screen and (max-width: 2560px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 344px !important;
+    width: 344px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 262px !important;
+    width: 262px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 210px !important;
+    width: 210px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 152px !important;
+    width: 145px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 185px !important;
+    width: 180px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 270px !important;
+    width: 262px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 399px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 250px !important;
+    width: 240px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 344px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 180px !important;
+    width: 180px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 299px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 150px !important;
+    width: 150px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 255px) {
+  .card {
+    height: auto;
+  }
+  .card-body {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .trade-image {
+    max-width: 100px !important;
+    width: 100px !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
 }
 </style>
