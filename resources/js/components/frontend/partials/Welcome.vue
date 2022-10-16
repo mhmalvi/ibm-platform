@@ -6,8 +6,8 @@
       <div
         class="
           why-chose-us-bg
-          pt-150
-          pb-175
+          pt-100
+          pb-100
           pt-md-95
           pb-md-90
           pt-xs-95
@@ -17,7 +17,7 @@
         "
       >
         <div class="container">
-          <div class="row align-items-center py-100">
+          <div class="row align-items-center py-50">
             <div class="col-md-6">
               <div class="chose-wrapper">
                 <div

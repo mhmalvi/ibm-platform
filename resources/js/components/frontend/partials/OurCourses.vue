@@ -1,7 +1,7 @@
 <template>
   <!--what-loking-for start-->
   <section class="what-looking-for pos-rel">
-    <div class="what-look-bg pt-145 pb-130 pt-md-95 pb-md-80 pt-xs-95 pb-xs-80">
+    <div class="what-look-bg pt-80 pb-100 pt-md-50 pb-md-60 pt-xs-20 pb-xs-50">
       <div class="container">
         <div class="categoris-container">
           <div class="col-xl-12">
@@ -23,7 +23,7 @@
                     <img
                       class="trade-image"
                       :src="
-                        image_url + '/frontend/assets/img/courses/business.svg'
+                        image_url + '/frontend/assets/img/courses/business.jpg'
                       "
                       alt=""
                     />
@@ -63,7 +63,7 @@
                     <img
                       class="trade-image"
                       :src="
-                        image_url + '/frontend/assets/img/courses/english.svg'
+                        image_url + '/frontend/assets/img/courses/english.jpg'
                       "
                       alt=""
                     />

@@ -1,12 +1,10 @@
 <template>
   <base-layout>
-    <section
-      class="about-us-area pt-50 pb-50 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
-    >
+    <section class="about-us-area pt-0 pt-md-100 pt-xs-100">
       <div class="container">
-        <div class="align-items-center mb-120">
+        <div class="align-items-center">
           <div class="about-wrapper">
-            <div class="section-title section-title-4 mb-60">
+            <div class="section-title section-title-4">
               <div class="row">
                 <div class="col-md-12 mb-50">
                   <h5 class="bottom-line mb-25">About Us</h5>

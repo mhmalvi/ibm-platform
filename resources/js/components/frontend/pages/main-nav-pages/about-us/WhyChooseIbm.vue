@@ -1,7 +1,7 @@
 <template>
   <base-layout>
     <section
-      class="about-us-area pt-80 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+      class="about-us-area pt-0 pb-80 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
     >
       <div class="container">
         <div class="row pr-75 pr-lg-0 pr-md-0 pr-xs-0 pl-lg-0 pl-md-0 pl-xs-0">
@@ -29,7 +29,7 @@
               />
             </div>
             <div class="col-md-12">
-              <div class="card mb-50">
+              <div class="card mb-10">
                 <div class="card-body">
                   <h3 class="theme-color mb-10">Our Objectives</h3>
                   <p class="mb-20 mt-8">
@@ -82,7 +82,7 @@
             </div>
           </div>
 
-          <div class="row mb-50">
+          <div class="row mb-10">
             <div class="col-md-6">
               <img
                 :src="'https://ibm.vic.edu.au/public/frontend/assets/img/why-choose-ibm/01.svg'"

@@ -1,7 +1,7 @@
 <template>
   <base-layout>
     <section
-      class="about-us-area pt-80 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+      class="about-us-area pt-0 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
     >
       <div class="container">
         <div
@@ -12,13 +12,13 @@
             pl-lg-0 pl-md-0 pl-xs-0
           "
         >
-          <div class="card mb-50">
+          <div class="card mb-0">
             <div class="card-body">
               <h3 class="theme-color mb-10">Living in Australia:</h3>
-              <div class="text-center">
+              <div class="text-center py-5">
                 <img
-                  :src="'https://ibm.vic.edu.au/public/uploads/live-in-aus/Australia-Day-amico.svg'"
-                  style="height: 600px"
+                  :src="image_url + '/uploads/live-in-aus/1190.jpg'"
+                  style="height: 600px; width: 100%"
                 />
               </div>
               <h4 class="theme-color mb-10">Australia:</h4>
@@ -170,7 +170,9 @@
 </template>
 <script>
 import BaseLayout from "../../../layouts/BaseLayout.vue";
+import path from "../../../../../src/global-config/mixin/path-solution";
 export default {
+  mixins: [path],
   components: { BaseLayout },
 };
 </script>

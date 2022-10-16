@@ -1,7 +1,7 @@
 <template>
   <base-layout>
     <section
-      class="about-us-area pt-80 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+      class="about-us-area pt-0 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
     >
       <div class="container">
         <div
@@ -12,13 +12,13 @@
             pl-lg-0 pl-md-0 pl-xs-0
           "
         >
-          <div class="card mb-50">
+          <div class="card">
             <div class="card-body">
               <h3 class="theme-color mb-10">Our Campus:</h3>
-              <div class="text-center">
+              <div class="text-center py-5">
                 <img
-                  :src="'https://ibm.vic.edu.au/public/uploads/campus/02.svg'"
-                  style="height: 800px"
+                  :src="image_url + '/uploads/campus/02.jpg'"
+                  style="height: 600px"
                 />
               </div>
               <p class="p-justify mb-20">
@@ -55,8 +55,10 @@
   </base-layout>
 </template>
 <script>
+import path from "../../../../../src/global-config/mixin/path-solution";
 import BaseLayout from "../../../layouts/BaseLayout.vue";
 export default {
+  mixins: [path],
   components: { BaseLayout },
 };
 </script>

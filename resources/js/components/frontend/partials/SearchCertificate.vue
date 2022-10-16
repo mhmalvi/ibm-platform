@@ -1,10 +1,12 @@
 <template>
   <div class="container">
-    <div class="my-5"></div>
+    <div class="my-3"></div>
 
-    <div class="row">
+    <div class="row mb-50">
       <div class="col-md-6 mx-auto">
-        <h2 class="my-3 text-center">Check your certificate status</h2>
+        <h2 class="my-3 text-center" style="font-size: 35px">
+          Check your certificate status
+        </h2>
         <p class="text-center">
           Provide required information and see the status of certificate issued
           or not.
