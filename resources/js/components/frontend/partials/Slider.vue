@@ -382,17 +382,17 @@ export default {
   data() {
     return {
       slider_one:
-        "background-image:url('/frontend/assets/img/slider/IBM-Slider_01.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_01.png') !important;",
       slider_two:
-        "background-image:url('/frontend/assets/img/slider/IBM-Slider_02.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_02.png') !important;",
       slider_three:
-        "background-image:url('/frontend/assets/img/slider/IBM-Slider_03.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_03.png') !important;",
       slider_four:
-        "background-image:url('/frontend/assets/img/slider/IBM-Slider_04.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_04.png') !important;",
       slider_five:
-        "background-image:url('/frontend/assets/img/slider/IBM-Slider_05.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_05.png') !important;",
       slider_six:
-        "background-image:url('/frontend/assets/img/slider/IBM-Slider_06.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_06.png') !important;",
     };
   },
 };
