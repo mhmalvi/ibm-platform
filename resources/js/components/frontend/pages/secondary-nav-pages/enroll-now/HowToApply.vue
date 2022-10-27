@@ -7,7 +7,7 @@
         <div class="row">
           <div class="text-center mb-5">
             <img
-              :src="'https://ibm.vic.edu.au/public/uploads/how-to-apply/Forms-rafiki.svg'"
+              :src="image_url + '/uploads/how-to-apply/Froms-rafiki.jpg'"
               style="height: 500px"
             />
           </div>
@@ -20,6 +20,8 @@
           <div class="apply-procedure">
             <div class="collapsible pb-2">
               <a
+                @click="changeAngle($event)"
+                data-position="down"
                 class="w-100 collapsible-title"
                 data-bs-toggle="collapse"
                 href="#clps1"
@@ -31,7 +33,7 @@
                 &nbsp;
                 <span>Download enrolment form</span>
                 &nbsp;
-                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-down requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse show" id="clps1">
@@ -55,6 +57,8 @@
             </div>
             <div class="collapsible pb-2">
               <a
+                @click="changeAngle($event)"
+                data-position="right"
                 class="w-100 collapsible-title"
                 data-bs-toggle="collapse"
                 href="#clps2"
@@ -66,7 +70,7 @@
                 &nbsp;
                 <span>Apply online</span>
                 &nbsp;
-                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="clps2">
@@ -92,15 +96,44 @@ import BaseLayout from "../../../layouts/BaseLayout.vue";
 export default {
   components: { BaseLayout },
   mixins: [path],
+  methods: {
+    changeAngle(event) {
+      const requirement = event.target;
+      let position = $(requirement).attr("data-position");
+
+      if (position == "right") {
+        $(requirement).attr("data-position", "down");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-right");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-down");
+      } else {
+        $(requirement).attr("data-position", "right");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-down");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-right");
+      }
+    },
+  },
   data() {
     return {};
   },
 };
 </script>
 <style scoped>
+.requirementAddon {
+  float: right;
+}
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
+}
+
+.collapsible > a {
+  /* background-color: #ffeae3 !important;*/
+  padding: 5px 10px !important;
+  display: block !important;
+  width: 100% !important;
+  color: #000000 !important;
+  border: 1px solid #f1592a;
+  border-radius: 5px;
 }
 
 .collapsible {
@@ -108,7 +141,7 @@ export default {
 }
 
 .collapsible .collapsible-title {
-  background-color: #ffeae3 !important;
+  /*  background-color: #ffeae3 !important; */
   padding: 5px 10px !important;
   display: block !important;
   width: 100% !important;

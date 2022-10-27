@@ -1,24 +1,29 @@
 <template>
   <section
-    class="about-us-area pt-150 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+    class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
   >
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-12">
           <h3 class="course-page-title">Course Overview</h3>
           <div class="my-3"></div>
           <p class="p-justify">
-            This is a trade qualification for carpenters in residential and
-            commercial workplaces. It includes setting out, manufacturing,
-            constructing, assembling, installing and repairing products made
-            using timber and non-timber materials. This certificate provides you
-            with the skills and knowledge needed to gain employment as a
-            carpenter in the building and construction industry, one of the
-            largest industries in Australia. It will also prepare you to further
-            your studies in building and construction, if you choose to. This
-            qualification provides a trade outcome in carpentry, covering work
-            in residential and commercial applications. Occupational titles may
-            include: Carpenter – Commercial/ Formwork/ Residential
+            This qualification reflects the role of highly skilled senior
+            operators who use a broad range of hospitality skills combined with
+            managerial skills and sound knowledge of industry to coordinate
+            hospitality operations. They operate independently, have
+            responsibility for others and make a range of operational business
+            decisions. This qualification provides a pathway to work in any
+            hospitality industry sector as a departmental or small business
+            manager. The diversity of employers includes restaurants, hotels,
+            motels, catering operations, clubs, pubs, cafés, and coffee shops.
+            This qualification allows for multiskilling and for acquiring
+            targeted skills in accommodation services, cookery, food and
+            beverage and gaming. The skills in this qualification must be
+            applied in accordance with Commonwealth and State/Territory
+            legislation, Australian standards and industry codes of practice. No
+            occupational licensing, certification or specific legislative
+            requirements apply to this qualification at the time of publication.
           </p>
           <div class="my-3"></div>
           <table class="table table-responsive">
@@ -26,31 +31,64 @@
               <tr>
                 <th>Qualification Code and Title</th>
                 <td>:</td>
-                <td>CPC30220 Certificate III in Carpentry</td>
+                <td>SIT30821 Certificate III in Commercial Cookery</td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
                 <td>:</td>
-                <td>107988F</td>
+                <td>110591A</td>
               </tr>
               <tr>
                 <th>Delivery Location</th>
                 <td>:</td>
-                <td>60 Belfast Street, Broadmeadows, VIC, 3047</td>
+                <td>
+                  60 Belfast Street, Broadmeadows, VIC, 3047 <br />
+                  170 Victoria St, RICHMOND, Victoria 3121
+                </td>
               </tr>
               <tr>
                 <th>Mode of Delivery</th>
                 <td>:</td>
-                <td>Face to Face</td>
+                <td>
+                  Face to face classroom, Practical training and assessment is
+                  completed in commercial kitchen and 200 hours of Work-based
+                  Training arranged by the Institute.
+                </td>
               </tr>
             </tbody>
           </table>
           <div class="my-5"></div>
-          <h3 class="course-page-title">Course entry &amp; Visa Requirement</h3>
-          <p>Students must be of 18 years of age to apply</p>
+          <h3 class="course-page-title">Course Requirement</h3>
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps0"
+              role="button"
+              aria-expanded="true"
+              aria-controls="clps1"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>Age Requirements</span>
+              &nbsp;
+              <i class="fas fa-angle-down requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse show" id="clps0">
+              <div class="card card-body">
+                Students must be a minimum age of 18 years or above at the time
+                of course commencement.
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps1"
@@ -62,7 +100,7 @@
               &nbsp;
               <span>Academic Requirements</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps1">
@@ -74,6 +112,8 @@
           </div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps2"
@@ -83,26 +123,23 @@
             >
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span>English Proficiency</span>
+              <span>English Language Requirements</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps2">
               <div class="card card-body">
                 <ul class="list-items">
                   <li>
-                    English language: Have a minimum IELTS score of 5.5 for
-                    direct entry into a VET course OR
+                    Have a minimum IELTS score of 5.5 for direct entry into a
+                    VET course OR
                   </li>
                   <li>
-                    Either a minimum IELTS test score of 5.5 or equivalent for
-                    direct entry into a VET course;or, IELTS score of 5.0 or
-                    equivalent with an ELICOS course (up to 10 weeks) to be
-                    taken before the main VET course;or, IELTS score of 4.5 or
-                    equivalent with an ELICOS course (up to 20 weeks) to be
-                    taken before the main VET course;Note: Results older than
-                    two years are not acceptable OR
+                    IELTS score of 5.0 or equivalent with an ELICOS course (up
+                    to 10 weeks) to be taken before the main VET course;or,
+                    IELTS score of 4.5 or equivalent with an ELICOS course (up
+                    to 20 weeks) to be taken before the main VET course OR
                   </li>
                   <li>
                     to provide evidence that they have studied in English for at
@@ -115,40 +152,93 @@
                     Australia a Certificate IV or higher-level qualification,
                     from the Australian Qualifications Framework.
                   </li>
+                  <li>
+                    In the 2 years before commencing the course, has completed
+                    secondary studies equivalent to an Australian Year 12
+                    qualification from an English language speaking country
+                  </li>
+                  <li>
+                    Institute of Business and Management also has an English
+                    proficiency test to ensure that students have the English
+                    language capacity to successfully complete this course.
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
+
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
-              href="#clps2"
+              href="#clps23"
               role="button"
               aria-expanded="false"
-              aria-controls="clps2"
+              aria-controls="clps23"
             >
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span>Other requirement</span>
+              <span>Other Requirement</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
-            <div class="collapse" id="clps2">
+            <div class="collapse" id="clps23">
               <div class="card card-body">
-                <p>
-                  <strong>Physical Abilities requirements: </strong> Learners
-                  are expected to have physical abilities and manual handling
-                  required to perform tasks involved while undergoing training
-                  effectively. As a part of this qualification, students are
-                  expected to do manual handling and heavy lifting.
-                </p>
-                <div class="my-2"></div>
-                <p>
-                  Completed a Pre-Training review and Language, Literacy and
-                  Numeracy assessment test prior to commencement of the course.
-                </p>
+                <ul class="list-items">
+                  <li>
+                    <b>Pre-Training Review:</b> all international students will
+                    take the PTR to determine the determine suitability for the
+                    course and student needs
+                  </li>
+                  <li>
+                    <b>Language, Literacy and Numeracy assessment test: </b
+                    >prior enrolment to determine the student’s ability to
+                    complete the course or any LLN support during the study
+                    period
+                  </li>
+                  <li>
+                    <b>Kitchen toolkit: </b>
+                    students will need access to a kitchen toolkit which
+                    includes a chef’s uniform, safety shoes, various knives, and
+                    small equipment. This will be arranged and provided by
+                    Institute of Business and Management (Victoria)
+                  </li>
+                  <li>
+                    <b>Physical requirements:</b> applicants will need to be
+                    physically able to carry out manual handling required to
+                    perform tasks involved while undergoing training. As part of
+                    this course students are expected to handle complex foods –
+                    e.g. cooking of various processed or raw meats, poultry,
+                    seafood’s, dairy items and student must keep in mind of any
+                    religious or dietary barriers to handle such foods before
+                    enrolling in this course. Institute of Business and
+                    Management (Victoria) will identify any such barriers
+                    presented by applicants during pre-training review and
+                    provide required support and reasonable adjustment where
+                    possible.
+                  </li>
+                  <li>
+                    <b>Hardware/Software requirements: </b>Institute of Business
+                    and Management (Victoria) will provide access to
+                    computers/laptops during classroom hours. However, for
+                    students to work on assessments, tasks and self-study, all
+                    learners are expected to have access to a laptop or computer
+                    with Windows/macOS operating system at their own cost.
+                  </li>
+                  <li>
+                    <b>Student Support:</b> Student needs are declared by the
+                    applicant at the time of enrolment: the application form
+                    allows the applicant to self-declare where they have
+                    learning disabilities. Every student is interviewed either
+                    face-to-face or over the telephone to attempt to establish
+                    the applicant skill and knowledge levels, their current
+                    employment and how that relates to the course content and
+                    interaction
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -157,6 +247,8 @@
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps5"
@@ -168,20 +260,29 @@
               &nbsp;
               <span>Educational Pathways</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps5">
               <div class="card card-body">
-                On completion of CPC30220 Certificate III in Carpentry, students
-                may undertake qualifications at CPC40120 Certificate IV in
-                Building and Construction (Building) other suitable
-                qualification at Cert IV level
+                <p>
+                  On completion of SIR30821 Certificate III in Commercial
+                  Cookery, students may undertake one or more of following
+                  qualifications:
+                </p>
+                <ul class="list-items">
+                  <li>SIT40521 Certificate IV in Kitchen Management</li>
+                  <li>
+                    A range of other qualifications at Certificate IV level
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps6"
@@ -193,93 +294,24 @@
               &nbsp;
               <span>Employment Pathways</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps6">
               <div class="card card-body">
                 <p>
-                  Students completing CPC30220 Certificate III in Carpentry can
-                  expect to gain work as a:
-                  <span> •Carpenter-commercial/Formwork/Residential</span>
+                  Students completing SIT30821 Certificate III in Commercial
+                  Cookery can expect to gain work as a:
                 </p>
+                <ul class="list-items">
+                  <li>Commercial Cook</li>
+                </ul>
               </div>
             </div>
-          </div>
-          <!-- <div class="collapsible">
-            <a
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps6"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps6"
-            >
-              <i class="fas fa-file-certificate"></i>
-              &nbsp;
-              <span>Assessment Method </span>
-              &nbsp;
-              <i class="fas fa-angle-down"></i>
-            </a>
-            <div class="my-3"></div>
-            <div class="collapse show" id="clps6">
-              <div class="card card-body">
-                <p>
-                  Assessment is undertaken in a variety of ways, happening in
-                  the classroom and workshop under supervision of a qualified
-                  trainer and assessor or can be undertaken outside the
-                  classroom (as a home study) due to the need of research or
-                  in-depth analysis. In this qualification, assessment methods
-                  used include case studies, projects, written questions,
-                  written reports, presentation and direct observation
-                  (Simulated workplace).
-                </p>
-              </div>
-            </div>
-          </div> -->
-        </div>
-        <div class="col-md-4 offset-md-1">
-          <div class="course-structure">
-            <h3 class="course-page-title">Fees Information</h3>
-            <div class="my-3"></div>
-            <table class="table table-responsive">
-              <tbody>
-                <tr>
-                  <th>Application Fee</th>
-                  <td>:</td>
-                  <td>$250</td>
-                </tr>
-                <tr>
-                  <th>Material Fee</th>
-                  <td>:</td>
-                  <td>$750</td>
-                </tr>
-                <tr>
-                  <th>Tuition Fee</th>
-                  <td>:</td>
-                  <td>$24000</td>
-                </tr>
-                <tr>
-                  <th>Total Fees</th>
-                  <td>:</td>
-                  <td>$25000</td>
-                </tr>
-                <tr>
-                  <th>Duration</th>
-                  <th>:</th>
-                  <td>
-                    <p class="p-justify">
-                      The duration of this qualification is 94 weeks, including
-                      24 weeks term break. The contact hours are 20 contact
-                      hours per week.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </div>
+
       <div class="my-5"></div>
       <div class="row">
         <div class="col-md-12">
@@ -287,6 +319,8 @@
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps7"
@@ -298,7 +332,7 @@
               &nbsp;
               <span>RPL / Credit Transfer</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps7">
@@ -311,23 +345,11 @@
                   of the following:
                 </p>
 
-                <ul class="pt-3">
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Work
-                    experience
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Life
-                    experience
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Previous
-                    study
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Professional
-                    development programs
-                  </li>
+                <ul class="pt-3 list-items">
+                  <li>Work experience</li>
+                  <li>Life experience</li>
+                  <li>Previous study</li>
+                  <li>Professional development programs</li>
                 </ul>
                 <p class="pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
@@ -340,6 +362,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps8"
@@ -351,7 +375,7 @@
               &nbsp;
               <span>Assessment Method</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps8">
@@ -362,20 +386,11 @@
                   met the required outcomes including:
                 </p>
 
-                <ul class="pt-3">
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Written
-                    Questions and Answers
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Projects
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Case Studies
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Observations
-                  </li>
+                <ul class="pt-3 list-items">
+                  <li>Written Questions and Answers</li>
+                  <li>Projects</li>
+                  <li>Case Studies</li>
+                  <li>Observations</li>
                 </ul>
                 <p class="pt-3">
                   At the beginning of each unit, trainers will outline the
@@ -387,6 +402,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps9"
@@ -401,7 +418,7 @@
                 Procedures, Fees and Charges</span
               >
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps9">
@@ -420,6 +437,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps10"
@@ -431,15 +450,15 @@
               &nbsp;
               <span>Course Duration</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps10">
               <div class="card card-body">
                 <p>
-                  The duration of this qualification is 94 weeks, including 24
-                  weeks term break. The contact hours are 20 contact hours per
-                  week.
+                  The duration of this qualification is 52 weeks, including term
+                  breaks and 10 weeks work-based training. The contact hours are
+                  20 contact hours per week.
                 </p>
               </div>
             </div>
@@ -447,6 +466,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps11"
@@ -458,7 +479,7 @@
               &nbsp;
               <span>Student Support</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps11">
@@ -495,12 +516,6 @@
             <h3 class="course-page-title">Course Structure</h3>
             <div class="my-3"></div>
             <p>
-              <!-- The BSB50415 Diploma of Business Administration requires the
-              successful completion of eight (8) elective units. Electives for
-              this qualification have been chosen by Institute of Business and
-              Management (Victoria) to ensure that students achieve a broad
-              range of skills and knowledge in business administration. -->
-
               A maximum of two of the eight required elective units may be
               substituted by selecting relevant units of competency from any
               Certificate III or IV construction qualification or qualification
@@ -518,135 +533,86 @@
                     <th colspan="2">CORE UNITS</th>
                   </tr>
                   <tr>
-                    <td>CPCCWHS2001</td>
+                    <td>SITHCCC023</td>
+                    <td>Use food preparation equipment</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC027</td>
+                    <td>Prepare dishes using basic methods of cookery</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC028</td>
+                    <td>Prepare appetisers and salads</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC029</td>
+                    <td>Prepare stocks, sauces and soups</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC030</td>
                     <td>
-                      Apply WHS requirements, policies, and procedures in the
-                      construction industry
+                      Prepare vegetable, fruit, eggs and farinaceous dishes
                     </td>
                   </tr>
                   <tr>
-                    <td>CPCWHS3001</td>
-                    <td>
-                      Identify construction work hazards and select risk control
-                      strategies
-                    </td>
+                    <td>SITHCCC031</td>
+                    <td>Prepare vegetarian and vegan dishes</td>
                   </tr>
                   <tr>
-                    <td>CPCCOM1012</td>
-                    <td>
-                      Work effectively and sustainably in the construction
-                      industry.
-                    </td>
+                    <td>SITHCCC035</td>
+                    <td>Prepare poultry dishes</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA2002</td>
-                    <td>Use carpentry tools and equipment</td>
+                    <td>SITHCCC037</td>
+                    <td>Prepare seafood dishes</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA2011</td>
-                    <td>Handle carpentry materials</td>
+                    <td>SITHCCC036</td>
+                    <td>Prepare meat dishes</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA3025</td>
-                    <td>
-                      Read and interpret plans, specifications and drawings for
-                      carpentry work
-                    </td>
+                    <td>SITHCCC042</td>
+                    <td>Prepare food to meet special dietary requirements</td>
                   </tr>
                   <tr>
-                    <td>CPCCCM2012</td>
-                    <td>Work safely at heights</td>
+                    <td>SITHCCC041</td>
+                    <td>Produce cakes, pastries and breads</td>
                   </tr>
                   <tr>
-                    <td>CPCCOM1015</td>
-                    <td>Carry out measurements and calculations</td>
+                    <td>SITHCCC043</td>
+                    <td>Work effectively as a cook</td>
                   </tr>
                   <tr>
-                    <td>CPCCOM3001</td>
-                    <td>
-                      Perform construction calculations to determine carpentry
-                      material requirements
-                    </td>
+                    <td>SITHKOP009</td>
+                    <td>Clean kitchen premises and equipment</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA3001</td>
-                    <td>
-                      Carry out general demolition of minor building structures
-                    </td>
+                    <td>SITHKOP010</td>
+                    <td>Plan and cost recipes</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA3002</td>
-                    <td>Carry out setting out</td>
+                    <td>SITHPAT016</td>
+                    <td>Produce desserts</td>
                   </tr>
                   <tr>
-                    <td>CPCCCO2013</td>
-                    <td>Carry out concreting to simple forms</td>
+                    <td>SITXFSA005</td>
+                    <td>Use hygienic practices for food safety</td>
                   </tr>
                   <tr>
-                    <td>CPCCCM2006</td>
-                    <td>Apply basic levelling procedures</td>
+                    <td>SITXFSA006</td>
+                    <td>Participate in safe food handling practices</td>
                   </tr>
                   <tr>
-                    <td>CPCCOM3006</td>
-                    <td>Carry out levelling operations</td>
+                    <td>SITXHRM007</td>
+                    <td>Coach others in job skills</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA3004</td>
-                    <td>Construct and erect wall frames</td>
+                    <td>SITXINV006</td>
+                    <td>Receive, store and maintain stock</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA3005</td>
-                    <td>Construct ceiling frames</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCA3007</td>
-                    <td>Construct pitched roofs</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCA3008</td>
-                    <td>Construct eaves</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCA3016</td>
-                    <td>
-                      Construct, assemble and install timber external stairs
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCA3006</td>
-                    <td>Erect roof trusses</td>
-                  </tr>
-
-                  <tr>
-                    <td>CPCCCA3028</td>
-                    <td>
-                      Erect and dismantle formwork for footings and slabs on
-                      ground
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCM2008</td>
-                    <td>Erect and dismantle restricted height scaffolding</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCA3003</td>
-                    <td>Install flooring systems</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCA3010</td>
-                    <td>Install windows and doors</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCA3017</td>
-                    <td>Install exterior cladding</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCA3024</td>
-                    <td>Install lining, paneling and molding</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCOM1014</td>
-                    <td>Conduct workplace communication</td>
+                    <td>SITXWHS005</td>
+                    <td>Participate in safe work practices</td>
                   </tr>
                 </tbody>
               </table>
@@ -655,43 +621,140 @@
                   <tr>
                     <th colspan="2">ELECTIVE UNITS</th>
                   </tr>
+
                   <tr>
-                    <td>CPCCCA3027</td>
-                    <td>
-                      Set up, operate, and maintain indirect action
-                      powder-actuated power tools
-                    </td>
+                    <td>SITHCCC040</td>
+                    <td>PREPARE AND SERVE CHEESE</td>
                   </tr>
                   <tr>
-                    <td>CPCCCM2002</td>
-                    <td>Carry out hand excavation</td>
+                    <td>SITHCCC039</td>
+                    <td>Produce pates and terrines</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA3020</td>
-                    <td>Erect and dismantle jump-form formwork</td>
+                    <td>BSBSUS211</td>
+                    <td>PARTICIPATE IN SUSTAINBLE WORK PRACTICE</td>
                   </tr>
                   <tr>
-                    <td>CPCCCM3005</td>
-                    <td>Calculate costs of construction work</td>
+                    <td>SITXINV007</td>
+                    <td>PURCHASE GOODS</td>
                   </tr>
                   <tr>
-                    <td>CPCCCA3019</td>
-                    <td>
-                      Erect and dismantle formwork to suspended slabs, columns,
-                      beams and walls
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>CPCCCM3001</td>
-                    <td>Operate elevated work platforms up to 11 meters</td>
-                  </tr>
-                  <tr>
-                    <td>CPCCOM1013</td>
-                    <td>Plan and organize work</td>
+                    <td>SITHCCC038</td>
+                    <td>Produce and serve food for buffets</td>
                   </tr>
                 </tbody>
               </table>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Fees Information</h3>
+            <div class="my-3"></div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#fees"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Fees</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="fees">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Application Fee</th>
+                        <td>:</td>
+                        <td>$250</td>
+                      </tr>
+                      <tr>
+                        <th>Material Fee</th>
+                        <td>:</td>
+                        <td>$750</td>
+                      </tr>
+                      <tr>
+                        <th>Tuition Fee</th>
+                        <td>:</td>
+                        <td>$10000</td>
+                      </tr>
+                      <tr>
+                        <th>Total Fees</th>
+                        <td>:</td>
+                        <td>$11000</td>
+                      </tr>
+                      <tr>
+                        <th>Duration</th>
+                        <th>:</th>
+                        <td>
+                          <p class="p-justify">
+                            The duration of this qualification is 52 weeks,
+                            including term breaks and 10 weeks work-based
+                            training. The contact hours are 20 contact hours per
+                            week.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Intake</h3>
+            <div class="my-3"></div>
+            <p>Multiple intakes available.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Work based Training</h3>
+            <div class="my-3"></div>
+            <p>
+              This course includes work-based training of a minimum of 200
+              hours/10 weeks. During work-based training, students will be able
+              to practice their skills and knowledge in real workplace settings.
+              This will assist students to be job-ready at graduation. Institute
+              of Business and Management (Victoria) will ensure placement of all
+              students. This is to ensure international students with limited
+              exposure to Australian workplace are not disadvantaged. Students
+              will have the option to arrange their own work placement provided
+              it meets all requirements. The assessor will visit and assess the
+              student at least twice during this time at a mutually convenient
+              time.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Further Information</h3>
+            <div class="my-3"></div>
+            <p>
+              For further information please call Institute of Business and
+              Management (Victoria) on 03 9478 3163 or email us on:
+              info@ibm.vic.edu.au
+            </p>
           </div>
         </div>
       </div>
@@ -706,9 +769,28 @@ export default {
   components: {},
   mixins: [path],
   props: ["course"],
+  methods: {
+    changeAngle(event) {
+      const requirement = event.target;
+      let position = $(requirement).attr("data-position");
+
+      if (position == "right") {
+        $(requirement).attr("data-position", "down");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-right");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-down");
+      } else {
+        $(requirement).attr("data-position", "right");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-down");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-right");
+      }
+    },
+  },
 };
 </script>
 <style scoped>
+.requirementAddon {
+  float: right;
+}
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -719,11 +801,13 @@ export default {
 }
 
 .collapsible a {
-  background-color: #ffeae3 !important;
+  /* background-color: #ffeae3 !important;*/
   padding: 5px 10px !important;
   display: block !important;
   width: 100% !important;
   color: #000000 !important;
+  border: 1px solid #f1592a;
+  border-radius: 5px;
 }
 .list-items {
   padding-left: 2rem !important;
@@ -734,5 +818,8 @@ export default {
 }
 table tbody tr {
   text-align: left !important;
+}
+ul {
+  list-style-type: circle;
 }
 </style>

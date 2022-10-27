@@ -1,7 +1,7 @@
 <template>
   <base-layout>
     <section
-      class="about-us-area pt-80 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+      class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
     >
       <div class="container">
         <div
@@ -33,7 +33,9 @@
         </div>
         <div class="text-center">
           <img
-            :src="'https://ibm.vic.edu.au/public/uploads/agent-application/Resume-folder-cuate.svg'"
+            :src="
+              image_url + '/uploads/agent-application/Resume-folder-cuate.jpg'
+            "
             style="height: 500px"
           />
         </div>
@@ -43,7 +45,10 @@
 </template>
 <script>
 import BaseLayout from "../../../layouts/BaseLayout.vue";
+import path from "../../../../../src/global-config/mixin/path-solution";
+
 export default {
+  mixins: [path],
   components: { BaseLayout },
 };
 </script>

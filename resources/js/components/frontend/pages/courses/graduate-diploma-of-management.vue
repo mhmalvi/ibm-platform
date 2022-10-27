@@ -1,317 +1,866 @@
 <template>
   <section
-    class="about-us-area pt-150 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+    class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
   >
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-12">
           <h3 class="course-page-title">Course Overview</h3>
           <div class="my-3"></div>
           <p class="p-justify">
-            This qualification is for international students to build the skills
-            in the field of organisational learning and capability development.
-            They also initiate, design, and execute major learning and
-            development functions within an organization. Typically, they would
-            have full responsibility and accountability for the personal output
-            and work of others. This qualification may also apply to leaders and
-            managers in an organization where learning is used to build
-            organisational capability.
+            This qualification reflects the role of chefs and cooks who have a
+            supervisory or team leading role in the kitchen. They operate
+            independently or with limited guidance from others and use
+            discretion to solve non-routine problems. This qualification
+            provides a pathway to work in organizations such as restaurants,
+            hotels, clubs, pubs, cafes, and coffee shops, or to run a small
+            business in these sectors. The skills in this qualification must be
+            applied in accordance with Commonwealth and State or Territory
+            legislation, Australian standards, and industry codes of practice.
           </p>
           <div class="my-3"></div>
           <table class="table table-responsive">
             <tbody>
               <tr>
-                <th>Qualification Title</th>
+                <th>Qualification Code and Title</th>
                 <td>:</td>
-                <td>BSB80120 Graduate Diploma of Management (Learning)</td>
+                <td>SIT40521 Certificate IV in Kitchen Management</td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
                 <td>:</td>
-                <td>0101439</td>
+                <td>110595H</td>
+              </tr>
+              <tr>
+                <th>Delivery Location</th>
+                <td>:</td>
+                <td>
+                  60 Belfast Street, Broadmeadows, VIC, 3047 <br />170 Victoria
+                  St, RICHMOND, Victoria 3121
+                </td>
+              </tr>
+              <tr>
+                <th>Mode of Delivery</th>
+                <td>:</td>
+                <td>
+                  Face to face classroom, Practical training and assessment is
+                  completed in commercial kitchen and 200 hours of Work-based
+                  Training arranged by the Institute.
+                </td>
               </tr>
             </tbody>
           </table>
+          <div class="my-5"></div>
+          <h3 class="course-page-title">Course Requirement</h3>
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
-              href="#colps1"
+              href="#clps0"
               role="button"
               aria-expanded="true"
-              aria-controls="colps1"
+              aria-controls="clps1"
             >
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span>Target Market</span>
+              <span>Age Requirements</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
-            <div class="collapse show" id="colps1">
+            <div class="collapse show" id="clps0">
               <div class="card card-body">
-                <p class="p-justify">
-                  This qualification is designed for international students to
-                  upskill in the field of organisational learning and capability
-                  development and to generate and evaluate complex ideas either
-                  with previous experience or not. They also initiate, design,
-                  and execute major learning and development functions within an
-                  organization. Typically, they would have full responsibility
-                  and accountability for the personal output and work of others.
-                </p>
-                <br />
+                Students must be a minimum age of 18 years or above at the time
+                of course commencement.
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="down"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps1"
+              role="button"
+              aria-expanded="true"
+              aria-controls="clps1"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>Academic Requirements</span>
+              &nbsp;
+              <i class="fas fa-angle-down requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse show" id="clps1">
+              <div class="card card-body">
+                Satisfactory completion of Year 11 VCE or its equivalent
+                overseas qualification
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="down"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps11"
+              role="button"
+              aria-expanded="true"
+              aria-controls="clps1"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span
+                >Academic Requirements for Institute of Business and Management
+                (Victoria)</span
+              >
+              &nbsp;
+              <i class="fas fa-angle-down requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse show" id="clps11">
+              <div class="card card-body">
+                Students must have completed the Certificate III in Commercial
+                Cookery (or Equivalent) Students will be evaluated on a
+                case-by-case basis to ensure that they meet entry requirements
+                and that they are enrolled in the units required to meet the
+                packaging rules for SIT40521 Certificate IV in Kitchen
+                Management.
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="right"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps2"
+              role="button"
+              aria-expanded="false"
+              aria-controls="clps2"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>English Language Requirements</span>
+              &nbsp;
+              <i class="fas fa-angle-right requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse" id="clps2">
+              <div class="card card-body">
+                <ul class="list-items">
+                  <li>
+                    Have a minimum IELTS score of 5.5 for direct entry into a
+                    VET course OR
+                  </li>
+                  <li>
+                    IELTS score of 5.0 or equivalent with an ELICOS course (up
+                    to 10 weeks) to be taken before the main VET course;or,
+                    IELTS score of 4.5 or equivalent with an ELICOS course (up
+                    to 20 weeks) to be taken before the main VET course OR
+                  </li>
+                  <li>
+                    to provide evidence that they have studied in English for at
+                    least five years in Australia, Canada, New Zealand, Republic
+                    of Ireland, South Africa, United Kingdom or United State OR
+                  </li>
+                  <li>
+                    to provide evidence that, within two years* of their signed
+                    written agreement date, they have successfully completed in
+                    Australia a Certificate IV or higher-level qualification,
+                    from the Australian Qualifications Framework.
+                  </li>
+                  <li>
+                    In the 2 years before commencing the course, has completed
+                    secondary studies equivalent to an Australian Year 12
+                    qualification from an English language speaking country
+                  </li>
+                  <li>
+                    Institute of Business and Management also has an English
+                    proficiency test to ensure that students have the English
+                    language capacity to successfully complete this course.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="right"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps18"
+              role="button"
+              aria-expanded="false"
+              aria-controls="clps18"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span
+                >Qualification Requirements for Institute of Business and
+                Management (Victoria)</span
+              >
+              &nbsp;
+              <i class="fas fa-angle-right requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse" id="clps18">
+              <div class="card card-body">
+                <ul>
+                  <li>
+                    Students must have completed the Certificate III in
+                    Commercial Cookery (or Equivalent)
+                  </li>
+                  <li>
+                    Students will be evaluated on a case-by-case basis to ensure
+                    that they meet entry requirements and that they are enrolled
+                    in the units required to meet the packaging rules for
+                    SIT40521 Certificate IV Commercial Cookery.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="right"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps23"
+              role="button"
+              aria-expanded="false"
+              aria-controls="clps23"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>Other requirement</span>
+              &nbsp;
+              <i class="fas fa-angle-right requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse" id="clps23">
+              <div class="card card-body">
+                <ul class="list-items">
+                  <li>
+                    <b>Pre-Training Review:</b> all international students will
+                    take the PTR to determine the determine suitability for the
+                    course and student needs
+                  </li>
+                  <li>
+                    <b>Language, Literacy and Numeracy assessment test: </b
+                    >prior enrolment to determine the student’s ability to
+                    complete the course or any LLN support during the study
+                    period
+                  </li>
+                  <li>
+                    <b>Kitchen toolkit: </b>
+                    students will need access to a kitchen toolkit which
+                    includes a chef’s uniform, safety shoes, various knives, and
+                    small equipment. This will be arranged and provided by
+                    Institute of Business and Management (Victoria)
+                  </li>
+                  <li>
+                    <b>Physical requirements:</b> applicants will need to be
+                    physically able to carry out manual handling required to
+                    perform tasks involved while undergoing training. As part of
+                    this course students are expected to handle complex foods –
+                    e.g. cooking of various processed or raw meats, poultry,
+                    seafood’s, dairy items and student must keep in mind of any
+                    religious or dietary barriers to handle such foods before
+                    enrolling in this course. Institute of Business and
+                    Management (Victoria) will identify any such barriers
+                    presented by applicants during pre-training review and
+                    provide required support and reasonable adjustment where
+                    possible.
+                  </li>
+                  <li>
+                    <b>Hardware/Software requirements: </b>Institute of Business
+                    and Management (Victoria) will provide access to
+                    computers/laptops during classroom hours. However, for
+                    students to work on assessments, tasks and self-study, all
+                    learners are expected to have access to a laptop or computer
+                    with Windows/macOS operating system at their own cost.
+                  </li>
+                  <li>
+                    <b>Student Support:</b> Student needs are declared by the
+                    applicant at the time of enrolment: the application form
+                    allows the applicant to self-declare where they have
+                    learning disabilities. Every student is interviewed either
+                    face-to-face or over the telephone to attempt to establish
+                    the applicant skill and knowledge levels, their current
+                    employment and how that relates to the course content and
+                    interaction
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="my-5"></div>
+          <h3 class="course-page-title">Pathways</h3>
+          <div class="my-3"></div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="down"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps5"
+              role="button"
+              aria-expanded="true"
+              aria-controls="clps5"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>Educational Pathways</span>
+              &nbsp;
+              <i class="fas fa-angle-down requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse show" id="clps5">
+              <div class="card card-body">
                 <p>
-                  International students study this course to upskill for their
-                  next career pathways.
+                  On completion of SIT40521 Certificate IV in Kitchen
+                  Management, students may undertake one or more of following
+                  qualifications:
+                </p>
+                <ul class="list-items">
+                  <li>SIT50422 Diploma of Hospitality Management</li>
+                  <li>A range of other qualifications at Diploma level</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="down"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps6"
+              role="button"
+              aria-expanded="true"
+              aria-controls="clps6"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>Employment Pathways</span>
+              &nbsp;
+              <i class="fas fa-angle-down requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse show" id="clps6">
+              <div class="card card-body">
+                <p>
+                  Students completing SIT40521 Certificate IV in Kitchen
+                  Management can expect to gain work as a:
+                </p>
+                <ul class="list-items">
+                  <li>
+                    Commercial cook in organisations such as restaurants,
+                    hotels, clubs, pubs, cafés, and coffee shops
+                  </li>
+                  <li>Small business owner in these sectors</li>
+                  <li>Chef and chef de partie.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-5"></div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="course-page-title">Courses Details</h3>
+          <div class="my-3"></div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="down"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps7"
+              role="button"
+              aria-expanded="true"
+              aria-controls="clps7"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>RPL / Credit Transfer</span>
+              &nbsp;
+              <i class="fas fa-angle-down requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse show" id="clps7">
+              <div class="card card-body">
+                <p>
+                  Students with prior learning and work experience can apply for
+                  RPL. Students who have completed corresponding units of
+                  competency and/or units contained within the packaging rules
+                  can apply for Credit Transfer. RPL evidence must include some
+                  of the following:
+                </p>
+
+                <ul class="pt-3 list-items">
+                  <li>Work experience</li>
+                  <li>Life experience</li>
+                  <li>Previous study</li>
+                  <li>Professional development programs</li>
+                </ul>
+                <p class="pt-3">
+                  If you wish to apply for RPL or Credit Transfer, please notify
+                  Institute of Business and Management (Victoria) at the time of
+                  enrolment
                 </p>
               </div>
             </div>
           </div>
-          <div class="my-3"></div>
+
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
-              href="#colps2"
+              href="#clps8"
+              role="button"
+              aria-expanded="fasle"
+              aria-controls="clps8"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>Assessment Method</span>
+              &nbsp;
+              <i class="fas fa-angle-right requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse" id="clps8">
+              <div class="card card-body">
+                <p>
+                  Assessment methods used for this qualification will provide a
+                  range of ways for individuals to demonstrate that they have
+                  met the required outcomes including:
+                </p>
+
+                <ul class="pt-3 list-items">
+                  <li>Written Questions and Answers</li>
+                  <li>Projects</li>
+                  <li>Case Studies</li>
+                  <li>Observations</li>
+                </ul>
+                <p class="pt-3">
+                  At the beginning of each unit, trainers will outline the
+                  assessment tasks that must be completed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="right"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps9"
               role="button"
               aria-expanded="false"
-              aria-controls="colps2"
+              aria-controls="clps9"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span
+                >Important Information – Student Handbook, Policies and
+                Procedures, Fees and Charges</span
+              >
+              &nbsp;
+              <i class="fas fa-angle-right requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse" id="clps9">
+              <div class="card card-body">
+                <p>
+                  Information about our training and assessment, policies and
+                  procedures are included in student handbook and should be read
+                  by you, prior to enrolment, which is available on institute’s
+                  website. These documents contain important information about
+                  your training course, fees and charges including our refund
+                  policy.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="right"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps10"
+              role="button"
+              aria-expanded="false"
+              aria-controls="clps10"
             >
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Course Duration</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
-            <div class="collapse" id="colps2">
+            <div class="collapse" id="clps10">
               <div class="card card-body">
-                <p class="p-justify">
-                  The duration of this qualification is 1320 hours 76 weeks(66
-                  weeks, excluding 10 weeks term break) face to face classroom
-                  learning and supervised assessment activities. The contact
-                  hours are 20 contact hours per week.
+                <p class="pb-2">
+                  <b> Direct Entry Students:</b>
+                  This program will be delivered over a period of 78 weeks
+                  including a 10-week work placement.
                 </p>
-                <br />
+                <p class="pb-2">
+                  <b> Students Progressing from SIT30821 (Packaging Course)</b>
+                </p>
                 <p>
-                  It is also expected that students would need to complete 330
-                  hours of self-study which includes but not limited to reading,
-                  research, completion of assessment, practice, etc.
+                  The course duration for IBM(VIC)’ students who have
+                  successfully completed SIT30821 Certificate III in Commercial
+                  Cookery and wish to enroll in SIT40521 Certificate IV in
+                  Kitchen Management is 26 weeks including holidays).
                 </p>
               </div>
             </div>
           </div>
-          <div class="my-3"></div>
+
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
-              href="#colps3"
+              href="#clps11"
               role="button"
               aria-expanded="false"
-              aria-controls="colps3"
+              aria-controls="clps11"
             >
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span>Delivery Location</span>
+              <span>Student Support</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
-            <div class="collapse" id="colps3">
+            <div class="collapse" id="clps11">
               <div class="card card-body">
-                <p class="p-justify">
-                  This program is a mixture of a face-to-face classroom and
-                  simulated business delivery at Building D, Belfast Street,
-                  Broadmeadows, VIC, 3047
+                <p class="pb-2">
+                  Student needs are declared by the applicant at the time of
+                  enrolment: the application form allows the applicant to
+                  self-declare where they have learning disabilities.
                 </p>
                 <br />
-                <p class="p-justify">
-                  All theory-based delivery will occur within the designated
-                  classrooms of Institute of Business and Management (Victoria)
-                  through structured training sessions from a qualified Trainer
-                  / Assessor. At these training sessions, a qualified trainer
-                  will provide the required skills and knowledge as per the unit
-                  content and will ensure the learning is imparted.
+                <p class="pb-2">
+                  Every student is interviewed either face-to-face or over the
+                  telephone to attempt to establish the applicant skill and
+                  knowledge levels, their current employment and how that
+                  relates to the course content and interaction.
+                </p>
+                <br />
+                <p class="pb-2">
+                  Where language, literacy and numeracy are in question
+                  Institute of Business and Management (Victoria) has a
+                  language, literacy and numeracy (LLN) assessment they may
+                  undertake to confirm their level of language, literacy and
+                  numeracy skills
                 </p>
               </div>
             </div>
-          </div>
-          <div class="my-3"></div>
-          <div class="collapsible">
-            <a
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#colps4"
-              role="button"
-              aria-expanded="false"
-              aria-controls="colps4"
-            >
-              <i class="fas fa-file-certificate"></i>
-              &nbsp;
-              <span>Assessment arrangements</span>
-              &nbsp;
-              <i class="fas fa-angle-down"></i>
-            </a>
-            <div class="my-3"></div>
-            <div class="collapse" id="colps4">
-              <div class="card card-body">
-                <p class="p-justify">
-                  Assessment is undertaken in a variety of ways, happening in
-                  the classroom under supervision of a qualified trainer and
-                  assessor or can be undertaken outside the classroom (as a home
-                  study) due to the need of research or in-depth analysis. In
-                  this qualification, assessment methods used include case
-                  studies, projects, written questions, written reports,
-                  presentation and direct observation (Simulated workplace)
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="my-5">
-            <h3 class="course-page-title">LEARNER NEEDS</h3>
-            <div class="my-3"></div>
-            <p class="p-justify">
-              Learner needs are assessed at enrolment in accordance with the
-              Enrolment Policy and Procedure. Students complete the Enrolment
-              form and Pre-Training Review forms and submit supporting
-              documentation to enable IBM (Victoria) to assess whether the
-              course is appropriate for addressing their individual learner
-              needs.
-            </p>
-            <br />
-            <p class="p-justify">
-              Once applications are received, they are assessed to ascertain
-              whether the course addresses individual learner needs. The
-              institute will review the applicant’s prior experience, knowledge
-              and skills in coming to this decision.
-            </p>
-            <br />
-            <p class="p-justify">
-              Decisions on whether the course is appropriate for addressing the
-              applicant’s learning needs and whether the applicant can address
-              the entry requirements are made. Students with learning needs that
-              require support are identified during the enrolment processes.
-            </p>
-            <br />
-            <p class="p-justify">
-              Support is provided for clients with identified needs in
-              accordance with the Client Support Policy and Procedure.
-            </p>
-            <br />
-            <p class="p-justify">
-              IBM (Victoria) takes all feasible and reasonable steps to assist
-              students during the course so they can successfully complete the
-              course within the course schedule and achieve certification.
-            </p>
-            <br />
-            <p class="p-justify">
-              Reasonable adjustments will be made to ensure that the student is
-              not presented with artificial barriers to demonstrating competency
-              in the program of study. Reasonable adjustments may include the
-              use of adaptive technology, educational support, and alternative
-              methods of assessment such as oral assessment. Any adjustments
-              made will be recorded in the student’s file.
-            </p>
-            <br />
-            <p class="p-justify">
-              The learning need that forms the basis of any adjustment to the
-              training program will be identified and appropriate strategies
-              will be agreed with the student. Any adjustments will be recorded
-              in the student file.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4 offset-md-1">
-          <div class="course-structure">
-            <h3 class="course-page-title">Fees Information</h3>
-            <div class="my-3"></div>
-            <table class="table table-responsive">
-              <tbody>
-                <tr>
-                  <th>Enrolment Fees</th>
-                  <td>:</td>
-                  <td>$250</td>
-                </tr>
-                <tr>
-                  <th>Material Fee</th>
-                  <td>:</td>
-                  <td>$250</td>
-                </tr>
-                <tr>
-                  <th>Tuition Fee</th>
-                  <td>:</td>
-                  <td>$18500</td>
-                </tr>
-                <tr>
-                  <th>Total Course Fee</th>
-                  <td>:</td>
-                  <td>$19000</td>
-                </tr>
-
-                <tr>
-                  <td colspan="3">
-                    <p><strong> Entry requirements: </strong></p>
-                    <p class="p-justify py-2">
-                      <strong>Age Requirements</strong>
-                      <br />
-                      Students must be of 18 years of age to apply
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p><strong> Academic entry requirement: </strong></p>
-                    <p class="p-justify py-2">
-                      Successful completion of a three (3) year bachelor’s
-                      degree from any country or Completed AQF level 5 (Diploma
-                      Level) or higher Qualification in Australia
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p>
-                      <strong> English Proficiency: </strong>
-                    </p>
-                    <p class="p-justify py-2">
-                      English language: Have a minimum IELTS score of 6.0 with
-                      no band below 5.5, or other equivalent test scores or
-                      Completed Diploma Level or higher Qualification
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p>
-                      <strong> Other requirements: </strong>
-                    </p>
-                    <p class="p-justify py-2">
-                      Completed a Pre-Training review and Language, Literacy and
-                      Numeracy assessment
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </div>
-      <div class="my-5"></div>
       <div class="row">
+        <div class="my-5"></div>
         <div class="row">
           <div class="col-md-12">
-            <h3 class="course-page-title">Qualification</h3>
+            <h3 class="course-page-title">Course Structure</h3>
             <div class="my-3"></div>
             <p>
-              Upon successful completion of the 08 units of competency, students
-              will be issued an BSB80120- Graduate diploma of management
-              (Learning)qualification and a record of results that indicate the
-              units successfully completed. Students who successfully complete
-              some but not all the units of competency in the course will be
-              issued a Statement of Attainment detailing the units they have
-              successfully completed.
+              A maximum of two of the eight required elective units may be
+              substituted by selecting relevant units of competency from any
+              Certificate III or IV construction qualification or qualification
+              in another endorsed Training Package. Some units in this
+              qualification may have prerequisite requirements, which must be
+              met when packaging the qualification. Users are referred to the
+              list of CPC08 units with prerequisite unit requirements available
+              in this Training Package for this purpose.
+            </p>
+            <div class="my-3"></div>
+            <div class="text-center pt-5">
+              <table class="table table-striped table-hover">
+                <tbody>
+                  <tr>
+                    <th colspan="2">CORE UNITS</th>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC023*</td>
+                    <td>Use food preparation equipment</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC027*</td>
+                    <td>Prepare dishes using basic methods of cookery</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC028*</td>
+                    <td>Prepare appetisers and salads</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC029*</td>
+                    <td>Prepare stocks, sauces and soups</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC030*</td>
+                    <td>
+                      Prepare vegetable, fruit, eggs and farinaceous dishes
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC031*</td>
+                    <td>Prepare vegetarian and vegan dishes</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC035*</td>
+                    <td>Prepare poultry dishes</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC036*</td>
+                    <td>Prepare meat dishes</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC037*</td>
+                    <td>Prepare seafood dishes</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC041*</td>
+                    <td>Produce cakes, pastries and breads</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC042*</td>
+                    <td>Prepare food to meet special dietary requirements</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC043*</td>
+                    <td>Work effectively as a cook</td>
+                  </tr>
+                  <tr>
+                    <td>SITHKOP010</td>
+                    <td>Plan and cost recipes</td>
+                  </tr>
+
+                  <tr>
+                    <td>SITHKOP012*</td>
+                    <td>Develop recipes for special dietary requirements</td>
+                  </tr>
+                  <tr>
+                    <td>SITHKOP013*</td>
+                    <td>Plan cooking operations</td>
+                  </tr>
+                  <tr>
+                    <td>SITHKOP015*</td>
+                    <td>Design and cost menus</td>
+                  </tr>
+                  <tr>
+                    <td>SITHPAT016*</td>
+                    <td>Produce desserts</td>
+                  </tr>
+                  <tr>
+                    <td>SITXCOM010</td>
+                    <td>Manage conflict</td>
+                  </tr>
+                  <tr>
+                    <td>SITXFIN009</td>
+                    <td>Manage finances within a budget</td>
+                  </tr>
+                  <tr>
+                    <td>SITXFSA005</td>
+                    <td>Use hygienic practices for food safety</td>
+                  </tr>
+                  <tr>
+                    <td>SITXFSA006</td>
+                    <td>Participate in safe food handling practices</td>
+                  </tr>
+                  <tr>
+                    <td>SITXFSA008*</td>
+                    <td>Develop and implement a food safety program</td>
+                  </tr>
+                  <tr>
+                    <td>SITXHRM008</td>
+                    <td>Roster staff</td>
+                  </tr>
+                  <tr>
+                    <td>SITXHRM009</td>
+                    <td>Lead and manage people</td>
+                  </tr>
+                  <tr>
+                    <td>SITXINV006*</td>
+                    <td>Receive, store and maintain stock</td>
+                  </tr>
+                  <tr>
+                    <td>SITXMGT004</td>
+                    <td>Monitor work operations</td>
+                  </tr>
+                  <tr>
+                    <td>SITXWHS007</td>
+                    <td>
+                      Implement and monitor work health and safety practice
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table table-striped table-hover">
+                <tbody>
+                  <tr>
+                    <th colspan="2">ELECTIVE UNITS</th>
+                  </tr>
+
+                  <tr>
+                    <td>SITHCCC040</td>
+                    <td>PREPARE AND SERVE CHEESE</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC038</td>
+                    <td>Produce and serve food for buffets</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC039</td>
+                    <td>Produce pates and terrines</td>
+                  </tr>
+                  <tr>
+                    <td>BSBSUS211</td>
+                    <td>PARTICIPATE IN SUSTAINBLE WORK PRACTICE</td>
+                  </tr>
+                  <tr>
+                    <td>SITXINV007</td>
+                    <td>PURCHASE GOODS</td>
+                  </tr>
+                  <tr>
+                    <td>BSBCMM411</td>
+                    <td>Make presentations</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Fees Information</h3>
+            <div class="my-3"></div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#fees"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Fees</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="fees">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Application Fee</th>
+                        <td>:</td>
+                        <td>$250</td>
+                      </tr>
+                      <tr>
+                        <th>Material Fee</th>
+                        <td>:</td>
+                        <td>$750</td>
+                      </tr>
+                      <tr>
+                        <th>Tuition Fee</th>
+                        <td>:</td>
+                        <td>$18000</td>
+                      </tr>
+                      <tr>
+                        <th>Total Fees</th>
+                        <td>:</td>
+                        <td>$19000</td>
+                      </tr>
+                      <tr>
+                        <th>Duration</th>
+                        <th>:</th>
+                        <td>
+                          <p class="p-justify">
+                            This program will be delivered over a period of 78
+                            weeks including a 10-week work placement.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Intake</h3>
+            <div class="my-3"></div>
+            <p>Multiple intakes available.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Work based Training</h3>
+            <div class="my-3"></div>
+            <p>
+              This course includes work-based training of a minimum of 200
+              hours/10 weeks. During work-based training, students will be able
+              to practice their skills and knowledge in real workplace settings.
+              This will assist students to be job-ready at graduation. Institute
+              of Business and Management (Victoria) will ensure placement of all
+              students. This is to ensure international students with limited
+              exposure to Australian workplace are not disadvantaged. Students
+              will have the option to arrange their own work placement provided
+              it meets all requirements. The assessor will visit and assess the
+              student at least twice during this time at a mutually convenient
+              time.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Further Information</h3>
+            <div class="my-3"></div>
+            <p>
+              For further information please call Institute of Business and
+              Management (Victoria) on 03 9478 3163 or email us on:
+              info@ibm.vic.edu.au
             </p>
           </div>
         </div>
@@ -327,9 +876,28 @@ export default {
   components: {},
   mixins: [path],
   props: ["course"],
+  methods: {
+    changeAngle(event) {
+      const requirement = event.target;
+      let position = $(requirement).attr("data-position");
+
+      if (position == "right") {
+        $(requirement).attr("data-position", "down");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-right");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-down");
+      } else {
+        $(requirement).attr("data-position", "right");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-down");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-right");
+      }
+    },
+  },
 };
 </script>
 <style scoped>
+.requirementAddon {
+  float: right;
+}
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -340,10 +908,25 @@ export default {
 }
 
 .collapsible a {
-  background-color: #ffeae3 !important;
+  /* background-color: #ffeae3 !important;*/
   padding: 5px 10px !important;
   display: block !important;
   width: 100% !important;
   color: #000000 !important;
+  border: 1px solid #f1592a;
+  border-radius: 5px;
+}
+.list-items {
+  padding-left: 2rem !important;
+}
+.list-items li {
+  padding-left: 10px;
+  list-style: square;
+}
+table tbody tr {
+  text-align: left !important;
+}
+ul {
+  list-style-type: circle;
 }
 </style>

@@ -2,7 +2,7 @@
   <base-layout>
     <div class="text-center">
       <img
-        :src="'https://ibm.vic.edu.au/public/uploads/news/News-rafiki.svg'"
+        :src="image_url + '/uploads/news/News-rafiki.jpg'"
         style="height: 600px"
       />
     </div>
@@ -13,7 +13,9 @@
 <script>
 import BaseLayout from "../../../layouts/BaseLayout.vue";
 import SearchCertificate from "../../../partials/SearchCertificate.vue";
+import path from "../../../../../src/global-config/mixin/path-solution";
 export default {
+  mixins: [path],
   components: { BaseLayout, SearchCertificate },
 };
 </script>

@@ -1,8 +1,8 @@
 <template>
   <base-layout>
-    <div class="text-center">
+    <div class="text-center mt-5">
       <img
-        :src="'https://ibm.vic.edu.au/public/uploads/useful-link/Insert-block-cuate.svg'"
+        :src="image_url + '/uploads/useful-link/useful_link.jpg'"
         style="height: 450px"
       />
     </div>
@@ -97,7 +97,9 @@
 </template>
 <script>
 import BaseLayout from "../../../layouts/BaseLayout.vue";
+import path from "../../../../../src/global-config/mixin/path-solution";
 export default {
+  mixins: [path],
   components: { BaseLayout },
 };
 </script>

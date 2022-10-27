@@ -1,16 +1,18 @@
 <template>
   <base-layout>
-    <div class="container pt-5">
+    <div class="container mt-5">
       <h4>STUDENT SUPPORT SERVICES</h4>
       <div class="py-3"></div>
       <div class="text-center">
         <img
-          :src="'https://ibm.vic.edu.au/public/uploads/service/student-service.svg'"
+          :src="image_url + '/uploads/service/student-service.jpg'"
           style="height: 500px"
         />
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="down"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps1"
@@ -22,7 +24,7 @@
           &nbsp;
           <span>POLICY</span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-down requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse show" id="clps1">
@@ -42,6 +44,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps2"
@@ -53,7 +57,7 @@
           &nbsp;
           <span>PROCEDURE</span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps2">
@@ -89,6 +93,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps3"
@@ -100,7 +106,7 @@
           &nbsp;
           <span>Student Support Services </span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps3">
@@ -122,6 +128,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps4"
@@ -133,7 +141,7 @@
           &nbsp;
           <span>Learning Support </span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps4">
@@ -154,6 +162,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps5"
@@ -165,7 +175,7 @@
           &nbsp;
           <span>Orientation Program</span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps5">
@@ -208,6 +218,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps6"
@@ -219,7 +231,7 @@
           &nbsp;
           <span>Academic issues </span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps6">
@@ -247,6 +259,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps7"
@@ -258,7 +272,7 @@
           &nbsp;
           <span>Personal / Social issues </span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps7">
@@ -295,6 +309,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps8"
@@ -306,7 +322,7 @@
           &nbsp;
           <span>Accommodation </span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps8">
@@ -377,6 +393,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps9"
@@ -388,7 +406,7 @@
           &nbsp;
           <span>Medical Issues </span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps9">
@@ -440,6 +458,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps10"
@@ -451,7 +471,7 @@
           &nbsp;
           <span>Legal Services </span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps10">
@@ -495,6 +515,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps11"
@@ -506,7 +528,7 @@
           &nbsp;
           <span>The Overseas Students Ombudsman </span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps11">
@@ -555,6 +577,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps12"
@@ -566,7 +590,7 @@
           &nbsp;
           <span>POLICY</span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps12">
@@ -599,6 +623,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps13"
@@ -610,7 +636,7 @@
           &nbsp;
           <span>Student Safety</span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps13">
@@ -679,6 +705,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps14"
@@ -690,7 +718,7 @@
           &nbsp;
           <span>Personal Safety on Public Transport</span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps14">
@@ -735,6 +763,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps15"
@@ -746,7 +776,7 @@
           &nbsp;
           <span>Stay safe outdoors</span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps15">
@@ -790,6 +820,8 @@
       </div>
       <div class="collapsible pb-2">
         <a
+          @click="changeAngle($event)"
+          data-position="right"
           class="w-100"
           data-bs-toggle="collapse"
           href="#clps16"
@@ -801,7 +833,7 @@
           &nbsp;
           <span>Handbag Snatching</span>
           &nbsp;
-          <i class="fas fa-angle-down"></i>
+          <i class="fas fa-angle-right requirementAddon"></i>
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps16">
@@ -927,9 +959,28 @@ export default {
   components: { BaseLayout },
   mixins: [path],
   props: ["course"],
+  methods: {
+    changeAngle(event) {
+      const requirement = event.target;
+      let position = $(requirement).attr("data-position");
+
+      if (position == "right") {
+        $(requirement).attr("data-position", "down");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-right");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-down");
+      } else {
+        $(requirement).attr("data-position", "right");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-down");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-right");
+      }
+    },
+  },
 };
 </script>
 <style scoped>
+.requirementAddon {
+  float: right;
+}
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -940,11 +991,13 @@ export default {
 }
 
 .collapsible a {
-  background-color: #ffeae3 !important;
+  /* background-color: #ffeae3 !important;*/
   padding: 5px 10px !important;
   display: block !important;
   width: 100% !important;
   color: #000000 !important;
+  border: 1px solid #f1592a;
+  border-radius: 5px;
 }
 table tbody tr {
   text-align: left !important;

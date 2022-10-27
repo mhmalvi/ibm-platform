@@ -12,7 +12,7 @@
         <div class="row">
           <div class="text-center mb-5">
             <img
-              :src="'https://ibm.vic.edu.au/public/uploads/form-policy/Forms-pana.svg'"
+              :src="image_url + '/uploads/form-policy/Forms-pana.jpg'"
               style="height: 500px"
             />
           </div>

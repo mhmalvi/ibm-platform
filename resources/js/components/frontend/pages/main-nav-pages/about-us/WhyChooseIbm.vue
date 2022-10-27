@@ -1,7 +1,7 @@
 <template>
   <base-layout>
     <section
-      class="about-us-area pt-0 pb-80 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+      class="about-us-area pt-50 pb-80 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
     >
       <div class="container">
         <div class="row pr-75 pr-lg-0 pr-md-0 pr-xs-0 pl-lg-0 pl-md-0 pl-xs-0">

@@ -1,10 +1,10 @@
 <template>
   <section
-    class="about-us-area pt-150 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+    class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
   >
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-12">
           <h3 class="course-page-title">Course Overview</h3>
           <div class="my-3"></div>
           <p class="p-justify">
@@ -19,7 +19,9 @@
               <tr>
                 <th>Qualification Title</th>
                 <td>:</td>
-                <td>ELICOS General English (Elementary to Upper Intermediate)</td>
+                <td>
+                  ELICOS General English (Elementary to Upper Intermediate)
+                </td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
@@ -49,7 +51,7 @@
           <h3 class="course-page-title">Course Duration</h3>
           <div class="my-3"></div>
           <p class="p-justify">
-             40 weeks (10 weeks per level)
+            40 weeks (10 weeks per level)
             <!-- The course length is 40 weeks. Each week there are a minimum of 20
             face-to-face contact hours. Students who struggle to master the
             content at any level can choose to repeat the level a maximum of
@@ -65,7 +67,8 @@
           <h3 class="course-page-title">Delivery Location</h3>
           <div class="my-3"></div>
           <p class="p-justify">
-            The course will be delivered at 60 Belfast Street, Broadmeadows, VIC, 3047.
+            The course will be delivered at 60 Belfast Street, Broadmeadows,
+            VIC, 3047.
           </p>
           <div class="my-5">
             <h3 class="course-page-title">LEARNER NEEDS</h3>
@@ -96,6 +99,8 @@
             <div class="my-3"></div>
             <div class="collapsible">
               <a
+                @click="changeAngle($event)"
+                data-position="down"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#clps7"
@@ -107,7 +112,7 @@
                 &nbsp;
                 <span>Pre-Enrolment Information</span>
                 &nbsp;
-                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-down requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse show" id="clps7">
@@ -127,6 +132,8 @@
 
             <div class="collapsible">
               <a
+                @click="changeAngle($event)"
+                data-position="right"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#clps8"
@@ -138,7 +145,7 @@
                 &nbsp;
                 <span>Orientation</span>
                 &nbsp;
-                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="clps8">
@@ -155,6 +162,8 @@
 
             <div class="collapsible">
               <a
+                @click="changeAngle($event)"
+                data-position="right"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#clps9"
@@ -166,7 +175,7 @@
                 &nbsp;
                 <span>Monitoring Attendance</span>
                 &nbsp;
-                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="clps9">
@@ -189,6 +198,8 @@
 
             <div class="collapsible">
               <a
+                @click="changeAngle($event)"
+                data-position="right"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#clps10"
@@ -200,7 +211,7 @@
                 &nbsp;
                 <span>Academic Support</span>
                 &nbsp;
-                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="clps10">
@@ -227,6 +238,8 @@
 
             <div class="collapsible">
               <a
+                @click="changeAngle($event)"
+                data-position="right"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#clps11"
@@ -238,7 +251,7 @@
                 &nbsp;
                 <span>Welfare Support</span>
                 &nbsp;
-                <i class="fas fa-angle-down"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="clps11">
@@ -256,126 +269,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-4 offset-md-1">
-          <div class="course-structure">
-            <h3 class="course-page-title">Fees Information</h3>
-            <div class="my-3"></div>
-            <table class="table table-responsive">
-              <tbody>
-                <tr>
-                  <th>Application Fee</th>
-                  <td>:</td>
-                  <td>$250</td>
-                </tr>
-                <tr>
-                  <th>Material Fee</th>
-                  <td>:</td>
-                  <td>$10 per week (Maximum $250)</td>
-                </tr>
-                <tr>
-                  <th>Tuition Fee</th>
-                  <td>:</td>
-                  <td>$200/week</td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p>
-                      <strong>Targeted clients</strong>
-                    </p>
-                    <p>
-                      All international students with non-English speaking
-                      background or English is not their first language and wish
-                      to improve their English language skills, come from a
-                      range of ages, but all are older than 18.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p class="p-justify py-2">
-                      Students enter at different levels depending on their
-                      proficiency across the four macro skills when they enrol.
-                      They are not native speakers of English but have a desire
-                      to learn the language. Students come from a range of
-                      countries (initially from Asia, South America, Brazil,
-                      Europe and Middle East) and, as a result, may have
-                      variations in their approach to class, expected classroom
-                      norms and learner beliefs.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p class="p-justify py-2">
-                      Students have the desire to participate in classes that
-                      not only develop their language skills, but are also
-                      enjoyable. Student’s motivation for learning includes:
-                    </p>
-                    <br />
-                    <ul>
-                      <li>
-                        <i class="fas fa-check text-success"></i>&nbsp; Student
-                        visa holders that want to improve their English for
-                        further study in Australia
-                      </li>
-                      <li>
-                        <i class="fas fa-check text-success"></i>&nbsp; Tourist
-                        visa holders that want to improve their travel
-                        experience
-                      </li>
-                      <li>
-                        <i class="fas fa-check text-success"></i>&nbsp; Working
-                        Holiday visa holders that want to study English but also
-                        do part time work. Often the students study English
-                        first to get their language skills up to working level.
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p><strong> Entry requirements: </strong></p>
-                    <p class="p-justify py-2">
-                      Students must be over 18 years of age at the time of
-                      course commencement. Students must secure an appropriate
-                      visa that allows them to study in an Australian Registered
-                      Training Organisation prior to course commencement.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p><strong> Academic entry requirement: </strong></p>
-                    <p class="p-justify py-2">
-                      To gain entry to this course, students must have
-                      successfully completed year 10 or secondary studies in
-                      their home country equivalent to an Australian Year 10.
-                      (Subject to the country Assessment Level) and course.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p>
-                      <strong> English Language entry requirement: </strong>
-                    </p>
-                    <p class="p-justify py-2">
-                      General English is a programme of study designed for
-                      international students with a beginner level of general
-                      English. All students take an institute’s placement test
-                      of grammar &amp; reading, writing and speaking test. These
-                      tests and scales form the basis of the Placement Tests.
-                      Because the courses can accommodate students with only a
-                      very low grasp of English, Institute of Business and
-                      Management (Victoria) is able to accept students into the
-                      Elementary course even if they are at a very low level.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </div>
@@ -452,6 +345,260 @@
           </div>
         </div>
       </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Fees Information</h3>
+            <div class="my-3"></div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#fees"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Fees</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="fees">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Application Fee</th>
+                        <td>:</td>
+                        <td>$250</td>
+                      </tr>
+                      <tr>
+                        <th>Material Fee</th>
+                        <td>:</td>
+                        <td>$10 per week (Maximum $250)</td>
+                      </tr>
+                      <tr>
+                        <th>Tuition Fee</th>
+                        <td>:</td>
+                        <td>$200/week</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#target_client"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Targeted clients</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="target_client">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <td colspan="3">
+                          <p>
+                            All international students with non-English speaking
+                            background or English is not their first language
+                            and wish to improve their English language skills,
+                            come from a range of ages, but all are older than
+                            18.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <p class="p-justify py-2">
+                            Students enter at different levels depending on
+                            their proficiency across the four macro skills when
+                            they enrol. They are not native speakers of English
+                            but have a desire to learn the language. Students
+                            come from a range of countries (initially from Asia,
+                            South America, Brazil, Europe and Middle East) and,
+                            as a result, may have variations in their approach
+                            to class, expected classroom norms and learner
+                            beliefs.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <p class="p-justify py-2">
+                            Students have the desire to participate in classes
+                            that not only develop their language skills, but are
+                            also enjoyable. Student’s motivation for learning
+                            includes:
+                          </p>
+                          <br />
+                          <ul>
+                            <li>
+                              <i class="fas fa-check text-success"></i>&nbsp;
+                              Student visa holders that want to improve their
+                              English for further study in Australia
+                            </li>
+                            <li>
+                              <i class="fas fa-check text-success"></i>&nbsp;
+                              Tourist visa holders that want to improve their
+                              travel experience
+                            </li>
+                            <li>
+                              <i class="fas fa-check text-success"></i>&nbsp;
+                              Working Holiday visa holders that want to study
+                              English but also do part time work. Often the
+                              students study English first to get their language
+                              skills up to working level.
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#entry_requirement"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Entry Requirements</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="entry_requirement">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <td colspan="3">
+                          <p class="p-justify py-2">
+                            Students must be over 18 years of age at the time of
+                            course commencement. Students must secure an
+                            appropriate visa that allows them to study in an
+                            Australian Registered Training Organisation prior to
+                            course commencement.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#eng_requirement"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span> English Language Entry Requirement</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="eng_requirement">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <td colspan="3">
+                          <p class="p-justify py-2">
+                            General English is a programme of study designed for
+                            international students with a beginner level of
+                            general English. All students take an institute’s
+                            placement test of grammar &amp; reading, writing and
+                            speaking test. These tests and scales form the basis
+                            of the Placement Tests. Because the courses can
+                            accommodate students with only a very low grasp of
+                            English, Institute of Business and Management
+                            (Victoria) is able to accept students into the
+                            Elementary course even if they are at a very low
+                            level.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#academic_entry_requirement"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span> Academic Entry Requirement</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="academic_entry_requirement">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <td colspan="3">
+                          <p><strong> </strong></p>
+                          <p class="p-justify py-2">
+                            To gain entry to this course, students must have
+                            successfully completed year 10 or secondary studies
+                            in their home country equivalent to an Australian
+                            Year 10. (Subject to the country Assessment Level)
+                            and course.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -463,9 +610,28 @@ export default {
   components: {},
   mixins: [path],
   props: ["course"],
+  methods: {
+    changeAngle(event) {
+      const requirement = event.target;
+      let position = $(requirement).attr("data-position");
+
+      if (position == "right") {
+        $(requirement).attr("data-position", "down");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-right");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-down");
+      } else {
+        $(requirement).attr("data-position", "right");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-down");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-right");
+      }
+    },
+  },
 };
 </script>
 <style scoped>
+.requirementAddon {
+  float: right;
+}
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -476,10 +642,12 @@ export default {
 }
 
 .collapsible a {
-  background-color: #ffeae3 !important;
+  /* background-color: #ffeae3 !important;*/
   padding: 5px 10px !important;
   display: block !important;
   width: 100% !important;
   color: #000000 !important;
+  border: 1px solid #f1592a;
+  border-radius: 5px;
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
   <section
-    class="about-us-area pt-150 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+    class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
   >
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-12">
           <h3 class="course-page-title">Course Overview</h3>
           <div class="my-3"></div>
           <p class="p-justify">
@@ -13,17 +13,7 @@
             managerial skills and sound knowledge of industry to coordinate
             hospitality operations. They operate independently, have
             responsibility for others and make a range of operational business
-            decisions. This qualification provides a pathway to work in any
-            hospitality industry sector as a departmental or small business
-            manager. The diversity of employers includes restaurants, hotels,
-            motels, catering operations, clubs, pubs, cafés, and coffee shops.
-            This qualification allows for multiskilling and for acquiring
-            targeted skills in accommodation services, cookery, food and
-            beverage and gaming. The skills in this qualification must be
-            applied in accordance with Commonwealth and State/Territory
-            legislation, Australian standards and industry codes of practice. No
-            occupational licensing, certification or specific legislative
-            requirements apply to this qualification at the time of publication.
+            decisions.
           </p>
           <div class="my-3"></div>
           <table class="table table-responsive">
@@ -41,21 +31,55 @@
               <tr>
                 <th>Delivery Location</th>
                 <td>:</td>
-                <td>60 Belfast Street, Broadmeadows, VIC, 3047</td>
+                <td>
+                  60 Belfast Street, Broadmeadows, VIC, 3047 <br />170 Victoria
+                  St, RICHMOND, Victoria 3121
+                </td>
               </tr>
               <tr>
                 <th>Mode of Delivery</th>
                 <td>:</td>
-                <td>Face to Face</td>
+                <td>
+                  Face to face classroom, Practical training and assessment is
+                  completed in commercial kitchen and 200 hours of Work-based
+                  Training arranged by the Institute.
+                </td>
               </tr>
             </tbody>
           </table>
           <div class="my-5"></div>
-          <h3 class="course-page-title">Course entry &amp; Visa Requirement</h3>
-          <p>Students must be of 18 years of age to apply</p>
+          <h3 class="course-page-title">EntryRequirement</h3>
+
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps0"
+              role="button"
+              aria-expanded="true"
+              aria-controls="clps1"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span>Age Requirements</span>
+              &nbsp;
+              <i class="fas fa-angle-down requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse show" id="clps0">
+              <div class="card card-body">
+                Students must be a minimum age of 18 years or above at the time
+                of course commencement.
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps1"
@@ -67,10 +91,10 @@
               &nbsp;
               <span>Academic Requirements</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
-            <div class="collapse show" id="clps1">
+            <div class="collapse" id="clps1">
               <div class="card card-body">
                 Satisfactory completion of Year 11 VCE or its equivalent
                 overseas qualification
@@ -79,6 +103,40 @@
           </div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
+              class="w-100"
+              data-bs-toggle="collapse"
+              href="#clps11"
+              role="button"
+              aria-expanded="true"
+              aria-controls="clps1"
+            >
+              <i class="fas fa-file-certificate"></i>
+              &nbsp;
+              <span
+                >Academic Requirements for Institute of Business and Management
+                (Victoria)</span
+              >
+              &nbsp;
+              <i class="fas fa-angle-down requirementAddon"></i>
+            </a>
+            <div class="my-3"></div>
+            <div class="collapse" id="clps11">
+              <div class="card card-body">
+                Students must have completed the SIT30821Certificate III in
+                Commercial Cookery (or Equivalent) and SIT40521 Certificate IV
+                in Kitchen Management, Students will be evaluated on a
+                case-by-case basis to ensure that they meet entry requirements
+                and that they are enrolled in the units required to meet the
+                packaging rules for SIT50422 Diploma of Hospitality Management.
+              </div>
+            </div>
+          </div>
+          <div class="collapsible">
+            <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps2"
@@ -88,25 +146,23 @@
             >
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span>English Proficiency</span>
+              <span>English Language Requirements</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps2">
               <div class="card card-body">
                 <ul class="list-items">
                   <li>
-                    English language: Have a minimum IELTS score of 5.5 for
-                    direct entry into a VET course OR
+                    Have a minimum IELTS score of 5.5 for direct entry into a
+                    VET course OR
                   </li>
                   <li>
-                    Either a minimum IELTS test score of 5.5 or equivalent for
-                    direct entry into a VET course;or, IELTS score of 5.0 or
-                    equivalent with an ELICOS course (up to 10 weeks) to be
-                    taken before the main VET course;or, IELTS score of 4.5 or
-                    equivalent with an ELICOS course (up to 20 weeks) to be
-                    taken before the main VET course OR
+                    IELTS score of 5.0 or equivalent with an ELICOS course (up
+                    to 10 weeks) to be taken before the main VET course;or,
+                    IELTS score of 4.5 or equivalent with an ELICOS course (up
+                    to 20 weeks) to be taken before the main VET course OR
                   </li>
                   <li>
                     to provide evidence that they have studied in English for at
@@ -135,43 +191,8 @@
           </div>
           <div class="collapsible">
             <a
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps18"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps18"
-            >
-              <i class="fas fa-file-certificate"></i>
-              &nbsp;
-              <span
-                >Qualification Requirements for Institute of Business and
-                Management (Victoria)</span
-              >
-              &nbsp;
-              <i class="fas fa-angle-down"></i>
-            </a>
-            <div class="my-3"></div>
-            <div class="collapse" id="clps18">
-              <div class="card card-body">
-                <ul>
-                  <li>
-                    Students must have completed the Certificate III in
-                    Commercial Cookery (or Equivalent) and Certificate IV in
-                    Kitchen Management (Or Equivalent)
-                  </li>
-                  <li>
-                    Students will be evaluated on a case-by-case basis to ensure
-                    that they meet entry requirements and that they are enrolled
-                    in the units required to meet the packaging rules for
-                    SIT50422 Diploma of Hospitality Management.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="collapsible">
-            <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps23"
@@ -183,16 +204,22 @@
               &nbsp;
               <span>Other requirement</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps23">
               <div class="card card-body">
-                <ul>
+                <ul class="list-items">
                   <li>
-                    Completed a Pre-Training review and Language, Literacy and
-                    Numeracy assessment test prior to commencement of the
-                    course.
+                    <b>Pre-Training Review:</b> all international students will
+                    take the PTR to determine the determine suitability for the
+                    course and student needs
+                  </li>
+                  <li>
+                    <b>Language, Literacy and Numeracy assessment test: </b
+                    >prior enrolment to determine the student’s ability to
+                    complete the course or any LLN support during the study
+                    period
                   </li>
                 </ul>
               </div>
@@ -203,6 +230,8 @@
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps5"
@@ -214,7 +243,7 @@
               &nbsp;
               <span>Educational Pathways</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps5">
@@ -224,7 +253,7 @@
                   students may undertake one or more of following
                   qualifications:
                 </p>
-                <ul>
+                <ul class="list-items">
                   <li>An undergraduate degree in hospitality management</li>
                   <li>
                     A range of other qualifications at Advanced Diploma level
@@ -235,6 +264,8 @@
           </div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps6"
@@ -246,7 +277,7 @@
               &nbsp;
               <span>Employment Pathways</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps6">
@@ -255,7 +286,7 @@
                   Students completing CPC30220 Certificate III in Carpentry can
                   expect to gain work as a:
                 </p>
-                <ul>
+                <ul class="list-items">
                   <li>banquet or function manager</li>
                   <li>bar manager</li>
                   <li>café manager</li>
@@ -271,47 +302,6 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 offset-md-1">
-          <div class="course-structure">
-            <h3 class="course-page-title">Fees Information</h3>
-            <div class="my-3"></div>
-            <table class="table table-responsive">
-              <tbody>
-                <tr>
-                  <th>Application Fee</th>
-                  <td>:</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Material Fee</th>
-                  <td>:</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Tuition Fee</th>
-                  <td>:</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Total Fees</th>
-                  <td>:</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Duration</th>
-                  <th>:</th>
-                  <td>
-                    <p class="p-justify">
-                      The duration of this qualification is 78 weeks, including
-                      18 weeks term break. The contact hours are 20 contact
-                      hours per week.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
       </div>
 
       <div class="my-5"></div>
@@ -321,6 +311,8 @@
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps7"
@@ -332,7 +324,7 @@
               &nbsp;
               <span>RPL / Credit Transfer</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps7">
@@ -345,23 +337,11 @@
                   of the following:
                 </p>
 
-                <ul class="pt-3">
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Work
-                    experience
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Life
-                    experience
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Previous
-                    study
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Professional
-                    development programs
-                  </li>
+                <ul class="pt-3 list-items">
+                  <li>Work experience</li>
+                  <li>Life experience</li>
+                  <li>Previous study</li>
+                  <li>Professional development programs</li>
                 </ul>
                 <p class="pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
@@ -374,6 +354,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps8"
@@ -385,7 +367,7 @@
               &nbsp;
               <span>Assessment Method</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps8">
@@ -396,20 +378,11 @@
                   met the required outcomes including:
                 </p>
 
-                <ul class="pt-3">
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Written
-                    Questions and Answers
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Projects
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Case Studies
-                  </li>
-                  <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Observations
-                  </li>
+                <ul class="pt-3 list-items">
+                  <li>Written Questions and Answers</li>
+                  <li>Projects</li>
+                  <li>Case Studies</li>
+                  <li>Observations</li>
                 </ul>
                 <p class="pt-3">
                   At the beginning of each unit, trainers will outline the
@@ -421,6 +394,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps9"
@@ -435,7 +410,7 @@
                 Procedures, Fees and Charges</span
               >
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps9">
@@ -454,6 +429,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps10"
@@ -465,15 +442,28 @@
               &nbsp;
               <span>Course Duration</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps10">
               <div class="card card-body">
+                <p class="pb-2">
+                  <b>Direct Entry Students:</b>
+                  This program will be delivered over a period of 78 weeks
+                  including a 10-week work placement.
+                </p>
+                <p class="pb-2">
+                  <b
+                    >Students Progressing from SIT30821 & SIT40521 (Packaging
+                    Course)</b
+                  >
+                </p>
                 <p>
-                  The duration of this qualification is 94 weeks, including 24
-                  weeks term break. The contact hours are 20 contact hours per
-                  week.
+                  The course duration for IBM(VIC)’ students who have
+                  successfully completed SIT30821 Certificate III in Commercial
+                  Cookery and SIT40521 Certificate IV in Kitchen Management and
+                  wish to enroll in SIT50422 Diploma of Hospitality Management
+                  is 26 weeks including holidays).
                 </p>
               </div>
             </div>
@@ -481,6 +471,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps11"
@@ -492,7 +484,7 @@
               &nbsp;
               <span>Student Support</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps11">
@@ -678,6 +670,115 @@
           </div>
         </div>
       </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Fees Information</h3>
+            <div class="my-3"></div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#fees"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Fees</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="fees">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Application Fee</th>
+                        <td>:</td>
+                        <td>$250</td>
+                      </tr>
+                      <tr>
+                        <th>Material Fee</th>
+                        <td>:</td>
+                        <td>$750</td>
+                      </tr>
+                      <tr>
+                        <th>Tuition Fee</th>
+                        <td>:</td>
+                        <td>$18000</td>
+                      </tr>
+                      <tr>
+                        <th>Total Fees</th>
+                        <td>:</td>
+                        <td>$19000</td>
+                      </tr>
+                      <tr>
+                        <th>Duration</th>
+                        <th>:</th>
+                        <td>
+                          <p class="p-justify">
+                            The duration of this qualification is 78 weeks,
+                            including 18 weeks term break. The contact hours are
+                            20 contact hours per week.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Intake</h3>
+            <div class="my-3"></div>
+            <p>Multiple intakes available.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Work based Training</h3>
+            <div class="my-3"></div>
+            <p>
+              This course includes work-based training of a minimum of 200
+              hours/10 weeks. During work-based training, students will be able
+              to practice their skills and knowledge in real workplace settings.
+              This will assist students to be job-ready at graduation. Institute
+              of Business and Management (Victoria) will ensure placement of all
+              students. This is to ensure international students with limited
+              exposure to Australian workplace are not disadvantaged. Students
+              will have the option to arrange their own work placement provided
+              it meets all requirements. The assessor will visit and assess the
+              student at least twice during this time at a mutually convenient
+              time.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Further Information</h3>
+            <div class="my-3"></div>
+            <p>
+              For further information please call Institute of Business and
+              Management (Victoria) on 03 9478 3163 or email us on:
+              info@ibm.vic.edu.au
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -689,9 +790,28 @@ export default {
   components: {},
   mixins: [path],
   props: ["course"],
+  methods: {
+    changeAngle(event) {
+      const requirement = event.target;
+      let position = $(requirement).attr("data-position");
+
+      if (position == "right") {
+        $(requirement).attr("data-position", "down");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-right");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-down");
+      } else {
+        $(requirement).attr("data-position", "right");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-down");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-right");
+      }
+    },
+  },
 };
 </script>
 <style scoped>
+.requirementAddon {
+  float: right;
+}
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -702,11 +822,13 @@ export default {
 }
 
 .collapsible a {
-  background-color: #ffeae3 !important;
+  /* background-color: #ffeae3 !important;*/
   padding: 5px 10px !important;
   display: block !important;
   width: 100% !important;
   color: #000000 !important;
+  border: 1px solid #f1592a;
+  border-radius: 5px;
 }
 .list-items {
   padding-left: 2rem !important;

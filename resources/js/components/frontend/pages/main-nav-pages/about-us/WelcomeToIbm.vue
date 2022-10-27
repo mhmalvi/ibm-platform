@@ -1,6 +1,6 @@
 <template>
   <base-layout>
-    <section class="about-us-area pt-0 pt-md-100 pt-xs-100">
+    <section class="about-us-area pt-50 pt-md-100 pt-xs-100">
       <div class="container">
         <div class="align-items-center">
           <div class="about-wrapper">

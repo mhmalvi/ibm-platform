@@ -1,10 +1,10 @@
 <template>
   <section
-    class="about-us-area pt-150 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+    class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
   >
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-12">
           <h3 class="course-page-title">Course Overview</h3>
           <div class="my-3"></div>
           <p class="p-justify">
@@ -50,6 +50,8 @@
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps1"
@@ -61,7 +63,7 @@
               &nbsp;
               <span>English Language Requirement</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps1">
@@ -75,6 +77,8 @@
           </div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps2"
@@ -86,7 +90,7 @@
               &nbsp;
               <span>Academic Requirement</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps2">
@@ -98,6 +102,8 @@
           </div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps3"
@@ -109,7 +115,7 @@
               &nbsp;
               <span>LLN</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps3">
@@ -124,6 +130,8 @@
           </div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps4"
@@ -135,7 +143,7 @@
               &nbsp;
               <span>Overseas Student Health Cover (OSHC)</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps4">
@@ -150,6 +158,8 @@
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps5"
@@ -161,7 +171,7 @@
               &nbsp;
               <span>Educational Pathways</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps5">
@@ -174,6 +184,8 @@
           </div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps6"
@@ -185,7 +197,7 @@
               &nbsp;
               <span>Employment Pathways</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps6">
@@ -218,154 +230,6 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 offset-md-1">
-          <div class="course-structure">
-            <h3 class="course-page-title">Fees Information</h3>
-            <div class="my-3"></div>
-            <table class="table table-responsive">
-              <tbody>
-                <tr>
-                  <th>Application Fee</th>
-                  <td>:</td>
-                  <td>$250</td>
-                </tr>
-                 <tr>
-                  <th>Material Fee</th>
-                  <td>:</td>
-                  <td>$250</td>
-                </tr>
-                <tr>
-                  <th>Tuition Fee</th>
-                  <td>:</td>
-                  <td>$11000</td>
-                </tr>
-               
-                <tr>
-                  <th>Total Fees</th>
-                  <td>:</td>
-                  <td>$11500</td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p class="p-justify py-2">
-                      Further fee / charges information can be found in student
-                      handbook, or form IBM (Victoria) administration office.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p class="p-justify py-2">
-                      Tuition fees and other compulsory costs (equipment,
-                      uniforms etc.) may change from year to year. However,
-                      students continuing in their current qualification will
-                      not incur any fee increases.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p class="p-justify py-2">
-                      Material Fees includes but not restricted to books,
-                      Tutorials and course documents.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <p class="p-justify py-2">
-                      This course will be delivered over 54 weeks consisting of
-                      50 weeks of face-to-face study over 5 terms (10 weeks) and
-                      4 weeks of term break.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="my-3"></div>
-            <div class="collapsible">
-              <a
-                class="w-100"
-                data-bs-toggle="collapse"
-                href="#handbook"
-                role="button"
-                aria-expanded="fasle"
-                aria-controls="handbook"
-              >
-                <i class="fas fa-file-certificate"></i>
-                &nbsp;
-                <span>Important Information </span>
-                &nbsp;
-                <i class="fas fa-angle-down"></i>
-              </a>
-              <div class="my-3"></div>
-              <div class="collapse" id="handbook">
-                <div class="card card-body">
-                  <p>
-                    <strong>
-                      Student Handbook, Policies and Procedures, Fees and
-                      Charges
-                    </strong>
-                  </p>
-                  <br />
-                  <p>
-                    Information about our training and assessment, policies and
-                    procedures are included in student handbook and should be
-                    read by you, prior to enrolment, which is available on
-                    institute’s website. These documents contain important
-                    information about your training course, fees and charges
-                    including our refund policy.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="my-3"></div>
-            <div class="collapsible">
-              <a
-                class="w-100"
-                data-bs-toggle="collapse"
-                href="#clps8"
-                role="button"
-                aria-expanded="fasle"
-                aria-controls="clps8"
-              >
-                <i class="fas fa-file-certificate"></i>
-                &nbsp;
-                <span>Assessment Method</span>
-                &nbsp;
-                <i class="fas fa-angle-down"></i>
-              </a>
-              <div class="my-3"></div>
-              <div class="collapse" id="clps8">
-                <div class="card card-body">
-                  <p>
-                    Student needs are declared by the applicant at the time of
-                    enrolment: the application form allows the applicant to
-                    self-declare where they have learning disabilities. Every
-                    student is interviewed either face-to-face or over the
-                    telephone to attempt to establish the applicant skill and
-                    knowledge levels, their current employment and how that
-                    relates to the course content and interaction.
-                  </p>
-
-                  <p class="pt-3">
-                    Where language, literacy and numeracy are in question
-                    Institute of Business and Management (Victoria) has a
-                    language, literacy and numeracy (LLN) assessment they may
-                    undertake to confirm their level of language, literacy and
-                    numeracy skills. Reasonable adjustments to training and
-                    assessment will be made and additional support (e.g. LLN,
-                    assistive technology, additional training, alternative
-                    delivery and assessment modes and methods) provided where
-                    students with physical attributes or specific learning needs
-                    are identified as requiring these changes to complete their
-                    training and assessment.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="my-5"></div>
       <div class="row">
@@ -374,6 +238,8 @@
           <div class="my-3"></div>
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="down"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps7"
@@ -385,7 +251,7 @@
               &nbsp;
               <span>RPL / Credit Transfer</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-down requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps7">
@@ -430,6 +296,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps8"
@@ -441,7 +309,7 @@
               &nbsp;
               <span>Assessment Method</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps8">
@@ -485,6 +353,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps9"
@@ -499,7 +369,7 @@
                 Procedures, Fees and Charges</span
               >
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps9">
@@ -518,6 +388,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps10"
@@ -529,13 +401,14 @@
               &nbsp;
               <span>Course Duration</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps10">
               <div class="card card-body">
                 <p>
-                  This course will be delivered over 54 weeks consisting 50 weeks of 5 terms (10 weeks each) and 4 weeks term break
+                  This course will be delivered over 54 weeks consisting 50
+                  weeks of 5 terms (10 weeks each) and 4 weeks term break
                 </p>
               </div>
             </div>
@@ -543,6 +416,8 @@
 
           <div class="collapsible">
             <a
+              @click="changeAngle($event)"
+              data-position="right"
               class="w-100"
               data-bs-toggle="collapse"
               href="#clps11"
@@ -554,14 +429,16 @@
               &nbsp;
               <span>Student Support</span>
               &nbsp;
-              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-right requirementAddon"></i>
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps11">
               <div class="card card-body">
                 <p class="pb-2">
-                  Student needs are declared by the applicant at the time of enrolment: the application form and PTR form allows 
-                  the applicant to self-declare where they have learning disabilities.
+                  Student needs are declared by the applicant at the time of
+                  enrolment: the application form and PTR form allows the
+                  applicant to self-declare where they have learning
+                  disabilities.
                 </p>
                 <br />
                 <p class="pb-2">
@@ -600,7 +477,7 @@
             <div class="text-center pt-5">
               <table class="table table-striped table-hover">
                 <tbody>
-                   <tr>
+                  <tr>
                     <td>BSBSUS511</td>
                     <td>
                       Develop workplace policies and procedures for
@@ -669,6 +546,185 @@
           </div>
         </div>
       </div>
+      <div class="row my-5">
+        <div class="col-md-12">
+          <div class="course-structure">
+            <h3 class="course-page-title">Fees Information</h3>
+            <div class="my-3"></div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="down"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#fees"
+                role="button"
+                aria-expanded="true"
+                aria-controls="clps1"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Fees</span>
+                &nbsp;
+                <i class="fas fa-angle-down requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse show" id="fees">
+                <div class="card card-body">
+                  <table class="table table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Application Fee</th>
+                        <td>:</td>
+                        <td>$250</td>
+                      </tr>
+                      <tr>
+                        <th>Material Fee</th>
+                        <td>:</td>
+                        <td>$250</td>
+                      </tr>
+                      <tr>
+                        <th>Tuition Fee</th>
+                        <td>:</td>
+                        <td>$11000</td>
+                      </tr>
+
+                      <tr>
+                        <th>Total Fees</th>
+                        <td>:</td>
+                        <td>$11500</td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <p class="p-justify py-2">
+                            Further fee / charges information can be found in
+                            student handbook, or form IBM (Victoria)
+                            administration office.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <p class="p-justify py-2">
+                            Tuition fees and other compulsory costs (equipment,
+                            uniforms etc.) may change from year to year.
+                            However, students continuing in their current
+                            qualification will not incur any fee increases.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <p class="p-justify py-2">
+                            Material Fees includes but not restricted to books,
+                            Tutorials and course documents.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <p class="p-justify py-2">
+                            This course will be delivered over 54 weeks
+                            consisting of 50 weeks of face-to-face study over 5
+                            terms (10 weeks) and 4 weeks of term break.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="my-3"></div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="right"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#handbook"
+                role="button"
+                aria-expanded="fasle"
+                aria-controls="handbook"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Important Information </span>
+                &nbsp;
+                <i class="fas fa-angle-right requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="handbook">
+                <div class="card card-body">
+                  <p>
+                    <strong>
+                      Student Handbook, Policies and Procedures, Fees and
+                      Charges
+                    </strong>
+                  </p>
+                  <br />
+                  <p>
+                    Information about our training and assessment, policies and
+                    procedures are included in student handbook and should be
+                    read by you, prior to enrolment, which is available on
+                    institute’s website. These documents contain important
+                    information about your training course, fees and charges
+                    including our refund policy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="my-3"></div>
+            <div class="collapsible">
+              <a
+                @click="changeAngle($event)"
+                data-position="right"
+                class="w-100"
+                data-bs-toggle="collapse"
+                href="#clps8"
+                role="button"
+                aria-expanded="fasle"
+                aria-controls="clps8"
+              >
+                <i class="fas fa-file-certificate"></i>
+                &nbsp;
+                <span>Assessment Method</span>
+                &nbsp;
+                <i class="fas fa-angle-right requirementAddon"></i>
+              </a>
+              <div class="my-3"></div>
+              <div class="collapse" id="clps8">
+                <div class="card card-body">
+                  <p>
+                    Student needs are declared by the applicant at the time of
+                    enrolment: the application form allows the applicant to
+                    self-declare where they have learning disabilities. Every
+                    student is interviewed either face-to-face or over the
+                    telephone to attempt to establish the applicant skill and
+                    knowledge levels, their current employment and how that
+                    relates to the course content and interaction.
+                  </p>
+
+                  <p class="pt-3">
+                    Where language, literacy and numeracy are in question
+                    Institute of Business and Management (Victoria) has a
+                    language, literacy and numeracy (LLN) assessment they may
+                    undertake to confirm their level of language, literacy and
+                    numeracy skills. Reasonable adjustments to training and
+                    assessment will be made and additional support (e.g. LLN,
+                    assistive technology, additional training, alternative
+                    delivery and assessment modes and methods) provided where
+                    students with physical attributes or specific learning needs
+                    are identified as requiring these changes to complete their
+                    training and assessment.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -680,9 +736,29 @@ export default {
   components: {},
   mixins: [path],
   props: ["course"],
+  methods: {
+    changeAngle(event) {
+      const requirement = event.target;
+      let position = $(requirement).attr("data-position");
+
+      if (position == "right") {
+        $(requirement).attr("data-position", "down");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-right");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-down");
+      } else {
+        $(requirement).attr("data-position", "right");
+        $(requirement).find(".requirementAddon").removeClass("fa-angle-down");
+        $(requirement).find(".requirementAddon").addClass("fa-angle-right");
+      }
+    },
+  },
 };
 </script>
 <style scoped>
+.requirementAddon {
+  float: right;
+}
+
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -693,11 +769,13 @@ export default {
 }
 
 .collapsible a {
-  background-color: #ffeae3 !important;
+  /* background-color: #ffeae3 !important;*/
   padding: 5px 10px !important;
   display: block !important;
   width: 100% !important;
   color: #000000 !important;
+  border: 1px solid #f1592a;
+  border-radius: 5px;
 }
 table tbody tr {
   text-align: left !important;

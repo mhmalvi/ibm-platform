@@ -3,7 +3,7 @@
     <div class="container pt-5">
       <div class="text-center">
         <img
-          :src="'https://ibm.vic.edu.au/public/uploads/orientation/Lesson-bro.svg'"
+          :src="image_url + '/uploads/orientation/Lesson-bro.jpg'"
           style="height: 500px"
         />
       </div>
@@ -157,7 +157,9 @@
 </template>
 <script>
 import BaseLayout from "../../../layouts/BaseLayout.vue";
+import path from "../../../../../src/global-config/mixin/path-solution";
 export default {
+  mixins: [path],
   components: { BaseLayout },
 };
 </script>
