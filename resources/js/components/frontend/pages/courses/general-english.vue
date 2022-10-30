@@ -117,7 +117,7 @@
               <div class="my-3"></div>
               <div class="collapse show" id="clps7">
                 <div class="card card-body">
-                  <p>
+                  <p style="text-align: justify">
                     Institute of Business and Management (Victoria) provides
                     information to student’s pre-enrolment on course demands and
                     expectations via the Student Handbook and course information
@@ -150,7 +150,7 @@
               <div class="my-3"></div>
               <div class="collapse" id="clps8">
                 <div class="card card-body">
-                  <p>
+                  <p style="text-align: justify">
                     Institute of Business and Management (Victoria) delivers an
                     orientation to students outlining course requirements,
                     facilities, policies, safety, staff, support services and
@@ -180,7 +180,7 @@
               <div class="my-3"></div>
               <div class="collapse" id="clps9">
                 <div class="card card-body">
-                  <p>
+                  <p style="text-align: justify">
                     Institute of Business and Management (Victoria) monitors
                     student attendance and provides assistance if the student is
                     experiencing difficulties and not progressing through their
@@ -216,7 +216,7 @@
               <div class="my-3"></div>
               <div class="collapse" id="clps10">
                 <div class="card card-body">
-                  <p>
+                  <p style="text-align: justify">
                     For many of the students, their previous educational
                     experience was in a much more teacher-centred. The students
                     expect the teacher to guide their learning as the teacher
@@ -256,7 +256,7 @@
               <div class="my-3"></div>
               <div class="collapse" id="clps11">
                 <div class="card card-body">
-                  <p class="pb-2">
+                  <p class="pb-2" style="text-align: justify">
                     Institute of Business and Management (Victoria) have student
                     support service in place as we understand that our students
                     require extra support to adjust in the new environment and
@@ -272,47 +272,21 @@
           </div>
         </div>
       </div>
-      <div class="my-5"></div>
+
       <div class="row">
-        <div class="col-md-12"></div>
-      </div>
-      <div class="row">
-        <!-- <div class="my-5"></div>
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="course-page-title">Course Structure</h3>
-            <div class="my-3"></div>
-            <p>
-              The BSB50415 Diploma of Business Administration requires the
-              successful completion of eight (8) elective units. Electives for
-              this qualification have been chosen by Institute of Business and
-              Management (Victoria) to ensure that students achieve a broad
-              range of skills and knowledge in business administration.
-            </p>
-            <div class="my-3"></div>
-            <div class="text-center pt-5">
-              <img
-                src="http://localhost:3000/frontend/assets/img/course/diploma-table.png"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
-          </div>
-        </div> -->
-        <div class="my-5"></div>
         <div class="row">
           <div class="col-md-12">
             <h3 class="course-page-title">Assessment</h3>
-            <div class="my-3"></div>
+            <div class="my-2"></div>
             <p><strong>Formative Assessment</strong></p>
             <ul>
-              <li>
+              <li style="text-align: justify">
                 <i class="fas fa-check text-success"></i>&nbsp; Each week
                 students complete a Unit Progress Test covering Listening,
                 Vocabulary, Grammar and Reading. Student will be given mark for
                 their speaking marking criteria on different level.
               </li>
-              <li>
+              <li style="text-align: justify">
                 <i class="fas fa-check text-success"></i>&nbsp; Each week of the
                 course students complete a formative writing assessment over on
                 hour of varying word lengths depending on the level. The
@@ -327,14 +301,14 @@
 
             <p><strong>Summative Assessment Schedule</strong></p>
             <ul>
-              <li>
+              <li style="text-align: justify">
                 <i class="fas fa-check text-success"></i>&nbsp; Mid-Course and
                 End of Course Tests In weeks 5 and 10 of each level, students
                 take a Mid-Course or End of Course Test. The tests cover
                 Speaking, Listening, Reading and Writing. The tests are
                 completed over 2 hours.
               </li>
-              <li>
+              <li style="text-align: justify">
                 <i class="fas fa-check text-success"></i>&nbsp; For the
                 speaking, teachers use a separate room to give students a
                 5-minute speaking test one by one. Speaking and Writing are both
@@ -368,7 +342,7 @@
                 <i class="fas fa-angle-down requirementAddon"></i>
               </a>
               <div class="my-3"></div>
-              <div class="collapse" id="fees">
+              <div class="collapse show" id="fees">
                 <div class="card card-body">
                   <table class="table table-responsive">
                     <tbody>
@@ -395,7 +369,7 @@
             <div class="collapsible">
               <a
                 @click="changeAngle($event)"
-                data-position="down"
+                data-position="right"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#target_client"
@@ -407,7 +381,7 @@
                 &nbsp;
                 <span>Targeted clients</span>
                 &nbsp;
-                <i class="fas fa-angle-down requirementAddon"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="target_client">
@@ -416,7 +390,7 @@
                     <tbody>
                       <tr>
                         <td colspan="3">
-                          <p>
+                          <p style="text-align: justify">
                             All international students with non-English speaking
                             background or English is not their first language
                             and wish to improve their English language skills,
@@ -450,17 +424,17 @@
                           </p>
                           <br />
                           <ul>
-                            <li>
+                            <li style="text-align: justify">
                               <i class="fas fa-check text-success"></i>&nbsp;
                               Student visa holders that want to improve their
                               English for further study in Australia
                             </li>
-                            <li>
+                            <li style="text-align: justify">
                               <i class="fas fa-check text-success"></i>&nbsp;
                               Tourist visa holders that want to improve their
                               travel experience
                             </li>
-                            <li>
+                            <li style="text-align: justify">
                               <i class="fas fa-check text-success"></i>&nbsp;
                               Working Holiday visa holders that want to study
                               English but also do part time work. Often the
@@ -478,7 +452,7 @@
             <div class="collapsible">
               <a
                 @click="changeAngle($event)"
-                data-position="down"
+                data-position="right"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#entry_requirement"
@@ -490,7 +464,7 @@
                 &nbsp;
                 <span>Entry Requirements</span>
                 &nbsp;
-                <i class="fas fa-angle-down requirementAddon"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="entry_requirement">
@@ -516,7 +490,7 @@
             <div class="collapsible">
               <a
                 @click="changeAngle($event)"
-                data-position="down"
+                data-position="right"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#eng_requirement"
@@ -528,7 +502,7 @@
                 &nbsp;
                 <span> English Language Entry Requirement</span>
                 &nbsp;
-                <i class="fas fa-angle-down requirementAddon"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="eng_requirement">
@@ -560,7 +534,7 @@
             <div class="collapsible">
               <a
                 @click="changeAngle($event)"
-                data-position="down"
+                data-position="right"
                 class="w-100"
                 data-bs-toggle="collapse"
                 href="#academic_entry_requirement"
@@ -572,7 +546,7 @@
                 &nbsp;
                 <span> Academic Entry Requirement</span>
                 &nbsp;
-                <i class="fas fa-angle-down requirementAddon"></i>
+                <i class="fas fa-angle-right requirementAddon"></i>
               </a>
               <div class="my-3"></div>
               <div class="collapse" id="academic_entry_requirement">

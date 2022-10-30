@@ -24,7 +24,12 @@
               </thead>
               <tbody>
                 <tr>
-                  <td><i class="far fa-file-pdf theme-color"></i></td>
+                  <td>
+                    <a
+                      href="https://docs.google.com/document/d/1VkMKzHF9e37ob2XrNDY0LvOTcZNkWPJnL6hqm1Q_bKo/edit?usp=sharing"
+                      ><i class="far fa-file-pdf theme-color"></i
+                    ></a>
+                  </td>
                   <td>Agent List</td>
                 </tr>
               </tbody>

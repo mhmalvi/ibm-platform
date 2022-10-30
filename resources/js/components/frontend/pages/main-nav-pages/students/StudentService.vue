@@ -28,7 +28,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse show" id="clps1">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             This policy/procedure supports ‘Standard 6 – Student Support
             Services’ of the ‘National Code of Practice for Providers of
             Education & Training to Overseas Students 2018’, which states:
@@ -62,7 +62,7 @@
         <div class="my-3"></div>
         <div class="collapse" id="clps2">
           <div class="card card-body">
-            <p>
+            <p style="text-align: justify">
               Whilst all staff employed by Institute of Business and Management
               (Victoria) has the responsibility to provide support to all
               students, Institute of Business and Management (Victoria) has
@@ -70,8 +70,8 @@
               students, on an appointment basis, through the standard hours of
               business.
             </p>
-            <div class="py-2"></div>
-            <p>
+            <!--      <div class="py-2"></div> -->
+            <p style="text-align: justify">
               Students can access the student support officer directly or via
               student administrations and an appointment will be organised as
               soon as practical. Currently, the role and responsibility this
@@ -81,8 +81,8 @@
               <li>Name: Manpreet Kaur</li>
               <li>Mob: 0460 323 792</li>
             </ul>
-            <div class="py-2"></div>
-            <p>
+            <!--  <div class="py-2"></div> -->
+            <p style="text-align: justify">
               As part of their responsibility they are to ensure up-to-date
               information is available for the following services and the
               contacts listed are current. This information is given to students
@@ -111,7 +111,7 @@
         <div class="my-3"></div>
         <div class="collapse" id="clps3">
           <div class="card card-body">
-            <p>
+            <p style="text-align: justify">
               The following support services are available and accessible for
               all students studying with Institute of Business and Management
               (Victoria). Institute of Business and Management (Victoria)
@@ -146,7 +146,7 @@
         <div class="my-3"></div>
         <div class="collapse" id="clps4">
           <div class="card card-body">
-            <p>
+            <p style="text-align: justify">
               We have learning support teachers on hand to help students if they
               are having difficulties with study. Learning support teachers can
               assist a student in classroom or work in small groups with the
@@ -179,12 +179,12 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps5">
-          <div class="card card-body">
-            <p>
+          <div class="card card-body" style="text-align: justify">
+            <p class="mb-1">
               The orientation program provides culturally appropriate
               information about:
             </p>
-            <br />
+
             <ul>
               <li>
                 Support services available to assist overseas students to help
@@ -199,16 +199,16 @@
                 Contact number, name and location of emergency, legal,
                 personal/social, medical support, accommodation services.
               </li>
-              <li>the registered provider’s facilities and resources</li>
-              <li>complaints and appeals processes</li>
-              <li>requirements for course progress</li>
+              <li>The registered provider’s facilities and resources</li>
+              <li>Complaints and appeals processes</li>
+              <li>Requirements for course progress</li>
               <li>
-                the support services available to assist students with general
+                The support services available to assist students with general
                 or personal circumstances that are adversely affecting their
                 education in Australia
               </li>
               <li>
-                services students can access for information on their employment
+                Services students can access for information on their employment
                 rights and conditions, and how to resolve workplace issues, such
                 as through the Fair Work Ombudsman
               </li>
@@ -235,7 +235,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps6">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               Students may have concerns with their academic performance or
               other related issues that are placing them at risk of not
@@ -246,7 +246,7 @@
               monitored and guidance and support provided where unsatisfactory
               results are identified.
             </p>
-            <div class="py-2"></div>
+            <div class="py-1"></div>
             <p>
               A student is able to access the student support officer to discuss
               any academic or other related issues to studying at Institute of
@@ -276,7 +276,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps7">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               There are many issues that may affect a student’s social or
               personal life and Students have access to the support officer
@@ -326,7 +326,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps8">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               While Institute of Business and Management (Victoria) does not
               offer accommodation services or take any responsibility for
@@ -410,7 +410,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps9">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               Student support officer always have an up to date list of medical
               professionals within access from the Institute of Business and
@@ -475,7 +475,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps10">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               Institute of Business and Management (Victoria) is able to provide
               some advice and guidance on a limited range of situations. Where
@@ -532,27 +532,27 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps11">
-          <div class="card card-body">
-            <p>
+          <div class="card card-body" style="text-align: justify">
+            <p class="mb-1">
               The Overseas Students Ombudsman investigates complaints about
               problems that overseas students have with private education and
               training in Australia.
             </p>
-            <br />
-            <p>The Ombudsman also:</p>
-            <br />
-            <p>
+
+            <p class="mb-1">The Ombudsman also:</p>
+
+            <p class="mb-1">
               Provides information about best practice complaints handling to
               help private education providers manage internal complaints
               effectively.
             </p>
-            <br />
+
             <p>
               Publishes reports on problems and broader issues in international
               education that we identify through investigations. For Further
               information:
             </p>
-            <div class="py-3"></div>
+            <div class="py-2"></div>
             <table class="table table-responsive">
               <tbody>
                 <tr>
@@ -594,7 +594,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps12">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               Apart from the Student Orientation Program the Student Support
               Officer will occasionally organise social events that allow all
@@ -604,16 +604,16 @@
               sporting events. They will be organised as demand requires and any
               suggestions can be forwarded to the Student Support Officer.
             </p>
-            <div class="py-2"></div>
+            <div class="py-1"></div>
             <p>Student welfare and safety</p>
-            <div class="py-2"></div>
+            <div class="py-1"></div>
             <p>
               Institute of Business and Management (Victoria) takes all
               reasonable steps to provide a safe environment on campus and
               advise overseas students and staff on actions they can take to
               enhance their personal security and safety.
             </p>
-            <div class="py-2"></div>
+            <div class="py-1"></div>
             <p>
               Students are informed about safety measures during the orientation
               program.
@@ -638,9 +638,9 @@
           &nbsp;
           <i class="fas fa-angle-right requirementAddon"></i>
         </a>
-        <div class="my-3"></div>
+        <div class="my-2"></div>
         <div class="collapse" id="clps13">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               While Australia is considered to be a very safe country, obviously
               it is still wise to avoid dangerous situations. Personal safety
@@ -648,9 +648,9 @@
               your instincts. If in doubt, move away. Here are a few tips for
               your personal safety.
             </p>
-            <div class="py-2"></div>
+            <div class="py-1"></div>
             <p>Useful Tips When You Are Out and About:</p>
-            <div class="py-2"></div>
+            <div class="py-1"></div>
             <ul class="bullet-list">
               <li>Walk in well-lit areas</li>
               <li>Walk mid-point between travelled routes between buildings</li>
@@ -682,7 +682,7 @@
               </li>
               <li>Avoid using ATMs in dark or lonely places.</li>
             </ul>
-            <div class="py-2"></div>
+            <div class="py-1"></div>
             <p>If you suspect you are being followed:</p>
             <ul class="bullet-list">
               <li>
@@ -722,7 +722,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps14">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <ul class="bullet-list">
               <li>
                 Don’t stand alone while waiting for a bus or train, especially
@@ -780,7 +780,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps15">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               With so many beautiful natural landscapes — from beaches to the
               bush and the outback — Australia’s natural environment is well
@@ -837,7 +837,7 @@
         </a>
         <div class="my-3"></div>
         <div class="collapse" id="clps16">
-          <div class="card card-body">
+          <div class="card card-body" style="text-align: justify">
             <p>
               With so many beautiful natural landscapes — from beaches to the
               bush and the outback — Australia’s natural environment is well
@@ -890,7 +890,7 @@
       </div>
       <div class="py-3"></div>
       <h4>EMERGENCY CONTACTS</h4>
-      <div class="py-3">
+      <div class="py-3" style="text-align: justify">
         <h6>Police, Ambulance and Fire Brigade – 000</h6>
         <p>
           In an emergency you can contact the Police, Fire Brigade and Ambulance
@@ -913,14 +913,14 @@
           http://www.police.vic.gov.au/content.asp?Document_ID=7.
         </p>
       </div>
-      <div class="py-3">
+      <div class="py-3" style="text-align: justify">
         <h6>OSHC World care 24-hour Emergency Helpline – 1800 814 781</h6>
         <p>
           OSHC World care has a 24-hour Emergency Helpline that provides
           medical, legal and interpreting services to students in need.
         </p>
       </div>
-      <div class="py-3">
+      <div class="py-3" style="text-align: justify">
         <h6>Victims of Crime Helpline – 1800 819 817</h6>
         <p>
           Whatever the incident, being a victim of crime can be a frightening
@@ -929,7 +929,7 @@
           819 817 (free call).
         </p>
       </div>
-      <div class="py-3">
+      <div class="py-3" style="text-align: justify">
         <h6>International Student Hotline</h6>
         <p>1300 363 079 – Monday to Friday 8.00am to 6.00pm</p>
         <br />

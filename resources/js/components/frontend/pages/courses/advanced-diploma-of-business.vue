@@ -69,7 +69,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps1">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 An IELTS level of 5.5 or equivalent for direct entry into a VET
                 course or IELTS band score of 5.0 (Academic or general version)
                 then satisfactory completion of ELICOS up to 20 weeks at upper
@@ -155,7 +155,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps3">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 IBM (Victoria) will also administer Language, Literacy and
                 Numeracy (LLN) Evaluation test and PTR Test to all students to
                 ensure that they can complete the course and if they any
@@ -184,7 +184,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps4">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 All international students must have Overseas Student Health
                 Cover (OSHC) for the entire duration of their stay in Australia.
               </div>
@@ -212,7 +212,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps5">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 On completion of BSB60120 Advanced Diploma of Business, students
                 may undertake qualifications at Advanced Diploma or above in
                 business training package or pursuing Bachelors in Business.
@@ -238,7 +238,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps6">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Participants completing BSB60120 Advanced Diploma of Business
                   may enter into or continue current roles including:
@@ -271,7 +271,7 @@
           </div>
         </div>
       </div>
-      <div class="my-5"></div>
+      <div class="my-1"></div>
       <div class="row">
         <div class="col-md-12">
           <h3 class="course-page-title">Courses Details</h3>
@@ -295,7 +295,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps7">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Students with prior learning and work experience can apply for
                   RPL. Students who have completed corresponding units of
@@ -322,7 +322,7 @@
                     development programs
                   </li>
                 </ul>
-                <p class="pt-3">
+                <p class="p-justify pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
                   Institute of Business and Management (Victoria) at the time of
                   enrolment
@@ -350,7 +350,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps8">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Assessment methods used for this qualification will provide a
                   range of ways for individuals to demonstrate that they have
@@ -372,7 +372,7 @@
                     <i class="fas fa-check text-success"></i>&nbsp;Observations
                   </li>
                 </ul>
-                <p class="pt-3">
+                <p class="p-justify pt-3">
                   At the beginning of each unit, trainers will outline the
                   assessment tasks that must be completed.
                 </p>
@@ -402,7 +402,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps9">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Information about our training and assessment, policies and
                   procedures are included in student handbook and should be read
@@ -434,7 +434,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps10">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   This course will be delivered over 64 weeks consisting of 60
                   weeks of face-to-face study over 5 terms (12 weeks each) and 4
@@ -464,20 +464,20 @@
             <div class="my-3"></div>
             <div class="collapse" id="clps11">
               <div class="card card-body">
-                <p class="pb-2">
+                <p class="p-justify pb-2">
                   Student needs are declared by the applicant at the time of
                   enrolment: the application form allows the applicant to
                   self-declare where they have learning disabilities.
                 </p>
-                <br />
-                <p class="pb-2">
+
+                <p class="p-justify pb-2">
                   Every student is interviewed either face-to-face or over the
                   telephone to attempt to establish the applicant skill and
                   knowledge levels, their current employment and how that
                   relates to the course content and interaction.
                 </p>
-                <br />
-                <p class="pb-2">
+
+                <p class="p-justify pb-2">
                   Where language, literacy and numeracy are in question
                   Institute of Business and Management (Victoria) has a
                   language, literacy and numeracy (LLN) assessment they may
@@ -490,11 +490,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="my-5"></div>
+        <div class="my-1"></div>
         <div class="row">
           <div class="col-md-12">
             <h3 class="course-page-title">Course Structure</h3>
-            <div class="my-3"></div>
+            <div class="p-justify my-3"></div>
             <p>
               The BSB60120 Advanced Diploma of Business requires the successful
               completion of 9 units listed out of ten. Electives for this
@@ -562,7 +562,7 @@
           </div>
         </div>
       </div>
-      <div class="row my-5">
+      <div class="row my-1">
         <div class="col-md-12">
           <div class="course-structure">
             <h3 class="course-page-title">Fees Information</h3>
@@ -611,7 +611,7 @@
                       </tr>
                       <tr>
                         <td colspan="3">
-                          <p class="p-justify py-2">
+                          <p class="p-justify py-1">
                             Further fee / charges information can be found in
                             student handbook, or form IBM (Victoria)
                             administration office.
@@ -620,7 +620,7 @@
                       </tr>
                       <tr>
                         <td colspan="3">
-                          <p class="p-justify py-2">
+                          <p class="p-justify py-1">
                             Tuition fees and other compulsory costs (equipment,
                             uniforms etc.) may change from year to year.
                             However, students continuing in their current
@@ -630,7 +630,7 @@
                       </tr>
                       <tr>
                         <td colspan="3">
-                          <p class="p-justify py-2">
+                          <p class="p-justify py-1">
                             Material Fees includes but not restricted to books,
                             Tutorials and course documents.
                           </p>
@@ -638,7 +638,7 @@
                       </tr>
                       <tr>
                         <td colspan="3">
-                          <p class="p-justify py-2">
+                          <p class="p-justify py-1">
                             This course will be delivered over 64 weeks
                             consisting of 60 weeks of face-to-face study over 5
                             terms (12 weeks each) and 4 weeks of term break.
@@ -671,7 +671,7 @@
                 </a>
                 <div class="my-3"></div>
                 <div class="collapse" id="handbook">
-                  <div class="card card-body">
+                  <div class="p-justify card card-body">
                     <p>
                       <strong>
                         Student Handbook, Policies and Procedures, Fees and
@@ -706,7 +706,7 @@
                 </a>
                 <div class="my-3"></div>
                 <div class="collapse" id="stdSupport">
-                  <div class="card card-body">
+                  <div class="p-justify card card-body">
                     Student needs are declared by the applicant at the time of
                     enrolment: the application form allows the applicant to
                     self-declare where they have learning disabilities. Every

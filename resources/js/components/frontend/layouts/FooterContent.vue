@@ -23,9 +23,11 @@
             </p>
             <p>CRICOS Code: 03785D RTO Code: 45516</p>
             <div class="social-media footer__social mt-30">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.facebook.com/ibmmelbourne " target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <!--        <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a> -->
               <!-- <a href="#"><i class="fab fa-google-plus-g"></i></a> -->
             </div>
           </div>

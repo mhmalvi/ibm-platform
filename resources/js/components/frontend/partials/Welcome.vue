@@ -42,7 +42,10 @@
                   <h2 class="mb-25 text-white">
                     <u>WELCOME TO IBM</u>
                   </h2>
-                  <p class="text-white text-justify">
+                  <p
+                    class="text-white text-justify"
+                    style="text-align: justify"
+                  >
                     IBM enables Australian people to progress to professional
                     education or training programs while they are already
                     experienced and want to grow a sharp career line. IBM

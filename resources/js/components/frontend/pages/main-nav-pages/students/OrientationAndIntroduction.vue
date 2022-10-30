@@ -102,7 +102,7 @@
         <li class="list-group-item">✔ Student surveys</li>
       </ul>
 
-      <div class="py-5"></div>
+      <div class="py-3"></div>
 
       <h6 class="pb-3">
         On the first, students attend orientation and cover the following

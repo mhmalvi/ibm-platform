@@ -50,9 +50,9 @@
               </tr>
             </tbody>
           </table>
-          <div class="my-5"></div>
+          <div class="my-2"></div>
           <h3 class="course-page-title">Course Requirement</h3>
-          <div class="my-3"></div>
+          <div class="my-2"></div>
           <div class="collapsible">
             <a
               @click="changeAngle($event)"
@@ -125,7 +125,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps11">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 Students must have completed the Certificate III in Commercial
                 Cookery (or Equivalent) Students will be evaluated on a
                 case-by-case basis to ensure that they meet entry requirements
@@ -155,7 +155,7 @@
             <div class="my-3"></div>
             <div class="collapse" id="clps2">
               <div class="card card-body">
-                <ul class="list-items">
+                <ul class="list-items p-justify">
                   <li>
                     Have a minimum IELTS score of 5.5 for direct entry into a
                     VET course OR
@@ -214,7 +214,7 @@
             <div class="my-3"></div>
             <div class="collapse" id="clps18">
               <div class="card card-body">
-                <ul>
+                <ul class="p-justify">
                   <li>
                     Students must have completed the Certificate III in
                     Commercial Cookery (or Equivalent)
@@ -249,7 +249,7 @@
             <div class="my-3"></div>
             <div class="collapse" id="clps23">
               <div class="card card-body">
-                <ul class="list-items">
+                <ul class="list-items p-justify">
                   <li>
                     <b>Pre-Training Review:</b> all international students will
                     take the PTR to determine the determine suitability for the
@@ -304,7 +304,7 @@
               </div>
             </div>
           </div>
-          <div class="my-5"></div>
+          <div class="my-2"></div>
           <h3 class="course-page-title">Pathways</h3>
           <div class="my-3"></div>
           <div class="collapsible">
@@ -326,7 +326,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps5">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   On completion of SIT40521 Certificate IV in Kitchen
                   Management, students may undertake one or more of following
@@ -358,7 +358,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps6">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Students completing SIT40521 Certificate IV in Kitchen
                   Management can expect to gain work as a:
@@ -377,11 +377,11 @@
         </div>
       </div>
 
-      <div class="my-5"></div>
+      <div class="my-2"></div>
       <div class="row">
         <div class="col-md-12">
           <h3 class="course-page-title">Courses Details</h3>
-          <div class="my-3"></div>
+          <div class="my-2"></div>
           <div class="collapsible">
             <a
               @click="changeAngle($event)"
@@ -399,9 +399,9 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+            <div class="my-2"></div>
             <div class="collapse show" id="clps7">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Students with prior learning and work experience can apply for
                   RPL. Students who have completed corresponding units of
@@ -444,7 +444,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps8">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Assessment methods used for this qualification will provide a
                   range of ways for individuals to demonstrate that they have
@@ -487,7 +487,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps9">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Information about our training and assessment, policies and
                   procedures are included in student handbook and should be read
@@ -520,7 +520,7 @@
             <div class="my-3"></div>
             <div class="collapse" id="clps10">
               <div class="card card-body">
-                <p class="pb-2">
+                <p class="p-justify pb-2">
                   <b> Direct Entry Students:</b>
                   This program will be delivered over a period of 78 weeks
                   including a 10-week work placement.
@@ -557,20 +557,20 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps11">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p class="pb-2">
                   Student needs are declared by the applicant at the time of
                   enrolment: the application form allows the applicant to
                   self-declare where they have learning disabilities.
                 </p>
-                <br />
+
                 <p class="pb-2">
                   Every student is interviewed either face-to-face or over the
                   telephone to attempt to establish the applicant skill and
                   knowledge levels, their current employment and how that
                   relates to the course content and interaction.
                 </p>
-                <br />
+
                 <p class="pb-2">
                   Where language, literacy and numeracy are in question
                   Institute of Business and Management (Victoria) has a
@@ -584,12 +584,12 @@
         </div>
       </div>
       <div class="row">
-        <div class="my-5"></div>
+        <div class="my-2"></div>
         <div class="row">
           <div class="col-md-12">
             <h3 class="course-page-title">Course Structure</h3>
             <div class="my-3"></div>
-            <p>
+            <p class="p-justify">
               A maximum of two of the eight required elective units may be
               substituted by selecting relevant units of competency from any
               Certificate III or IV construction qualification or qualification
@@ -719,12 +719,8 @@
                       Implement and monitor work health and safety practice
                     </td>
                   </tr>
-                </tbody>
-              </table>
-              <table class="table table-striped table-hover">
-                <tbody>
                   <tr>
-                    <th colspan="2">ELECTIVE UNITS</th>
+                    <td colspan="2"><b>ELECTIVE UNITS</b></td>
                   </tr>
 
                   <tr>
@@ -753,11 +749,16 @@
                   </tr>
                 </tbody>
               </table>
+              <!-- <table class="table table-striped table-hover">
+                <tbody>
+                 
+                </tbody>
+              </table> -->
             </div>
           </div>
         </div>
       </div>
-      <div class="row my-5">
+      <div class="row my-2">
         <div class="col-md-12">
           <div class="course-structure">
             <h3 class="course-page-title">Fees Information</h3>
@@ -780,7 +781,7 @@
                 <i class="fas fa-angle-down requirementAddon"></i>
               </a>
               <div class="my-3"></div>
-              <div class="collapse" id="fees">
+              <div class="collapse show" id="fees">
                 <div class="card card-body">
                   <table class="table table-responsive">
                     <tbody>
@@ -822,7 +823,7 @@
           </div>
         </div>
       </div>
-      <div class="row my-5">
+      <div class="row my-2">
         <div class="col-md-12">
           <div class="course-structure">
             <h3 class="course-page-title">Intake</h3>
@@ -831,12 +832,12 @@
           </div>
         </div>
       </div>
-      <div class="row my-5">
+      <div class="row my-2">
         <div class="col-md-12">
           <div class="course-structure">
             <h3 class="course-page-title">Work based Training</h3>
             <div class="my-3"></div>
-            <p>
+            <p class="p-justify">
               This course includes work-based training of a minimum of 200
               hours/10 weeks. During work-based training, students will be able
               to practice their skills and knowledge in real workplace settings.
@@ -852,12 +853,12 @@
           </div>
         </div>
       </div>
-      <div class="row my-5">
+      <div class="row my-2">
         <div class="col-md-12">
           <div class="course-structure">
             <h3 class="course-page-title">Further Information</h3>
             <div class="my-3"></div>
-            <p>
+            <p class="p-justify">
               For further information please call Institute of Business and
               Management (Victoria) on 03 9478 3163 or email us on:
               info@ibm.vic.edu.au

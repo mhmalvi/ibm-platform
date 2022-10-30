@@ -17,7 +17,8 @@
                     <img
                       style="width: 100%; height: 350px"
                       :src="
-                        image_url + '/frontend/assets/img/about/page-amico.svg'
+                        image_url +
+                        '/frontend/assets/img/about/5155707_2717003.jpeg'
                       "
                     />
                   </div>
@@ -54,7 +55,7 @@
                 <div class="col-md-12">
                   <img
                     :src="
-                      image_url + '/frontend/assets/img/about/page-pana.svg'
+                      image_url + '/frontend/assets/img/about/8270975_5469.jpg'
                     "
                     style="width: 100%; height: 450px"
                   />
@@ -62,7 +63,7 @@
               </div>
               <div class="row my-50">
                 <div class="col-md-12">
-                  <p class="p-justify mb-20">
+                  <p class="p-justify mb-20 mt-20">
                     We encourage our students to grow into confident and
                     compassionate personnel by fostering their independence,
                     self-discipline, integrity and social responsibility. The
@@ -92,7 +93,8 @@
                 <div class="col-md-6">
                   <img
                     :src="
-                      image_url + '/frontend/assets/img/about/page-cuate.svg'
+                      image_url +
+                      '/frontend/assets/img/about/26712423412335.jpg'
                     "
                     style="width: 100%; height: 350px"
                   />
@@ -116,7 +118,8 @@
                 <div class="col-md-12">
                   <img
                     :src="
-                      image_url + '/frontend/assets/img/about/page-rafiki.svg'
+                      image_url +
+                      '/frontend/assets/img/about/19250334_6103970.jpg'
                     "
                     style="width: 100%; height: 500px"
                   />

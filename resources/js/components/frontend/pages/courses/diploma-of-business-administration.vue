@@ -43,7 +43,7 @@
           </table>
           <div class="my-5"></div>
           <h3 class="course-page-title">Course entry &amp; Visa Requirement</h3>
-          <p>
+          <p style="text-align: justify">
             All international students must be 18 years of age at the time of
             commencement.
           </p>
@@ -67,7 +67,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps1">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 ILETS 5.5 (Academic or general) or equivalent internationally
                 recongnised test result in line with DIBP regulation. or
                 Completed secondary studies equivalent to an Australian Year 12
@@ -94,7 +94,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps2">
-              <div class="card card-body">
+              <div class="card card-body" style="text-align: justify">
                 Academic Requirements- Students must have satisfactorily
                 completed a minimum of year 11 or equivalent.
               </div>
@@ -119,7 +119,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps3">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 IBM (Victoria) will also administer Language, Literacy and
                 Numeracy (LLN) Evaluation test to all students to ensure that
                 they have the ability to complete the course. This test will
@@ -147,7 +147,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps4">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 All international students must have Overseas Student Health
                 Cover (OSHC) for the entire duration of their stay in Australia.
               </div>
@@ -175,7 +175,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps5">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 On completion of this qualification, students may undertake
                 qualifications at Advanced Diploma level or above in Business
                 training package.
@@ -201,7 +201,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps6">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Participants completing BSB50120 Diploma of Business may enter
                   or continue current roles including:
@@ -231,7 +231,7 @@
           </div>
         </div>
       </div>
-      <div class="my-5"></div>
+      <div class="my-1"></div>
       <div class="row">
         <div class="col-md-12">
           <h3 class="course-page-title">Courses Details</h3>
@@ -255,7 +255,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse show" id="clps7">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Students with prior learning and work experience can apply for
                   RPL. Students who have completed corresponding units of
@@ -285,7 +285,7 @@
                     Professional development programs
                   </li>
                 </ul>
-                <p class="pt-3">
+                <p style="text-align: justify" class="pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
                   Institute of Business and Management (Victoria) at the time of
                   enrolment
@@ -313,7 +313,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps8">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Assessment methods used for this qualification will provide a
                   range of ways for individuals to demonstrate that they have
@@ -373,7 +373,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps9">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   Information about our training and assessment, policies and
                   procedures are included in student handbook and should be read
@@ -405,7 +405,7 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps10">
-              <div class="card card-body">
+              <div class="p-justify card card-body">
                 <p>
                   This course will be delivered over 54 weeks consisting 50
                   weeks of 5 terms (10 weeks each) and 4 weeks term break
@@ -433,22 +433,22 @@
             </a>
             <div class="my-3"></div>
             <div class="collapse" id="clps11">
-              <div class="card card-body">
-                <p class="pb-2">
+              <div class="p-justify card card-body">
+                <p style="text-align: justify" class="pb-2">
                   Student needs are declared by the applicant at the time of
                   enrolment: the application form and PTR form allows the
                   applicant to self-declare where they have learning
                   disabilities.
                 </p>
-                <br />
-                <p class="pb-2">
+
+                <p style="text-align: justify" class="pb-2">
                   Every student is interviewed either face-to-face or over the
                   telephone to attempt to establish the applicant skill and
                   knowledge levels, their current employment and how that
                   relates to the course content and interaction.
                 </p>
-                <br />
-                <p class="pb-2">
+
+                <p style="text-align: justify" class="pb-2">
                   Where language, literacy and numeracy are in question
                   Institute of Business and Management (Victoria) has a
                   language, literacy and numeracy (LLN) assessment they may
@@ -461,12 +461,12 @@
         </div>
       </div>
       <div class="row">
-        <div class="my-5"></div>
+        <div class="my-1"></div>
         <div class="row">
           <div class="col-md-12">
             <h3 class="course-page-title">Course Structure</h3>
             <div class="my-3"></div>
-            <p>
+            <p class="p-justify">
               The BSB50120 Diploma of Business requires the successful
               completion of twelve (12) units (5 Core + 7 Elective). Electives
               for this qualification have been chosen by Institute of Business
@@ -546,7 +546,7 @@
           </div>
         </div>
       </div>
-      <div class="row my-5">
+      <div class="row my-1">
         <div class="col-md-12">
           <div class="course-structure">
             <h3 class="course-page-title">Fees Information</h3>
@@ -571,7 +571,7 @@
               <div class="my-3"></div>
               <div class="collapse show" id="fees">
                 <div class="card card-body">
-                  <table class="table table-responsive">
+                  <table class="table table-responsive p-justify">
                     <tbody>
                       <tr>
                         <th>Application Fee</th>
@@ -664,7 +664,7 @@
                     </strong>
                   </p>
                   <br />
-                  <p>
+                  <p class="p-justify">
                     Information about our training and assessment, policies and
                     procedures are included in student handbook and should be
                     read by you, prior to enrolment, which is available on
@@ -696,7 +696,7 @@
               <div class="my-3"></div>
               <div class="collapse" id="clps8">
                 <div class="card card-body">
-                  <p>
+                  <p class="p-justify">
                     Student needs are declared by the applicant at the time of
                     enrolment: the application form allows the applicant to
                     self-declare where they have learning disabilities. Every
@@ -706,7 +706,7 @@
                     relates to the course content and interaction.
                   </p>
 
-                  <p class="pt-3">
+                  <p class="pt-3 p-justify">
                     Where language, literacy and numeracy are in question
                     Institute of Business and Management (Victoria) has a
                     language, literacy and numeracy (LLN) assessment they may

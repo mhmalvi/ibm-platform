@@ -16,7 +16,7 @@
           </div>
 
           <div class="row d-flex justify-content-center">
-            <div class="col-xs-6 col-sm-6 col-md-4 my-2">
+            <div class="col-xs-6 col-sm-6 col-md-3 my-2">
               <a href="/industry/business">
                 <div class="card text-center p-4">
                   <div class="card-body">
@@ -36,7 +36,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 my-2">
+            <div class="col-xs-6 col-sm-6 col-md-3 my-2">
               <a href="/industry/trade">
                 <div class="card text-center p-4">
                   <div class="card-body">
@@ -56,20 +56,41 @@
                 </div>
               </a>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 my-2">
+            <div class="col-xs-6 col-sm-6 col-md-3 my-2">
               <a href="/industry/english">
                 <div class="card text-center p-4">
                   <div class="card-body">
                     <img
                       class="trade-image"
                       :src="
-                        image_url + '/frontend/assets/img/courses/english.jpg'
+                        image_url + '/frontend/assets/img/courses/english.svg'
                       "
                       alt=""
                     />
 
                     <h6 class="sub-title mb-10">
                       <a href="/industry/english">English</a>
+                    </h6>
+                    <!-- <p>One Course</p> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 my-2">
+              <a href="/industry/hospitality">
+                <div class="card text-center p-4">
+                  <div class="card-body">
+                    <img
+                      class="trade-image"
+                      :src="
+                        image_url +
+                        '/frontend/assets/img/courses/hospitality.jpg'
+                      "
+                      alt=""
+                    />
+
+                    <h6 class="sub-title mb-10">
+                      <a href="/industry/hospitality">Hospitality</a>
                     </h6>
                     <!-- <p>One Course</p> -->
                   </div>
@@ -164,7 +185,8 @@ export default {
   }
   .trade-image {
     max-width: 344px !important;
-    width: 344px !important;
+    width: 100% !important;
+    /*  width: 344px !important; */
     height: auto;
     margin-bottom: 30px;
   }
@@ -183,7 +205,8 @@ export default {
   }
   .trade-image {
     max-width: 262px !important;
-    width: 262px !important;
+    width: 100% !important;
+    /* width: 262px !important; */
     height: auto;
     margin-bottom: 30px;
   }
@@ -201,7 +224,8 @@ export default {
   }
   .trade-image {
     max-width: 210px !important;
-    width: 210px !important;
+    /*  width: 210px !important; */
+    width: 100% !important;
     height: auto;
     margin-bottom: 30px;
   }
@@ -219,7 +243,8 @@ export default {
   }
   .trade-image {
     max-width: 152px !important;
-    width: 145px !important;
+    /*   width: 145px !important; */
+    width: 100% !important;
     height: auto;
     margin-bottom: 30px;
   }
@@ -237,7 +262,8 @@ export default {
   }
   .trade-image {
     max-width: 185px !important;
-    width: 180px !important;
+    width: 100% !important;
+    /*  width: 180px !important; */
     height: auto;
     margin-bottom: 30px;
   }
@@ -255,7 +281,8 @@ export default {
   }
   .trade-image {
     max-width: 270px !important;
-    width: 262px !important;
+    width: 100% !important;
+    /*   width: 262px !important; */
     height: auto;
     margin-bottom: 30px;
   }
@@ -273,7 +300,8 @@ export default {
   }
   .trade-image {
     max-width: 250px !important;
-    width: 240px !important;
+    width: 100% !important;
+    /*  width: 240px !important; */
     height: auto;
     margin-bottom: 30px;
   }
@@ -291,7 +319,8 @@ export default {
   }
   .trade-image {
     max-width: 180px !important;
-    width: 180px !important;
+    width: 100% !important;
+    /*   width: 180px !important; */
     height: auto;
     margin-bottom: 30px;
   }
@@ -309,7 +338,8 @@ export default {
   }
   .trade-image {
     max-width: 150px !important;
-    width: 150px !important;
+    width: 100% !important;
+    /*  width: 150px !important; */
     height: auto;
     margin-bottom: 30px;
   }
@@ -327,7 +357,8 @@ export default {
   }
   .trade-image {
     max-width: 100px !important;
-    width: 100px !important;
+    width: 100% !important;
+    /*    width: 100px !important; */
     height: auto;
     margin-bottom: 30px;
   }

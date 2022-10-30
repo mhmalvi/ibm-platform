@@ -2,7 +2,7 @@
   <div class="container">
     <div class="my-3"></div>
 
-    <div class="row mb-50">
+    <div class="row mb-50 mt-50">
       <div class="col-md-6 mx-auto">
         <h2 class="my-3 text-center" style="font-size: 35px">
           Check your certificate status
