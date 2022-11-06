@@ -3,6 +3,7 @@
 use App\Http\Controllers\OnlineApplicationsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend\SubscriptionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+Route::post('student/subscription', [SubscriptionController::class, 'subscribe']);
 
 Route::group(['namespace' => 'API\Backend', 'middleware' => 'api'], function () {
     Route::post('/auth/signin', 'AuthController@signIn');
