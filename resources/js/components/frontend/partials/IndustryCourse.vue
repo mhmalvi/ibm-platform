@@ -69,7 +69,6 @@
                   "
                   >{{ course.title.substring(0, 30) }}</router-link
                 >
-
               </h4>
               <div class="course__meta">
                 <span
@@ -111,7 +110,9 @@
         </div>
       </div>
     </div>
+    <div class="course-footer-difference"></div>
   </section>
+
   <!-- case-gallery end -->
 </template>
 
@@ -178,6 +179,10 @@ export default {
 };
 </script>
 <style scoped>
+.course-footer-difference {
+  margin-bottom: 25%;
+}
+
 .border {
   border: 1px solid #2c2c2c !important;
 }

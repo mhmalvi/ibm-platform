@@ -39,9 +39,7 @@
                   data-wow-delay=".1s"
                 >
                   <!-- <h5 class="bottom-line mb-25">Explore IBM</h5> -->
-                  <h2 class="mb-25 text-white">
-                    <u>WELCOME TO IBM</u>
-                  </h2>
+                  <h2 class="mb-25 text-white">WELCOME TO IBM</h2>
                   <p
                     class="text-white text-justify"
                     style="text-align: justify"
@@ -81,6 +79,6 @@ export default {
   padding: 100px 0px !important;
 }
 .section-title p {
-  font-size: 1.2rem !important;
+  font-size: 17px !important;
 }
 </style>

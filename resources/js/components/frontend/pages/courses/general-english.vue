@@ -20,13 +20,13 @@
                 <th>Qualification Title</th>
                 <td>:</td>
                 <td>
-                  ELICOS General English (Elementary to Upper Intermediate)
+                  ELICOS General English (Elementary to Upper Intermediate).
                 </td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
                 <td>:</td>
-                <td>0101439</td>
+                <td>0101439.</td>
               </tr>
             </tbody>
           </table>
@@ -41,23 +41,23 @@
             proficiency form the basis of the learner aims, objectives and
             outcomes for the course.
           </p>
-          <br />
+
           <p>
             During the course, students will be expected to participate as much
             as possible, and work individually, in pairs and in groups as well
-            as take part in whole class activities
+            as take part in whole class activities.
           </p>
           <div class="my-3"></div>
           <h3 class="course-page-title">Course Duration</h3>
           <div class="my-3"></div>
           <p class="p-justify">
-            40 weeks (10 weeks per level)
+            40 weeks (10 weeks per level).
             <!-- The course length is 40 weeks. Each week there are a minimum of 20
             face-to-face contact hours. Students who struggle to master the
             content at any level can choose to repeat the level a maximum of
             once. -->
           </p>
-          <br />
+
           <!-- <p>
             Students can enter the course every Monday of the year, on a rolling
             intake basis. The course is available 50 weeks of the year. The
@@ -70,7 +70,7 @@
             The course will be delivered at 60 Belfast Street, Broadmeadows,
             VIC, 3047.
           </p>
-          <div class="my-5">
+          <div class="my-3">
             <h3 class="course-page-title">LEARNER NEEDS</h3>
             <div class="my-3"></div>
             <p class="p-justify">
@@ -81,7 +81,7 @@
               Management (Victoria) to assess whether the course is appropriate
               for their abilities and learner needs.
             </p>
-            <br />
+
             <p class="p-justify">
               Students who have learning needs that cannot be accommodated by
               Institute of Business and Management (Victoria) and/or do not
@@ -90,7 +90,7 @@
               required level of skills/support. On achieving the required level
               of knowledge and skills they can then re-apply for the course.
             </p>
-            <br />
+
             <p class="p-justify">
               Institute of Business and Management (Victoria) takes all feasible
               and reasonable steps to assist students during the course, to help
@@ -114,7 +114,7 @@
                 &nbsp;
                 <i class="fas fa-angle-down requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse show" id="clps7">
                 <div class="card card-body">
                   <p style="text-align: justify">
@@ -147,7 +147,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="clps8">
                 <div class="card card-body">
                   <p style="text-align: justify">
@@ -177,7 +177,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="clps9">
                 <div class="card card-body">
                   <p style="text-align: justify">
@@ -213,7 +213,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="clps10">
                 <div class="card card-body">
                   <p style="text-align: justify">
@@ -253,7 +253,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="clps11">
                 <div class="card card-body">
                   <p class="pb-2" style="text-align: justify">
@@ -341,7 +341,7 @@
                 &nbsp;
                 <i class="fas fa-angle-down requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse show" id="fees">
                 <div class="card card-body">
                   <table class="table table-responsive">
@@ -383,7 +383,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="target_client">
                 <div class="card card-body">
                   <table class="table table-responsive">
@@ -427,12 +427,12 @@
                             <li style="text-align: justify">
                               <i class="fas fa-check text-success"></i>&nbsp;
                               Student visa holders that want to improve their
-                              English for further study in Australia
+                              English for further study in Australia.
                             </li>
                             <li style="text-align: justify">
                               <i class="fas fa-check text-success"></i>&nbsp;
                               Tourist visa holders that want to improve their
-                              travel experience
+                              travel experience.
                             </li>
                             <li style="text-align: justify">
                               <i class="fas fa-check text-success"></i>&nbsp;
@@ -466,7 +466,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="entry_requirement">
                 <div class="card card-body">
                   <table class="table table-responsive">
@@ -504,7 +504,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="eng_requirement">
                 <div class="card card-body">
                   <table class="table table-responsive">
@@ -548,7 +548,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="academic_entry_requirement">
                 <div class="card card-body">
                   <table class="table table-responsive">

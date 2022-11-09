@@ -70,7 +70,7 @@ class DataController extends Controller
 
     public function getCourse()
     {
-        return $courses = CourseResource::collection(Course::all());
+        return $courses = CourseResource::collection(Course::offset(0)->limit(4)->get());
     }
 
     public function getSingleCourse($slug)
@@ -107,37 +107,34 @@ class DataController extends Controller
 
     public function SearchForCertificate(Request $request)
     {
-    //    return $request->all();
+        //    return $request->all();
         $check = User::where('phone', $request->phone)->where('student_id', $request->student_id)->where('course_code', $request->course_code)->exists();
-      
 
-       if($check){
-        $user = User::where('phone', $request->phone)->where('student_id', $request->student_id)->where('course_code', $request->course_code)->first();
-        $certificate = Certificate::where('user_id', $user->id)->where('certificate_status', 4)->exists();
 
-        if($certificate == true){
+        if ($check) {
+            $user = User::where('phone', $request->phone)->where('student_id', $request->student_id)->where('course_code', $request->course_code)->first();
+            $certificate = Certificate::where('user_id', $user->id)->where('certificate_status', 4)->exists();
 
-            return response()->json([
-                'success' => 200,
-                'message' => 'Your certificate is issued'
-            ]);
+            if ($certificate == true) {
 
+                return response()->json([
+                    'success' => 200,
+                    'message' => 'Your certificate is issued'
+                ]);
+            } else {
+
+                return response()->json([
+                    'success' => 401,
+                    'message' => 'Your certificate is not issued'
+                ]);
+            }
         } else {
 
             return response()->json([
                 'success' => 401,
                 'message' => 'Your certificate is not issued'
             ]);
-
         }
-       } else {
-
-        return response()->json([
-            'success' => 401,
-            'message' => 'Your certificate is not issued'
-        ]);
-
-    }
         // return $request->all();
     }
 }

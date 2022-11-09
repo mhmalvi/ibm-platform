@@ -127,6 +127,7 @@
                 data-wow-delay=".5s"
               >
                 <img
+                  style="width: 100%; height: 100px"
                   class="mb-30"
                   :src="
                     image_url + '/frontend/assets/img/category-icon/trade.svg'

@@ -14,7 +14,7 @@
 
       <br />
 
-      <p>
+      <p style="text-align: justify">
         The purpose of the Program is to provide an overview of the course you
         are studying, the institution in which you are studying and important
         information regarding how we can assist you with your studies and

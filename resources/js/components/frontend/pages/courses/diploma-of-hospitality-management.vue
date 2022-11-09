@@ -21,19 +21,19 @@
               <tr>
                 <th>Qualification Code and Title</th>
                 <td>:</td>
-                <td>SIT50422 Diploma of Hospitality Management</td>
+                <td>SIT50422 Diploma of Hospitality Management.</td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
                 <td>:</td>
-                <td>110662B</td>
+                <td>110662B.</td>
               </tr>
               <tr>
                 <th>Delivery Location</th>
                 <td>:</td>
                 <td>
                   60 Belfast Street, Broadmeadows, VIC, 3047 <br />170 Victoria
-                  St, RICHMOND, Victoria 3121
+                  St, RICHMOND, Victoria 3121.
                 </td>
               </tr>
               <tr>
@@ -48,7 +48,7 @@
             </tbody>
           </table>
           <div class="my-1"></div>
-          <h3 class="course-page-title">EntryRequirement</h3>
+          <h3 class="course-page-title">Entry Requirement</h3>
 
           <div class="my-3"></div>
           <div class="collapsible">
@@ -68,7 +68,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps0">
               <div class="card card-body">
                 Students must be a minimum age of 18 years or above at the time
@@ -93,11 +93,11 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps1">
               <div class="card card-body">
                 Satisfactory completion of Year 11 VCE or its equivalent
-                overseas qualification
+                overseas qualification.
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps11">
               <div class="p-justify card card-body">
                 Students must have completed the SIT30821Certificate III in
@@ -150,24 +150,24 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps2">
               <div class="card card-body">
                 <ul class="list-items p-justify">
                   <li>
                     Have a minimum IELTS score of 5.5 for direct entry into a
-                    VET course OR
+                    VET course OR.
                   </li>
                   <li>
                     IELTS score of 5.0 or equivalent with an ELICOS course (up
                     to 10 weeks) to be taken before the main VET course;or,
                     IELTS score of 4.5 or equivalent with an ELICOS course (up
-                    to 20 weeks) to be taken before the main VET course OR
+                    to 20 weeks) to be taken before the main VET course OR.
                   </li>
                   <li>
                     to provide evidence that they have studied in English for at
                     least five years in Australia, Canada, New Zealand, Republic
-                    of Ireland, South Africa, United Kingdom or United State OR
+                    of Ireland, South Africa, United Kingdom or United State OR.
                   </li>
                   <li>
                     to provide evidence that, within two years* of their signed
@@ -178,7 +178,7 @@
                   <li>
                     In the 2 years before commencing the course, has completed
                     secondary studies equivalent to an Australian Year 12
-                    qualification from an English language speaking country
+                    qualification from an English language speaking country.
                   </li>
                   <li>
                     Institute of Business and Management also has an English
@@ -202,24 +202,24 @@
             >
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span>Other requirement</span>
+              <span>Other Requirement</span>
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps23">
               <div class="card card-body">
                 <ul class="list-items p-justify">
                   <li>
                     <b>Pre-Training Review:</b> all international students will
                     take the PTR to determine the determine suitability for the
-                    course and student needs
+                    course and student needs.
                   </li>
                   <li>
                     <b>Language, Literacy and Numeracy assessment test: </b
                     >prior enrolment to determine the student’s ability to
                     complete the course or any LLN support during the study
-                    period
+                    period.
                   </li>
                 </ul>
               </div>
@@ -245,7 +245,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps5">
               <div class="card card-body">
                 <p>
@@ -254,9 +254,9 @@
                   qualifications:
                 </p>
                 <ul class="list-items">
-                  <li>An undergraduate degree in hospitality management</li>
+                  <li>An undergraduate degree in hospitality management.</li>
                   <li>
-                    A range of other qualifications at Advanced Diploma level
+                    A range of other qualifications at Advanced Diploma level.
                   </li>
                 </ul>
               </div>
@@ -279,7 +279,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps6">
               <div class="card card-body">
                 <p>
@@ -287,16 +287,16 @@
                   expect to gain work as a:
                 </p>
                 <ul class="list-items">
-                  <li>banquet or function manager</li>
-                  <li>bar manager</li>
-                  <li>café manager</li>
-                  <li>club manager</li>
-                  <li>executive housekeeper</li>
-                  <li>front office manager</li>
-                  <li>gaming manager</li>
-                  <li>kitchen manager</li>
-                  <li>motel manager</li>
-                  <li>restaurant manager</li>
+                  <li>Banquet or function manager.</li>
+                  <li>Bar manager.</li>
+                  <li>Café manager.</li>
+                  <li>Club manager.</li>
+                  <li>Executive housekeeper.</li>
+                  <li>Front office manager.</li>
+                  <li>Gaming manager.</li>
+                  <li>Kitchen manager.</li>
+                  <li>Motel manager.</li>
+                  <li>Restaurant manager.</li>
                 </ul>
               </div>
             </div>
@@ -326,7 +326,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps7">
               <div class="p-justify card card-body">
                 <p>
@@ -338,15 +338,15 @@
                 </p>
 
                 <ul class="pt-3 list-items">
-                  <li>Work experience</li>
-                  <li>Life experience</li>
-                  <li>Previous study</li>
-                  <li>Professional development programs</li>
+                  <li>Work experience.</li>
+                  <li>Life experience.</li>
+                  <li>Previous study.</li>
+                  <li>Professional development programs.</li>
                 </ul>
                 <p class="pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
                   Institute of Business and Management (Victoria) at the time of
-                  enrolment
+                  enrolment.
                 </p>
               </div>
             </div>
@@ -369,7 +369,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps8">
               <div class="card card-body">
                 <p>
@@ -412,7 +412,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps9">
               <div class="p-justify card card-body">
                 <p>
@@ -444,15 +444,15 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps10">
               <div class="p-justify card card-body">
-                <p class="pb-2">
+                <p>
                   <b>Direct Entry Students:</b>
                   This program will be delivered over a period of 78 weeks
                   including a 10-week work placement.
                 </p>
-                <p class="pb-2">
+                <p>
                   <b
                     >Students Progressing from SIT30821 & SIT40521 (Packaging
                     Course)</b
@@ -486,28 +486,28 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps11">
               <div class="p-justify card card-body">
-                <p class="pb-2">
+                <p>
                   Student needs are declared by the applicant at the time of
                   enrolment: the application form allows the applicant to
                   self-declare where they have learning disabilities.
                 </p>
 
-                <p class="pb-2">
+                <p>
                   Every student is interviewed either face-to-face or over the
                   telephone to attempt to establish the applicant skill and
                   knowledge levels, their current employment and how that
                   relates to the course content and interaction.
                 </p>
 
-                <p class="pb-2">
+                <p>
                   Where language, literacy and numeracy are in question
                   Institute of Business and Management (Victoria) has a
                   language, literacy and numeracy (LLN) assessment they may
                   undertake to confirm their level of language, literacy and
-                  numeracy skills
+                  numeracy skills.
                 </p>
               </div>
             </div>
@@ -654,7 +654,7 @@
                   </tr>
                   <tr>
                     <td>SITXINV007</td>
-                    <td>PURCHASE GOODS</td>
+                    <td>Purchase goods</td>
                   </tr>
                   <tr>
                     <td>SITHCCC039</td>
@@ -747,7 +747,7 @@
       <div class="row my-1">
         <div class="col-md-12">
           <div class="course-structure">
-            <h3 class="course-page-title">Work based Training</h3>
+            <h3 class="course-page-title">Work Based Training</h3>
             <div class="my-3"></div>
             <p class="p-justify">
               This course includes work-based training of a minimum of 200
@@ -773,7 +773,7 @@
             <p class="p-justify">
               For further information please call Institute of Business and
               Management (Victoria) on 03 9478 3163 or email us on:
-              info@ibm.vic.edu.au
+              info@ibm.vic.edu.au.
             </p>
           </div>
         </div>

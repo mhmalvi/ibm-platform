@@ -8,9 +8,7 @@
             <div class="section-title text-center mb-55">
               <!-- <h5 class="bottom-line mb-25">Browse Industries</h5> -->
               <h2>
-                <b
-                  ><u><i>Explore Our Courses</i></u></b
-                >
+                <b>Explore Our Courses</b>
               </h2>
             </div>
           </div>

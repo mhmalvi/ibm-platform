@@ -64,7 +64,7 @@
               class="text-white fw-bolder wow fadeInUp2 animated"
               data-wow-delay=".01s"
             >
-              EXPLORE COURSES!
+              Explore Courses!
             </h1>
             <div class="sub-text mt-3 mb-3 pt-2 pb-2">
               <p
@@ -133,7 +133,7 @@
               class="text-white fw-bolder wow fadeInUp2 animated"
               data-wow-delay=".01s"
             >
-              Build your career in Carpentry
+              Build Your Career in Carpentry
             </h1>
 
             <p
@@ -152,7 +152,7 @@
               data-wow-delay=".01s"
             >
               We offer more advance and detailed <br />
-              courses in carpentry.
+              courses in Carpentry
             </p>
             <div>
               <router-link
@@ -181,7 +181,7 @@
               class="text-white fw-bolder wow fadeInUp2 animated"
               data-wow-delay=".01s"
             >
-              Get qualified in English
+              Get Qualified in English
             </h1>
             <p
               class="
@@ -274,7 +274,7 @@
               class="text-white fw-bolder wow fadeInUp2 animated"
               data-wow-delay=".01s"
             >
-              Sharp your Trade Concept
+              Sharp Your Trade Concept
             </h1>
             <p
               class="
@@ -292,7 +292,7 @@
               data-wow-delay=".01s"
             >
               Our program includes the most <br />
-              advanced trade courses for you.
+              advanced Trade courses for you
             </p>
             <div>
               <router-link
@@ -321,7 +321,7 @@
               class="text-white fw-bolder wow fadeInUp2 animated"
               data-wow-delay=".01s"
             >
-              STUDY AND FUN AT IBM
+              STUDY And FUN at IBM
             </h1>
             <p
               class="
@@ -382,17 +382,17 @@ export default {
   data() {
     return {
       slider_one:
-        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_01.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/EXPLORE COURSES!.jpg') !important;",
       slider_two:
-        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_02.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/Carpentry.jpg') !important;",
       slider_three:
-        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_03.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/English.jpg') !important;",
       slider_four:
-        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_04.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/Business.jpg') !important;",
       slider_five:
-        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_05.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/Trade.jpg') !important;",
       slider_six:
-        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/IBM-Slider_06.png') !important;",
+        "background-image:url('https://ibm.vic.edu.au/public/frontend/assets/img/slider/STUDY AND FUN AT IBM.jpg') !important;",
     };
   },
 };

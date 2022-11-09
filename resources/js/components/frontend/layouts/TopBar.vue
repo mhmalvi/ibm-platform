@@ -27,6 +27,11 @@
           <a href="https://www.facebook.com/ibmmelbourne" target="_blank"
             ><i class="fab fa-facebook-f pl-20"></i
           ></a>
+          <a
+            href="https://instagram.com/ibm_vic?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            ><i class="fab fa-instagram pl-20"></i
+          ></a>
           <!--    <a href="#"><i class="fab fa-instagram pl-20"></i></a>
                         <a href="#"><i class="fab fa-youtube pl-20 mr-20"></i></a> -->
           <router-link

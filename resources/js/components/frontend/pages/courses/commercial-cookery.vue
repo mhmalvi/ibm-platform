@@ -31,19 +31,19 @@
               <tr>
                 <th>Qualification Code and Title</th>
                 <td>:</td>
-                <td>SIT30821 Certificate III in Commercial Cookery</td>
+                <td>SIT30821 Certificate III in Commercial Cookery.</td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
                 <td>:</td>
-                <td>110591A</td>
+                <td>110591A.</td>
               </tr>
               <tr>
                 <th>Delivery Location</th>
                 <td>:</td>
                 <td>
                   60 Belfast Street, Broadmeadows, VIC, 3047 <br />
-                  170 Victoria St, RICHMOND, Victoria 3121
+                  170 Victoria St, RICHMOND, Victoria 3121.
                 </td>
               </tr>
               <tr>
@@ -77,7 +77,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps0">
               <div class="card card-body">
                 Students must be a minimum age of 18 years or above at the time
@@ -102,11 +102,11 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps1">
               <div class="card card-body">
                 Satisfactory completion of Year 11 VCE or its equivalent
-                overseas qualification
+                overseas qualification.
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps2">
               <div class="card card-body">
                 <ul class="list-items p-justify">
@@ -184,7 +184,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps23">
               <div class="card card-body">
                 <ul class="list-items p-justify">
@@ -262,7 +262,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps5">
               <div class="p-justify card card-body">
                 <p>
@@ -271,9 +271,9 @@
                   qualifications:
                 </p>
                 <ul class="list-items">
-                  <li>SIT40521 Certificate IV in Kitchen Management</li>
+                  <li>SIT40521 Certificate IV in Kitchen Management.</li>
                   <li>
-                    A range of other qualifications at Certificate IV level
+                    A range of other qualifications at Certificate IV level.
                   </li>
                 </ul>
               </div>
@@ -296,7 +296,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps6">
               <div class="p-justify card card-body">
                 <p>
@@ -304,7 +304,7 @@
                   Cookery can expect to gain work as a:
                 </p>
                 <ul class="list-items">
-                  <li>Commercial Cook</li>
+                  <li>Commercial Cook.</li>
                 </ul>
               </div>
             </div>
@@ -334,7 +334,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps7">
               <div class="p-justify card card-body">
                 <p>
@@ -346,10 +346,10 @@
                 </p>
 
                 <ul class="pt-3 list-items">
-                  <li>Work experience</li>
-                  <li>Life experience</li>
-                  <li>Previous study</li>
-                  <li>Professional development programs</li>
+                  <li>Work experience.</li>
+                  <li>Life experience.</li>
+                  <li>Previous study.</li>
+                  <li>Professional development programs.</li>
                 </ul>
                 <p class="pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
@@ -377,7 +377,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps8">
               <div class="p-justify card card-body">
                 <p>
@@ -387,10 +387,10 @@
                 </p>
 
                 <ul class="pt-3 list-items">
-                  <li>Written Questions and Answers</li>
-                  <li>Projects</li>
-                  <li>Case Studies</li>
-                  <li>Observations</li>
+                  <li>Written Questions and Answers.</li>
+                  <li>Projects.</li>
+                  <li>Case Studies.</li>
+                  <li>Observations.</li>
                 </ul>
                 <p class="pt-3">
                   At the beginning of each unit, trainers will outline the
@@ -420,7 +420,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps9">
               <div class="p-justify card card-body">
                 <p>
@@ -452,7 +452,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps10">
               <div class="p-justify card card-body">
                 <p>
@@ -481,7 +481,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-2"></div>
+
             <div class="collapse" id="clps11">
               <div class="p-justify card card-body">
                 <p class="pb-2">
@@ -525,7 +525,7 @@
               list of CPC08 units with prerequisite unit requirements available
               in this Training Package for this purpose.
             </p>
-            <div class="my-3"></div>
+
             <div class="text-center pt-5">
               <table class="table table-striped table-hover">
                 <tbody>
@@ -640,34 +640,6 @@
                   </tr>
                 </tbody>
               </table>
-              <!--   <table class="table table-striped table-hover">
-                <tbody>
-                  <tr>
-                    <th colspan="2">ELECTIVE UNITS</th>
-                  </tr>
-
-                  <tr>
-                    <td>SITHCCC040</td>
-                    <td>PREPARE AND SERVE CHEESE</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC039</td>
-                    <td>Produce pates and terrines</td>
-                  </tr>
-                  <tr>
-                    <td>BSBSUS211</td>
-                    <td>PARTICIPATE IN SUSTAINBLE WORK PRACTICE</td>
-                  </tr>
-                  <tr>
-                    <td>SITXINV007</td>
-                    <td>PURCHASE GOODS</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC038</td>
-                    <td>Produce and serve food for buffets</td>
-                  </tr>
-                </tbody>
-              </table> -->
             </div>
           </div>
         </div>
@@ -694,7 +666,7 @@
                 &nbsp;
                 <i class="fas fa-angle-down requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse show" id="fees">
                 <div class="card card-body">
                   <table class="table table-responsive">
@@ -751,7 +723,7 @@
       <div class="row my-2">
         <div class="col-md-12">
           <div class="course-structure">
-            <h3 class="course-page-title">Work based Training</h3>
+            <h3 class="course-page-title">Work Based Training</h3>
             <div class="my-3"></div>
             <p class="p-justify">
               This course includes work-based training of a minimum of 200

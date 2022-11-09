@@ -7,8 +7,8 @@
                 <div class="col-lg-5 card">
                 <div class="contact-form-wrapper text-center card-body">
                     <h2 class="mb-30">Login</h2>
-                        <p class="mb-20">
-                        Don't have an account yet? <router-link to="/signup" class="text-decoration-underline">Sign Up for Free</router-link>
+                       <!--  <p class="mb-20">
+                        Don't have an account yet? <router-link to="/signup" class="text-decoration-underline">Sign Up for Free</router-link> -->
                     </p>
                     <form  @submit.prevent="login" class="row gx-3 comments-form contact-form">
                         <div class="col-lg-12 mb-30">
@@ -31,60 +31,55 @@
 </template>
 
 <script>
-
-import path from '../../../src/global-config/mixin/path-solution'
-import BaseLayout from '../layouts/BaseLayout.vue'
+import path from "../../../src/global-config/mixin/path-solution";
+import BaseLayout from "../layouts/BaseLayout.vue";
 export default {
   components: { BaseLayout },
-mixins:[path],
-  data(){
-    return{
-      
-      email:'',
-      password:''
-    }
+  mixins: [path],
+  data() {
+    return {
+      email: "",
+      password: "",
+    };
   },
-  methods:{
-      login(){
-          this.$store
-          .dispatch('login', {
-              email: this.email,
-              password: this.password
-          }).then(res => {
-            //   this.$router.push({name:"Home"})
+  methods: {
+    login() {
+      this.$store
+        .dispatch("login", {
+          email: this.email,
+          password: this.password,
+        })
+        .then((res) => {
+          //   this.$router.push({name:"Home"})
+          // console.log(res);
+        })
+        .catch((error) => {
+          console.log("error.response", error);
+          if (error.response.status == 404) {
+            this.errorMsg = error.response.data.message[0];
+          } else if (error.response.status == 401) {
+            this.errorMsg = error.response.data.message[0];
+          } else if (error.response.status == 422) {
+            $.each(error.response.data.errors, function (item, index) {
+              let input = jQuery(document).find('input[name="' + item + '"]');
+              let inputAfter = jQuery(document).find(
+                'input[name="' + item + '"] + span'
+              );
 
-            // console.log(res);
-            
-          }).catch(error => {
-            console.log('error.response', error);
-              if(error.response.status == 404){
+              input.addClass("is-invalid");
 
-                  this.errorMsg = error.response.data.message[0]
-
-              } else if(error.response.status == 401){
-
-                  this.errorMsg = error.response.data.message[0]
-
-              } else if(error.response.status == 422) {
-
-                   $.each(error.response.data.errors, function(item,index){
-
-                        let input = jQuery(document).find('input[name="'+item+'"]')
-                        let inputAfter = jQuery(document).find('input[name="'+item+'"] + span')
-
-                        input.addClass('is-invalid') 
-                        
-                        inputAfter.remove() 
-                        input.after('<span class="text-danger">'+error.response.data.errors[item]+'</span>')
-
-                })
-
-              } else {
-
-              }
-          })
-      }
-  }
-}
+              inputAfter.remove();
+              input.after(
+                '<span class="text-danger">' +
+                  error.response.data.errors[item] +
+                  "</span>"
+              );
+            });
+          } else {
+          }
+        });
+    },
+  },
+};
 </script>
 

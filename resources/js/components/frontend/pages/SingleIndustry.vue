@@ -31,7 +31,7 @@
       <div class="my-5"></div> -->
     <!-- case-gallery start -->
     <section
-      class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+      class="about-us-area pt-50 pb-0 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
     >
       <div class="container">
         <div class="row">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div> -->
-        <div class="grid row">
+        <div class="row">
           <div
             class="col-lg-4 col-md-6 grid-item cat1 cat2 cat3"
             v-for="(course, cIndex) in selectedCourses.length != 0
@@ -150,9 +150,10 @@
             <!-- <a href="/courses" class="theme_btn">All Courses</a> -->
           </div>
         </div>
-        <div class="mt-3"></div>
       </div>
+      <div class="course-footer-difference"></div>
     </section>
+
     <!-- case-gallery end -->
     <!-- <div class="row">
         <h3 class="py-3 text-center">Courses We offer</h3>
@@ -329,35 +330,6 @@ export default {
       }
     },
   },
-
-  // data(){
-  //   return{
-  //     courses:[]
-  //   }
-  // },
-
-  //  watch: {
-  //         '$route.params.slug'(newSlug, oldSlug) {
-
-  //         this.getSingleCourse();
-
-  //         }
-  //     },
-
-  //   created(){
-
-  //   },
-
-  // methods:{
-  //    getSingleCourse() {
-  //             let slug = this.$route.params.slug.replaceAll('-', '_', this.$route.params.slug.toLowerCase())
-  //             axios.get(this.base_url + '/api/get-industry-courses/' + slug)
-  //                 .then(res => {
-  //                     this.course = res.data.data
-
-  //                 })
-  //         }
-  // }
 };
 </script>
 <style scoped>

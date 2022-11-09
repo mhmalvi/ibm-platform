@@ -12,18 +12,15 @@
                 </div>
               </div>
               <div class="row mb-30">
-                <div class="col-md-8">
+                <div class="col-md-6">
                   <div>
                     <img
-                      style="width: 100%; height: 350px"
-                      :src="
-                        image_url +
-                        '/frontend/assets/img/about/5155707_2717003.jpeg'
-                      "
+                      style="width: 100%; height: 200px"
+                      :src="image_url + '/frontend/assets/img/about/02.png'"
                     />
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                   <p class="mb-20 p-justify">
                     The institute of Business and Management (Victoria) is a
                     Registered Training Organisation (RTO Number: 45516 | CRICOS
@@ -31,12 +28,15 @@
                     experience for students. The institute of Business and
                     Management (Victoria)’s delivery location is situated in the
                     Broadmeadows (Victoria) with access to public transport,
-                    food courts, retail and shopping outlets.
+                    food courts, retail and shopping outlets. The institute of
+                    Business and Management (Victoria)’s delivery location is
+                    situated in the Broadmeadows (Victoria) with access to
+                    public transport, food courts, retail and shopping outlets.
                   </p>
                 </div>
               </div>
               <div class="row my-50">
-                <div class="col-md-12">
+                <div class="col-md-6">
                   <p class="p-justify mb-20">
                     The institute of Business and Management (Victoria) is to
                     provide an advantage to the students, the community and the
@@ -50,19 +50,21 @@
                     appreciation of Vocational Education and Training.
                   </p>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                   <img
-                    :src="
-                      image_url + '/frontend/assets/img/about/8270975_5469.jpg'
-                    "
-                    style="width: 100%; height: 450px"
+                    :src="image_url + '/frontend/assets/img/about/05.png'"
+                    style="width: 100%; height: 200px"
                   />
                 </div>
               </div>
               <div class="row my-50">
-                <div class="col-md-12">
+                <div class="col-md-6 mt-30">
+                  <img
+                    :src="image_url + '/frontend/assets/img/about/04.png'"
+                    style="width: 100%; height: 200px"
+                  />
+                </div>
+                <div class="col-md-6">
                   <p class="p-justify mb-20 mt-20">
                     We encourage our students to grow into confident and
                     compassionate personnel by fostering their independence,
@@ -77,30 +79,6 @@
                   </p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <p class="p-justify mb-20 mt-50">
-                    The institute of Business and Management (Victoria) campus
-                    is green,spacious, modern and equipped with excellent
-                    facilities and has trainer to student ratio that enable
-                    individual participation in learning. We provide a range of
-                    face-to-face support for all students. Students are provided
-                    with a caring supportive environment by our multilingual
-                    staff. Student can also access professional support and
-                    advice to assist them or help them overcome problems.
-                  </p>
-                </div>
-                <div class="col-md-6">
-                  <img
-                    :src="
-                      image_url +
-                      '/frontend/assets/img/about/26712423412335.jpg'
-                    "
-                    style="width: 100%; height: 350px"
-                  />
-                </div>
-              </div>
-
               <div class="row my-50">
                 <div class="col-md-12">
                   <p class="p-justify mb-20">
@@ -117,10 +95,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <img
-                    :src="
-                      image_url +
-                      '/frontend/assets/img/about/19250334_6103970.jpg'
-                    "
+                    :src="image_url + '/frontend/assets/img/about/01.png'"
                     style="width: 100%; height: 500px"
                   />
                 </div>

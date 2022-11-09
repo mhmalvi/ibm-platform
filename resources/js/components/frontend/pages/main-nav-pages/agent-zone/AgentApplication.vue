@@ -26,7 +26,11 @@
                 <tr>
                   <td>
                     <a
-                      href="https://docs.google.com/document/d/1VkMKzHF9e37ob2XrNDY0LvOTcZNkWPJnL6hqm1Q_bKo/edit?usp=sharing"
+                      :href="
+                        image_url +
+                        '/uploads/agent-application/Application – Education Agent.pdf'
+                      "
+                      target="_blank"
                       ><i class="far fa-file-pdf theme-color"></i
                     ></a>
                   </td>

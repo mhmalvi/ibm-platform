@@ -51,9 +51,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <router-link class="dropdown-item" to="/"
-                  >• Home Page</router-link
-                >
+                <router-link class="dropdown-item" to="/">• Home</router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/about-us"

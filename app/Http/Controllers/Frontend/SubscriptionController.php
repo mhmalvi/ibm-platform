@@ -46,7 +46,7 @@ class SubscriptionController extends Controller
                         'body' => 'This Student has been subscribed'
                     ];
 
-                    // Mail::to('ahsanhabib313@gmail.com')->send(new \App\Mail\Subscription($details));
+                    Mail::to($email)->cc('info@ibm.vic.edu.au')->send(new \App\Mail\Subscription($details));
 
                     $store =  Subscription::create([
                         'email' => $email

@@ -13,7 +13,7 @@
             management accountabilities. Individuals in these roles carry out
             complex tasks in a specialist field of expertise. They may undertake
             technical research and analysis and will often contribute to setting
-            the strategic direction for a work area
+            the strategic direction for a work area.
           </p>
           <div class="my-3"></div>
           <table class="table table-responsive">
@@ -21,33 +21,30 @@
               <tr>
                 <th>Qualification Code and Title</th>
                 <td>:</td>
-                <td>
-                  BSB60120 Advanced Diploma of <br />
-                  Business
-                </td>
+                <td>BSB60120 Advanced Diploma of Business.</td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
                 <td>:</td>
-                <td>105494M</td>
+                <td>105494M.</td>
               </tr>
               <tr>
                 <th>Delivery Location</th>
                 <td>:</td>
-                <td>Building D, 60 Belfast Street, Broadmeadows, VIC, 3047</td>
+                <td>Building D, 60 Belfast Street, Broadmeadows, VIC, 3047.</td>
               </tr>
               <tr>
                 <th>Mode of Delivery</th>
                 <td>:</td>
-                <td>Face to Face</td>
+                <td>Face to Face.</td>
               </tr>
             </tbody>
           </table>
           <div class="my-5"></div>
-          <h3 class="course-page-title">Course entry &amp; Visa Requirement</h3>
+          <h3 class="course-page-title">Course Entry &amp; Visa Requirement</h3>
           <p>
             All international students must be 18 years of age at the time of
-            commencement
+            commencement.
           </p>
           <div class="my-3"></div>
           <div class="collapsible">
@@ -67,7 +64,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps1">
               <div class="p-justify card card-body">
                 An IELTS level of 5.5 or equivalent for direct entry into a VET
@@ -95,7 +92,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps2">
               <div class="card card-body">
                 <p class="p-justify">
@@ -153,7 +150,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps3">
               <div class="p-justify card card-body">
                 IBM (Victoria) will also administer Language, Literacy and
@@ -182,7 +179,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps4">
               <div class="p-justify card card-body">
                 All international students must have Overseas Student Health
@@ -210,7 +207,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps5">
               <div class="p-justify card card-body">
                 On completion of BSB60120 Advanced Diploma of Business, students
@@ -236,7 +233,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps6">
               <div class="p-justify card card-body">
                 <p>
@@ -247,23 +244,23 @@
                 <ul class="pt-3">
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;
-                    Entrepreneurship
+                    Entrepreneurship.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Business
-                    Enterprise Manager
+                    Enterprise Manager.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp; Regional
-                    Manager
+                    Manager.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Corporate
-                    services manager
+                    services manager.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Business
-                    consultant
+                    consultant.
                   </li>
                 </ul>
               </div>
@@ -293,7 +290,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps7">
               <div class="p-justify card card-body">
                 <p>
@@ -307,25 +304,25 @@
                 <ul class="pt-3">
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Work
-                    experience
+                    experience.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Life
-                    experience
+                    experience.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Previous
-                    study
+                    study.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Professional
-                    development programs
+                    development programs.
                   </li>
                 </ul>
                 <p class="p-justify pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
                   Institute of Business and Management (Victoria) at the time of
-                  enrolment
+                  enrolment.
                 </p>
               </div>
             </div>
@@ -348,7 +345,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps8">
               <div class="p-justify card card-body">
                 <p>
@@ -360,16 +357,16 @@
                 <ul class="pt-3">
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Written
-                    Questions and Answers
+                    Questions and Answers.
                   </li>
                   <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Projects
+                    <i class="fas fa-check text-success"></i>&nbsp;Projects.
                   </li>
                   <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Case Studies
+                    <i class="fas fa-check text-success"></i>&nbsp;Case Studies.
                   </li>
                   <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Observations
+                    <i class="fas fa-check text-success"></i>&nbsp;Observations.
                   </li>
                 </ul>
                 <p class="p-justify pt-3">
@@ -400,7 +397,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps9">
               <div class="p-justify card card-body">
                 <p>
@@ -432,7 +429,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps10">
               <div class="p-justify card card-body">
                 <p>
@@ -461,7 +458,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps11">
               <div class="card card-body">
                 <p class="p-justify pb-2">
@@ -482,7 +479,7 @@
                   Institute of Business and Management (Victoria) has a
                   language, literacy and numeracy (LLN) assessment they may
                   undertake to confirm their level of language, literacy and
-                  numeracy skills
+                  numeracy skills.
                 </p>
               </div>
             </div>
@@ -584,7 +581,7 @@
                 &nbsp;
                 <i class="fas fa-angle-down requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse show" id="fees">
                 <div class="card card-body">
                   <table class="table table-responsive">
@@ -669,13 +666,13 @@
                   &nbsp;
                   <i class="fas fa-angle-right requirementAddon"></i>
                 </a>
-                <div class="my-3"></div>
+
                 <div class="collapse" id="handbook">
                   <div class="p-justify card card-body">
                     <p>
                       <strong>
                         Student Handbook, Policies and Procedures, Fees and
-                        Charges
+                        Charges.
                       </strong>
                     </p>
                     <br />
@@ -704,9 +701,9 @@
                   &nbsp;
                   <i class="fas fa-angle-right requirementAddon"></i>
                 </a>
-                <div class="my-3"></div>
+
                 <div class="collapse" id="stdSupport">
-                  <div class="p-justify card card-body">
+                  <p class="p-justify card card-body">
                     Student needs are declared by the applicant at the time of
                     enrolment: the application form allows the applicant to
                     self-declare where they have learning disabilities. Every
@@ -725,7 +722,7 @@
                     attributes or specific learning needs are identified as
                     requiring these changes to complete their training and
                     assessment.
-                  </div>
+                  </p>
                 </div>
               </div>
             </div>

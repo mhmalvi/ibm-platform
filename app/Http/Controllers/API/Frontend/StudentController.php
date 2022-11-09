@@ -46,10 +46,12 @@ class StudentController extends Controller
             $data["Qustion68"] = $qustion68;
 
             $data["email"] = "info@ibm.vic.edu.au";
-            $data["title"] = "From rajin";
+            $data["title"] = "Student Enrollment";
             $data["body"] = "This is Demo";
 
             $pdf = PDF::loadView('emails.onlineApplication', $data);
+
+            //  Mail::to($data['email'])->send(new \App\Mail\OnlineApplication($data, $pdf));
 
             Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
                 $message->to($data["email"], $data["email"])->cc("info@quadque.tech")

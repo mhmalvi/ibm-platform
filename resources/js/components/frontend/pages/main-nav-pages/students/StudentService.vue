@@ -185,7 +185,7 @@
               information about:
             </p>
 
-            <ul>
+            <ul class="bullet-list">
               <li>
                 Support services available to assist overseas students to help
                 them adjust to study and life in Australia
@@ -879,7 +879,7 @@
                 your car when you are packing groceries away.
               </li>
             </ul>
-            <div class="py-3"></div>
+            <!--    <div class="py-3"></div> -->
             <p>
               <strong>REMEMBER:</strong>
               If confronted by somebody trying to take your bag, give it to
@@ -888,9 +888,9 @@
           </div>
         </div>
       </div>
-      <div class="py-3"></div>
+      <div class="py-2"></div>
       <h4>EMERGENCY CONTACTS</h4>
-      <div class="py-3" style="text-align: justify">
+      <div class="py-2" style="text-align: justify">
         <h6>Police, Ambulance and Fire Brigade – 000</h6>
         <p>
           In an emergency you can contact the Police, Fire Brigade and Ambulance
@@ -898,13 +898,13 @@
           other details of the emergency situation. This call is free of charge
           but should be used only in an emergency.
         </p>
-        <div class="py-2"></div>
+        <div class="py-1"></div>
         <p>
           If you feel unsafe or threatened at any time, have anything stolen, or
           are assaulted, you can contact the Police for help and to report the
           incident.
         </p>
-        <div class="py-2"></div>
+        <div class="py-1"></div>
         <p>
           If you require non-urgent advice or information or need to report a
           non-urgent matter, like lost property, you should attend or call the
@@ -913,14 +913,14 @@
           http://www.police.vic.gov.au/content.asp?Document_ID=7.
         </p>
       </div>
-      <div class="py-3" style="text-align: justify">
+      <div class="py-2" style="text-align: justify">
         <h6>OSHC World care 24-hour Emergency Helpline – 1800 814 781</h6>
         <p>
           OSHC World care has a 24-hour Emergency Helpline that provides
           medical, legal and interpreting services to students in need.
         </p>
       </div>
-      <div class="py-3" style="text-align: justify">
+      <div class="py-2" style="text-align: justify">
         <h6>Victims of Crime Helpline – 1800 819 817</h6>
         <p>
           Whatever the incident, being a victim of crime can be a frightening
@@ -929,11 +929,10 @@
           819 817 (free call).
         </p>
       </div>
-      <div class="py-3" style="text-align: justify">
+      <div class="py-2" style="text-align: justify">
         <h6>International Student Hotline</h6>
         <p>1300 363 079 – Monday to Friday 8.00am to 6.00pm</p>
-        <br />
-        <br />
+
         <p>
           The Australian Government is committed to providing the highest
           quality education system and making sure that international students

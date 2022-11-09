@@ -22,27 +22,27 @@
               <tr>
                 <th>Qualification Code and Title</th>
                 <td>:</td>
-                <td>BSB50120 Diploma of Business</td>
+                <td>BSB50120 Diploma of Business.</td>
               </tr>
               <tr>
-                <th>CRICOS Course Code</th>
+                <th>CRICOS Course Code.</th>
                 <td>:</td>
                 <td>105493A</td>
               </tr>
               <tr>
                 <th>Delivery Location</th>
                 <td>:</td>
-                <td>Building D, 60 Belfast street, Broadmeadows, VIC, 3047</td>
+                <td>Building D, 60 Belfast street, Broadmeadows, VIC, 3047.</td>
               </tr>
               <tr>
                 <th>Mode of Delivery</th>
                 <td>:</td>
-                <td>Face to Face</td>
+                <td>Face to Face.</td>
               </tr>
             </tbody>
           </table>
           <div class="my-5"></div>
-          <h3 class="course-page-title">Course entry &amp; Visa Requirement</h3>
+          <h3 class="course-page-title">Course Entry &amp; Visa Requirement</h3>
           <p style="text-align: justify">
             All international students must be 18 years of age at the time of
             commencement.
@@ -65,7 +65,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps1">
               <div class="p-justify card card-body">
                 ILETS 5.5 (Academic or general) or equivalent internationally
@@ -92,7 +92,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps2">
               <div class="card card-body" style="text-align: justify">
                 Academic Requirements- Students must have satisfactorily
@@ -117,7 +117,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps3">
               <div class="p-justify card card-body">
                 IBM (Victoria) will also administer Language, Literacy and
@@ -145,7 +145,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps4">
               <div class="p-justify card card-body">
                 All international students must have Overseas Student Health
@@ -173,7 +173,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps5">
               <div class="p-justify card card-body">
                 On completion of this qualification, students may undertake
@@ -199,7 +199,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps6">
               <div class="p-justify card card-body">
                 <p>
@@ -210,20 +210,22 @@
                 <ul class="pt-3">
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Accounts
-                    Supervisor Frontline Manager Office Manager Team Leader
+                    Supervisor Frontline Manager Office Manager Team Leader.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Accounts
-                    Supervisor
+                    Supervisor.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Frontline
-                    Manager
+                    Manager.
                   </li>
-                  <li><i class="fas fa-check text-success"></i>&nbsp;Office</li>
+                  <li>
+                    <i class="fas fa-check text-success"></i>&nbsp;Office.
+                  </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Manager Team
-                    Leader
+                    Leader.
                   </li>
                 </ul>
               </div>
@@ -253,7 +255,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps7">
               <div class="p-justify card card-body">
                 <p>
@@ -267,28 +269,30 @@
                 <ul class="pt-3">
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Executive
-                    Work experience
+                    Work experience.
                   </li>
+
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Area Manager
-                    Life experience
+                    Life experience.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Business
-                    Previous study
+                    Previous study.
                   </li>
                   <li>
-                    <i class="fas fa-check text-success"></i>&nbsp;Sales Manager
+                    <i class="fas fa-check text-success"></i>&nbsp;Sales
+                    Manager.
                   </li>
                   <li>
                     <i class="fas fa-check text-success"></i>&nbsp;Business
-                    Professional development programs
+                    Professional development programs.
                   </li>
                 </ul>
                 <p style="text-align: justify" class="pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
                   Institute of Business and Management (Victoria) at the time of
-                  enrolment
+                  enrolment.
                 </p>
               </div>
             </div>
@@ -311,7 +315,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps8">
               <div class="p-justify card card-body">
                 <p>
@@ -371,7 +375,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps9">
               <div class="p-justify card card-body">
                 <p>
@@ -403,7 +407,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps10">
               <div class="p-justify card card-body">
                 <p>
@@ -431,7 +435,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps11">
               <div class="p-justify card card-body">
                 <p style="text-align: justify" class="pb-2">
@@ -473,7 +477,7 @@
               and Management (Victoria) to ensure that students achieve a broad
               range of skills and knowledge in business administration.
             </p>
-            <div class="my-3"></div>
+
             <div class="text-center pt-5">
               <table class="table table-striped table-hover">
                 <tbody>
@@ -568,7 +572,7 @@
                 &nbsp;
                 <i class="fas fa-angle-down requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse show" id="fees">
                 <div class="card card-body">
                   <table class="table table-responsive p-justify">
@@ -654,7 +658,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="handbook">
                 <div class="card card-body">
                   <p>
@@ -693,7 +697,7 @@
                 &nbsp;
                 <i class="fas fa-angle-right requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse" id="clps8">
                 <div class="card card-body">
                   <p class="p-justify">

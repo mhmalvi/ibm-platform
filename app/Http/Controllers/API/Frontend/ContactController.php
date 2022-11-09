@@ -9,6 +9,7 @@ use App\Events\SendMailEvent;
 use App\CrudMessage\CrudMessage;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ContactRequest;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -22,7 +23,10 @@ class ContactController extends Controller
 
         $data['contact_file'] = $fileName;
 
+
         Contact::create($data);
+
+        Mail::to('ahsanhabib313@gmail.com')->cc('info@ibm.vic.edu.au')->send(new \App\Mail\Contact($data));
 
         $data['recipient'] = env('MAIL_FROM_ADDRESS');
 
@@ -31,6 +35,5 @@ class ContactController extends Controller
         $message = new CrudMessage('Contact Message');
 
         return $message->createMsg();
-
     }
 }

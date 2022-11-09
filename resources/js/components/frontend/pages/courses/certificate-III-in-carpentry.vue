@@ -31,19 +31,19 @@
               <tr>
                 <th>Qualification Code and Title</th>
                 <td>:</td>
-                <td>SIT30821 Certificate III in Commercial Cookery</td>
+                <td>SIT30821 Certificate III in Commercial Cookery.</td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
                 <td>:</td>
-                <td>110591A</td>
+                <td>110591A.</td>
               </tr>
               <tr>
                 <th>Delivery Location</th>
                 <td>:</td>
                 <td>
                   60 Belfast Street, Broadmeadows, VIC, 3047 <br />
-                  170 Victoria St, RICHMOND, Victoria 3121
+                  170 Victoria St, RICHMOND, Victoria 3121.
                 </td>
               </tr>
               <tr>
@@ -77,7 +77,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps0">
               <div class="card card-body">
                 Students must be a minimum age of 18 years or above at the time
@@ -102,11 +102,11 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps1">
               <div class="card card-body">
                 Satisfactory completion of Year 11 VCE or its equivalent
-                overseas qualification
+                overseas qualification.
               </div>
             </div>
           </div>
@@ -127,24 +127,24 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps2">
               <div class="card card-body">
                 <ul class="list-items p-justify">
                   <li>
                     Have a minimum IELTS score of 5.5 for direct entry into a
-                    VET course OR
+                    VET course OR.
                   </li>
                   <li>
                     IELTS score of 5.0 or equivalent with an ELICOS course (up
                     to 10 weeks) to be taken before the main VET course;or,
                     IELTS score of 4.5 or equivalent with an ELICOS course (up
-                    to 20 weeks) to be taken before the main VET course OR
+                    to 20 weeks) to be taken before the main VET course OR.
                   </li>
                   <li>
                     to provide evidence that they have studied in English for at
                     least five years in Australia, Canada, New Zealand, Republic
-                    of Ireland, South Africa, United Kingdom or United State OR
+                    of Ireland, South Africa, United Kingdom or United State OR.
                   </li>
                   <li>
                     to provide evidence that, within two years* of their signed
@@ -155,7 +155,7 @@
                   <li>
                     In the 2 years before commencing the course, has completed
                     secondary studies equivalent to an Australian Year 12
-                    qualification from an English language speaking country
+                    qualification from an English language speaking country.
                   </li>
                   <li>
                     Institute of Business and Management also has an English
@@ -184,27 +184,27 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps23">
               <div class="card card-body">
                 <ul class="list-items p-justify">
                   <li>
                     <b>Pre-Training Review:</b> all international students will
                     take the PTR to determine the determine suitability for the
-                    course and student needs
+                    course and student needs.
                   </li>
                   <li>
                     <b>Language, Literacy and Numeracy assessment test: </b
                     >prior enrolment to determine the student’s ability to
                     complete the course or any LLN support during the study
-                    period
+                    period.
                   </li>
                   <li>
                     <b>Kitchen toolkit: </b>
                     students will need access to a kitchen toolkit which
                     includes a chef’s uniform, safety shoes, various knives, and
                     small equipment. This will be arranged and provided by
-                    Institute of Business and Management (Victoria)
+                    Institute of Business and Management (Victoria).
                   </li>
                   <li>
                     <b>Physical requirements:</b> applicants will need to be
@@ -236,7 +236,7 @@
                     face-to-face or over the telephone to attempt to establish
                     the applicant skill and knowledge levels, their current
                     employment and how that relates to the course content and
-                    interaction
+                    interaction.
                   </li>
                 </ul>
               </div>
@@ -262,7 +262,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps5">
               <div class="card card-body p-justify">
                 <p>
@@ -271,9 +271,9 @@
                   qualifications:
                 </p>
                 <ul class="list-items">
-                  <li>SIT40521 Certificate IV in Kitchen Management</li>
+                  <li>SIT40521 Certificate IV in Kitchen Management.</li>
                   <li>
-                    A range of other qualifications at Certificate IV level
+                    A range of other qualifications at Certificate IV level.
                   </li>
                 </ul>
               </div>
@@ -296,7 +296,6 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
             <div class="collapse show" id="clps6">
               <div class="card card-body">
                 <p>
@@ -304,7 +303,7 @@
                   Cookery can expect to gain work as a:
                 </p>
                 <ul class="list-items">
-                  <li>Commercial Cook</li>
+                  <li>Commercial Cook.</li>
                 </ul>
               </div>
             </div>
@@ -334,7 +333,7 @@
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse show" id="clps7">
               <div class="p-justify card card-body">
                 <p>
@@ -346,15 +345,15 @@
                 </p>
 
                 <ul class="pt-3 list-items">
-                  <li>Work experience</li>
-                  <li>Life experience</li>
-                  <li>Previous study</li>
-                  <li>Professional development programs</li>
+                  <li>Work experience.</li>
+                  <li>Life experience.</li>
+                  <li>Previous study.</li>
+                  <li>Professional development programs.</li>
                 </ul>
                 <p class="pt-3">
                   If you wish to apply for RPL or Credit Transfer, please notify
                   Institute of Business and Management (Victoria) at the time of
-                  enrolment
+                  enrolment.
                 </p>
               </div>
             </div>
@@ -377,7 +376,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps8">
               <div class="p-justify card card-body">
                 <p>
@@ -387,10 +386,10 @@
                 </p>
 
                 <ul class="pt-3 list-items">
-                  <li>Written Questions and Answers</li>
-                  <li>Projects</li>
-                  <li>Case Studies</li>
-                  <li>Observations</li>
+                  <li>Written Questions and Answers.</li>
+                  <li>Projects.</li>
+                  <li>Case Studies.</li>
+                  <li>Observations.</li>
                 </ul>
                 <p class="pt-3">
                   At the beginning of each unit, trainers will outline the
@@ -420,7 +419,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps9">
               <div class="p-justify card card-body">
                 <p>
@@ -452,7 +451,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps10">
               <div class="p-justify card card-body">
                 <p>
@@ -481,7 +480,7 @@
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
-            <div class="my-3"></div>
+
             <div class="collapse" id="clps11">
               <div class="card card-body">
                 <p class="p-justify pb-2">
@@ -502,7 +501,7 @@
                   Institute of Business and Management (Victoria) has a
                   language, literacy and numeracy (LLN) assessment they may
                   undertake to confirm their level of language, literacy and
-                  numeracy skills
+                  numeracy skills.
                 </p>
               </div>
             </div>
@@ -525,7 +524,7 @@
               list of CPC08 units with prerequisite unit requirements available
               in this Training Package for this purpose.
             </p>
-            <div class="my-3"></div>
+
             <div class="text-center pt-5">
               <table class="table table-striped table-hover">
                 <tbody>
@@ -671,7 +670,7 @@
                 &nbsp;
                 <i class="fas fa-angle-down show requirementAddon"></i>
               </a>
-              <div class="my-3"></div>
+
               <div class="collapse show" id="fees">
                 <div class="card card-body">
                   <table class="table table-responsive">
@@ -728,7 +727,7 @@
       <div class="row my-2">
         <div class="col-md-12">
           <div class="course-structure">
-            <h3 class="course-page-title">Work based Training</h3>
+            <h3 class="course-page-title">Work Based Training</h3>
             <div class="my-3"></div>
             <p class="p-justify">
               This course includes work-based training of a minimum of 200

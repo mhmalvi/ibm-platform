@@ -7,11 +7,11 @@
         <h2 class="my-3 text-center" style="font-size: 35px">
           Check your certificate status
         </h2>
-        <p class="text-center">
+        <p class="text-center" style="width: 60%; margin: 0 auto">
           Provide required information and see the status of certificate issued
           or not.
         </p>
-        <div class="my-3"></div>
+
         <div class="card">
           <div class="card-body px-5">
             <form @submit.prevent="onSubmitHandler()" id="searchForCertificate">
