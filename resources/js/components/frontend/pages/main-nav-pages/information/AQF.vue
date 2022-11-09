@@ -24,11 +24,20 @@
         </div>
       </div>
     </section>
-    <div class="row">
-      <div class="text-center mb-5">
-        <img :src="image_url + '/uploads/aqf/5607.jpg'" style="height: 400px" />
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center mb-5">
+              <img
+                :src="image_url + '/uploads/aqf/aqf.jpg'"
+                style="height: 400px"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   </base-layout>
 </template>
 <script>

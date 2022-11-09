@@ -173,7 +173,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
                 <router-link class="dropdown-item" to="/agent-application"
-                  >• Agent application</router-link
+                  >• Agent Application</router-link
                 >
               </li>
               <li>
@@ -265,7 +265,7 @@
                         </li> -->
           <li class="nav-item">
             <router-link class="nav-link" to="/form-policy">
-              Forms & Policy</router-link
+              FORMS & POLICY</router-link
             >
           </li>
           <li class="nav-item">
