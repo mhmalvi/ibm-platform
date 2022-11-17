@@ -1,6 +1,6 @@
 <template>
   <section
-    class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+    class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
   >
     <div class="container">
       <div class="row">
@@ -211,15 +211,68 @@
               <div class="card card-body">
                 <ul class="list-items p-justify">
                   <li>
-                    <b>Pre-Training Review:</b> all international students will
+                    <b>Pre-Training Review:</b> All international students will
                     take the PTR to determine the determine suitability for the
                     course and student needs.
                   </li>
                   <li>
                     <b>Language, Literacy and Numeracy assessment test: </b
-                    >prior enrolment to determine the student’s ability to
+                    >Prior enrolment to determine the student’s ability to
                     complete the course or any LLN support during the study
                     period.
+                  </li>
+                  <li>
+                    <b>Kitchen Toolkit: </b>Students will need access to a
+                    kitchen toolkit which includes a chef’s uniform, safety
+                    shoes, various knives, and small equipment. This will be
+                    arranged and provided by Institute of Business and
+                    Management (Victoria).
+                  </li>
+                  <li>
+                    <b>Physical Requirements: </b>Applicants will need to be
+                    physically able to carry out manual handling required to
+                    perform tasks involved while undergoing training. As part of
+                    this course students are expected to handle complex foods –
+                    e.g. cooking of various processed or raw meats, poultry,
+                    seafood’s, dairy items and student must keep in mind of any
+                    religious or dietary barriers to handle such foods before
+                    enrolling in this course. Institute of Business and
+                    Management (Victoria) will identify any such barriers
+                    presented by applicants during pre-training review and
+                    provide required support and reasonable adjustment where
+                    possible.
+                  </li>
+                  <li>
+                    <b>Physical Requirements: </b>Applicants will need to be
+                    physically able to carry out manual handling required to
+                    perform tasks involved while undergoing training. As part of
+                    this course students are expected to handle complex foods –
+                    e.g. cooking of various processed or raw meats, poultry,
+                    seafood’s, dairy items and student must keep in mind of any
+                    religious or dietary barriers to handle such foods before
+                    enrolling in this course. Institute of Business and
+                    Management (Victoria) will identify any such barriers
+                    presented by applicants during pre-training review and
+                    provide required support and reasonable adjustment where
+                    possible.
+                  </li>
+                  <li>
+                    <b>Hardware/Software Requirements: </b>Institute of Business
+                    and Management (Victoria) will provide access to
+                    computers/laptops during classroom hours. However, for
+                    students to work on assessments, tasks and self-study, all
+                    learners are expected to have access to a laptop or computer
+                    with Windows/macOS operating system at their own cost.
+                  </li>
+                  <li>
+                    <b>Student Support: </b>Student needs are declared by the
+                    applicant at the time of enrolment: the application form
+                    allows the applicant to self-declare where they have
+                    learning disabilities. Every student is interviewed either
+                    face-to-face or over the telephone to attempt to establish
+                    the applicant skill and knowledge levels, their current
+                    employment and how that relates to the course content and
+                    interaction
                   </li>
                 </ul>
               </div>
@@ -283,8 +336,8 @@
             <div class="collapse show" id="clps6">
               <div class="card card-body">
                 <p>
-                  Students completing CPC30220 Certificate III in Carpentry can
-                  expect to gain work as a:
+                  Students completing SIT50422 Diploma of Hospitality Management
+                  can expect to gain work as a:
                 </p>
                 <ul class="list-items">
                   <li>Banquet or function manager.</li>
@@ -521,17 +574,14 @@
             <h3 class="course-page-title">Course Structure</h3>
             <div class="my-3"></div>
             <p class="p-justify">
-              A maximum of two of the eight required elective units may be
-              substituted by selecting relevant units of competency from any
-              Certificate III or IV construction qualification or qualification
-              in another endorsed Training Package. Some units in this
-              qualification may have prerequisite requirements, which must be
-              met when packaging the qualification. Users are referred to the
-              list of CPC08 units with prerequisite unit requirements available
-              in this Training Package for this purpose.
+              This qualification includes 28 units of competency:
             </p>
+            <ul class="list-items">
+              <li>11 core units</li>
+              <li>17 elective units</li>
+            </ul>
             <div class="my-3"></div>
-            <div class="text-center pt-5">
+            <div class="text-center pt-3">
               <table class="table table-striped table-hover">
                 <tbody>
                   <tr>

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+    class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
   >
     <div class="container">
       <div class="row">
@@ -605,17 +605,14 @@
             <h3 class="course-page-title">Course Structure</h3>
             <div class="my-3"></div>
             <p class="p-justify">
-              A maximum of two of the eight required elective units may be
-              substituted by selecting relevant units of competency from any
-              Certificate III or IV construction qualification or qualification
-              in another endorsed Training Package. Some units in this
-              qualification may have prerequisite requirements, which must be
-              met when packaging the qualification. Users are referred to the
-              list of CPC08 units with prerequisite unit requirements available
-              in this Training Package for this purpose.
+              This qualification includes 33 units of competency:
             </p>
+            <ul class="list-items">
+              <li>27 core units</li>
+              <li>6 elective units</li>
+            </ul>
 
-            <div class="text-center pt-5">
+            <div class="text-center pt-3">
               <table class="table table-striped table-hover">
                 <tbody>
                   <tr>

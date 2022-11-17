@@ -1,6 +1,6 @@
 <template>
   <section
-    class="about-us-area pt-50 pb-120 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
+    class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
   >
     <div class="container">
       <div class="row">
@@ -8,22 +8,14 @@
           <h3 class="course-page-title">Course Overview</h3>
           <div class="my-3"></div>
           <p class="p-justify">
-            This qualification reflects the role of highly skilled senior
-            operators who use a broad range of hospitality skills combined with
-            managerial skills and sound knowledge of industry to coordinate
-            hospitality operations. They operate independently, have
-            responsibility for others and make a range of operational business
-            decisions. This qualification provides a pathway to work in any
-            hospitality industry sector as a departmental or small business
-            manager. The diversity of employers includes restaurants, hotels,
-            motels, catering operations, clubs, pubs, cafés, and coffee shops.
-            This qualification allows for multiskilling and for acquiring
-            targeted skills in accommodation services, cookery, food and
-            beverage and gaming. The skills in this qualification must be
-            applied in accordance with Commonwealth and State/Territory
-            legislation, Australian standards and industry codes of practice. No
-            occupational licensing, certification or specific legislative
-            requirements apply to this qualification at the time of publication.
+            This is a trade qualification for carpenters in residential and
+            commercial workplaces. It includes setting out, manufacturing,
+            constructing, assembling, installing and repairing products made
+            using timber and non-timber materials. State and territory
+            jurisdictions may have different licensing, legislative, regulatory
+            or certification requirements. Relevant state and territory
+            regulatory authorities should be consulted to confirm those
+            requirements
           </p>
           <div class="my-3"></div>
           <table class="table table-responsive p-justify">
@@ -31,19 +23,19 @@
               <tr>
                 <th>Qualification Code and Title</th>
                 <td>:</td>
-                <td>SIT30821 Certificate III in Commercial Cookery.</td>
+                <td>CPC30220 Certificate III in Carpentry.</td>
               </tr>
               <tr>
                 <th>CRICOS Course Code</th>
                 <td>:</td>
-                <td>110591A.</td>
+                <td>107988F.</td>
               </tr>
               <tr>
                 <th>Delivery Location</th>
                 <td>:</td>
                 <td>
-                  60 Belfast Street, Broadmeadows, VIC, 3047 <br />
-                  170 Victoria St, RICHMOND, Victoria 3121.
+                  60 Belfast Street, Broadmeadows, VIC, 3047<br />
+                  61 Riggall Street, Broadmeadows, VIC, 3047.
                 </td>
               </tr>
               <tr>
@@ -51,8 +43,7 @@
                 <td>:</td>
                 <td>
                   Face to face classroom, Practical training and assessment is
-                  completed in commercial kitchen and 200 hours of Work-based
-                  Training arranged by the Institute.
+                  completed in IBM workshop.
                 </td>
               </tr>
             </tbody>
@@ -199,13 +190,7 @@
                     complete the course or any LLN support during the study
                     period.
                   </li>
-                  <li>
-                    <b>Kitchen toolkit: </b>
-                    students will need access to a kitchen toolkit which
-                    includes a chef’s uniform, safety shoes, various knives, and
-                    small equipment. This will be arranged and provided by
-                    Institute of Business and Management (Victoria).
-                  </li>
+
                   <li>
                     <b>Physical requirements:</b> applicants will need to be
                     physically able to carry out manual handling required to
@@ -266,12 +251,15 @@
             <div class="collapse show" id="clps5">
               <div class="card card-body p-justify">
                 <p>
-                  On completion of SIR30821 Certificate III in Commercial
-                  Cookery, students may undertake one or more of following
+                  On completion of CPC30220 Certificate III in Carpentry,
+                  students may undertake one or more of following
                   qualifications:
                 </p>
                 <ul class="list-items">
-                  <li>SIT40521 Certificate IV in Kitchen Management.</li>
+                  <li>
+                    CPC40120 Certificate IV in Building and Construction
+                    (Building).
+                  </li>
                   <li>
                     A range of other qualifications at Certificate IV level.
                   </li>
@@ -299,11 +287,11 @@
             <div class="collapse show" id="clps6">
               <div class="card card-body">
                 <p>
-                  Students completing SIT30821 Certificate III in Commercial
-                  Cookery can expect to gain work as a:
+                  Students completing CPC30220 Certificate III in Carpentry can
+                  expect to gain work as a:
                 </p>
                 <ul class="list-items">
-                  <li>Commercial Cook.</li>
+                  <li>Carpenter-commercial/Formwork/Residential.</li>
                 </ul>
               </div>
             </div>
@@ -455,9 +443,9 @@
             <div class="collapse" id="clps10">
               <div class="p-justify card card-body">
                 <p>
-                  The duration of this qualification is 52 weeks, including term
-                  breaks and 10 weeks work-based training. The contact hours are
-                  20 contact hours per week.
+                  The duration of this qualification is 94 weeks, including 24
+                  weeks term breaks. The contact hours are 20 contact hours per
+                  week.
                 </p>
               </div>
             </div>
@@ -515,127 +503,187 @@
             <h3 class="course-page-title">Course Structure</h3>
             <div class="my-3"></div>
             <p class="p-justify">
-              A maximum of two of the eight required elective units may be
-              substituted by selecting relevant units of competency from any
-              Certificate III or IV construction qualification or qualification
-              in another endorsed Training Package. Some units in this
-              qualification may have prerequisite requirements, which must be
-              met when packaging the qualification. Users are referred to the
-              list of CPC08 units with prerequisite unit requirements available
-              in this Training Package for this purpose.
+              This qualification includes 34 units of competency:
             </p>
+            <ul class="list-items">
+              <li>27 core units</li>
+              <li>7 elective units</li>
+            </ul>
 
-            <div class="text-center pt-5">
+            <div class="text-center pt-3">
               <table class="table table-striped table-hover">
                 <tbody>
                   <tr>
                     <th colspan="2">CORE UNITS</th>
                   </tr>
                   <tr>
-                    <td>SITHCCC023</td>
-                    <td>Use food preparation equipment</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC027</td>
-                    <td>Prepare dishes using basic methods of cookery</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC028</td>
-                    <td>Prepare appetisers and salads</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC029</td>
-                    <td>Prepare stocks, sauces and soups</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC030</td>
+                    <td>CPCCWHS2001</td>
                     <td>
-                      Prepare vegetable, fruit, eggs and farinaceous dishes
+                      Apply WHS requirements, policies, and procedures in the
+                      construction industry
                     </td>
                   </tr>
                   <tr>
-                    <td>SITHCCC031</td>
-                    <td>Prepare vegetarian and vegan dishes</td>
+                    <td>CPCWHS3001</td>
+                    <td>
+                      Identify construction work hazards and select risk control
+                      strategies
+                    </td>
                   </tr>
                   <tr>
-                    <td>SITHCCC035</td>
-                    <td>Prepare poultry dishes</td>
+                    <td>CPCCOM1012</td>
+                    <td>
+                      Work effectively and sustainably in the construction
+                      industry.
+                    </td>
                   </tr>
                   <tr>
-                    <td>SITHCCC037</td>
-                    <td>Prepare seafood dishes</td>
+                    <td>CPCCCA2002</td>
+                    <td>Use carpentry tools and equipment</td>
                   </tr>
                   <tr>
-                    <td>SITHCCC036</td>
-                    <td>Prepare meat dishes</td>
+                    <td>CPCCCA2011</td>
+                    <td>Handle carpentry materials</td>
                   </tr>
                   <tr>
-                    <td>SITHCCC042</td>
-                    <td>Prepare food to meet special dietary requirements</td>
+                    <td>CPCCCA3025</td>
+                    <td>
+                      Read and interpret plans, specifications and drawings for
+                      carpentry work
+                    </td>
                   </tr>
                   <tr>
-                    <td>SITHCCC041</td>
-                    <td>Produce cakes, pastries and breads</td>
+                    <td>CPCCCM2012</td>
+                    <td>Work safely at heights</td>
                   </tr>
                   <tr>
-                    <td>SITHCCC043</td>
-                    <td>Work effectively as a cook</td>
+                    <td>CPCCOM1015</td>
+                    <td>Carry out measurements and calculations</td>
                   </tr>
                   <tr>
-                    <td>SITHKOP009</td>
-                    <td>Clean kitchen premises and equipment</td>
+                    <td>CPCCOM3001</td>
+                    <td>
+                      Perform construction calculations to determine carpentry
+                      material requirements
+                    </td>
                   </tr>
                   <tr>
-                    <td>SITHKOP010</td>
-                    <td>Plan and cost recipes</td>
+                    <td>CPCCCA3001</td>
+                    <td>
+                      Carry out general demolition of minor building structures
+                    </td>
                   </tr>
                   <tr>
-                    <td>SITHPAT016</td>
-                    <td>Produce desserts</td>
+                    <td>CPCCCA3002</td>
+                    <td>Carry out setting out</td>
                   </tr>
                   <tr>
-                    <td>SITXFSA005</td>
-                    <td>Use hygienic practices for food safety</td>
+                    <td>CPCCCO2013</td>
+                    <td>Carry out concreting to simple forms</td>
                   </tr>
                   <tr>
-                    <td>SITXFSA006</td>
-                    <td>Participate in safe food handling practices</td>
+                    <td>CPCCCM2006</td>
+                    <td>Apply basic levelling procedures</td>
                   </tr>
                   <tr>
-                    <td>SITXHRM007</td>
-                    <td>Coach others in job skills</td>
+                    <td>CPCCOM3006</td>
+                    <td>Carry out levelling operations</td>
                   </tr>
                   <tr>
-                    <td>SITXINV006</td>
-                    <td>Receive, store and maintain stock</td>
+                    <td>CPCCCA3004</td>
+                    <td>Construct and erect wall frames</td>
                   </tr>
                   <tr>
-                    <td>SITXWHS005</td>
-                    <td>Participate in safe work practices</td>
+                    <td>CPCCCA3005</td>
+                    <td>Construct ceiling frames</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3007</td>
+                    <td>Construct pitched roofs</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3008</td>
+                    <td>Construct eaves</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3016</td>
+                    <td>
+                      Construct, assemble and install timber external stairs
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3006</td>
+                    <td>Erect roof trusses</td>
+                  </tr>
+
+                  <tr>
+                    <td>CPCCCA3028</td>
+                    <td>
+                      Erect and dismantle formwork for footings and slabs on
+                      ground
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCM2008</td>
+                    <td>Erect and dismantle restricted height scaffolding</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3003</td>
+                    <td>Install flooring systems</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3010</td>
+                    <td>Install windows and doors</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3017</td>
+                    <td>Install exterior cladding</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3024</td>
+                    <td>Install lining, paneling and molding</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCOM1014</td>
+                    <td>Conduct workplace communication</td>
                   </tr>
                   <tr>
                     <td colspan="2"><b>ELECTIVE UNITS</b></td>
                   </tr>
 
                   <tr>
-                    <td>SITHCCC040</td>
-                    <td>PREPARE AND SERVE CHEESE</td>
+                    <td>CPCCCA3027</td>
+                    <td>
+                      Set up, operate, and maintain indirect action
+                      powder-actuated power tools
+                    </td>
                   </tr>
                   <tr>
-                    <td>SITHCCC039</td>
-                    <td>Produce pates and terrines</td>
+                    <td>CPCCCM2002</td>
+                    <td>Carry out hand excavation</td>
                   </tr>
                   <tr>
-                    <td>BSBSUS211</td>
-                    <td>PARTICIPATE IN SUSTAINBLE WORK PRACTICE</td>
+                    <td>CPCCCA3020</td>
+                    <td>Erect and dismantle jump-form formwork</td>
                   </tr>
                   <tr>
-                    <td>SITXINV007</td>
-                    <td>PURCHASE GOODS</td>
+                    <td>CPCCCM3005</td>
+                    <td>Calculate costs of construction work</td>
                   </tr>
                   <tr>
-                    <td>SITHCCC038</td>
-                    <td>Produce and serve food for buffets</td>
+                    <td>CPCCCA3019</td>
+                    <td>
+                      Erect and dismantle formwork to suspended slabs, columns,
+                      beams and walls
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCM3001</td>
+                    <td>Operate elevated work platforms up to 11 meters</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCOM1013</td>
+                    <td>Plan and organize work</td>
                   </tr>
                 </tbody>
               </table>
@@ -688,22 +736,21 @@
                       <tr>
                         <th>Tuition Fee</th>
                         <td>:</td>
-                        <td>$10000</td>
+                        <td>$24000</td>
                       </tr>
                       <tr>
                         <th>Total Fees</th>
                         <td>:</td>
-                        <td>$11000</td>
+                        <td>$25000</td>
                       </tr>
                       <tr>
                         <th>Duration</th>
                         <th>:</th>
                         <td>
                           <p class="p-justify">
-                            The duration of this qualification is 52 weeks,
-                            including term breaks and 10 weeks work-based
-                            training. The contact hours are 20 contact hours per
-                            week.
+                            The duration of this qualification is 94 weeks,
+                            including 24 weeks term breaks. The contact hours
+                            are 20 contact hours per week.
                           </p>
                         </td>
                       </tr>
