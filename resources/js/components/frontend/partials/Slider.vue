@@ -71,7 +71,7 @@
                 class="text-white fw-bolder fs-5 wow fadeInUp2 animated"
                 data-wow-delay=".01s"
               >
-                Elicos General English (0101439)
+                Business Industry
               </p>
               <p
                 class="
@@ -88,13 +88,19 @@
                 "
                 data-wow-delay=".01s"
               >
-                Advanced Diploma of Business (0100452)
+                Trade Industry
               </p>
               <p
                 class="text-white fw-bolder fs-5 wow fadeInUp2 animated"
                 data-wow-delay=".01s"
               >
-                Diploma of Business Administration (0100453)
+                Hospitality Industry
+              </p>
+              <p
+                class="text-white fw-bolder fs-5 wow fadeInUp2 animated"
+                data-wow-delay=".01s"
+              >
+                ELICOS General English
               </p>
             </div>
             <div>

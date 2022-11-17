@@ -240,10 +240,7 @@ class StudentController extends Controller
     public function SearchForCertificate(Request $request)
     {
 
-
-
         $sheetdb = new SheetDB('dd3l5x2y2d9iw');
-
         // returns specific spreadsheets data
         $response = $sheetdb->searchOr(['student_id' => $request->student_id, 'course_code' => $request->course_code]);
 
