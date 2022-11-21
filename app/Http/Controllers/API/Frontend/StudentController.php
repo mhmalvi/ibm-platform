@@ -36,11 +36,12 @@ class StudentController extends Controller
     {
         try {
             $qustion01 = explode(",", $request->Qustion01);
+
             $qustion60 = explode(",", $request->Qustion60);
             $qustion64 = explode(",", $request->Qustion64);
             $qustion68 = explode(",", $request->Qustion68);
             $data = $request->all();
-            $data["Qustion01"] = $qustion01;
+            $data["Qustion1"] = $qustion01;
             $data["Qustion60"] = $qustion60;
             $data["Qustion64"] = $qustion64;
             $data["Qustion68"] = $qustion68;
@@ -51,13 +52,23 @@ class StudentController extends Controller
 
             $pdf = PDF::loadView('emails.onlineApplication', $data);
 
-            //  Mail::to($data['email'])->send(new \App\Mail\OnlineApplication($data, $pdf));
+            // Mail::to($data['email'])->send(new \App\Mail\OnlineApplication($data, $pdf));
+            //Mail::to('anntaffs67@gmail.com')->send(new \App\Mail\OnlineApplication($data, $pdf));
+            //Mail::to('anntaffs67@gmail.com')->send(new \App\Mail\OnlineApplication($data, $pdf));
+            //dd('here ', $data);
 
+            //Mail::to($data["email"])->cc("info@quadque.tech")->send(new \App\Mail\OnlineApplication($data, $pdf));
             Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
-                $message->to($data["email"], $data["email"])->cc("info@quadque.tech")
+                $message->to($data["email"])->cc("info@quadque.tech")
                     ->subject($data["title"])
                     ->attachData($pdf->output(), "ApplyOnline.pdf");
             });
+
+            // Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
+            //     $message->to($data["email"], $data["email"])->cc("info@quadque.tech")
+            //         ->subject($data["title"])
+            //         ->attachData($pdf->output(), "ApplyOnline.pdf");
+            // });
 
             return response()->json(["message" => "mail sent successfully"], 200);
         } catch (\throwable $th) {

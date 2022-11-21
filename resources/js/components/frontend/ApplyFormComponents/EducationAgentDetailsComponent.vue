@@ -121,7 +121,7 @@
           v-model="declaration_7"
         />
         I have provided the student’s personal email address and residential
-        address, as disclosed to me by the studen
+        address, as disclosed to me by the student
       </label>
     </div>
   </div>

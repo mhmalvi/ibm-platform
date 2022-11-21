@@ -4,11 +4,20 @@
       <div class="row mt-5">
         <h2 class="text-center">Application/Enrollment Form</h2>
       </div>
-      
+
       <div class="row">
         <div class="col-md-10 mx-auto">
-          <div class="progress mt-4">  
-            <div class="progress-bar" role="progressbar" :style="'width:'+progressing+'%'" :aria-valuenow="progressing" aria-valuemin="0" :aria-valuemax="progressing">{{progressing}}%</div>
+          <div class="progress mt-4">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              :style="'width:' + progressing + '%'"
+              :aria-valuenow="progressing"
+              aria-valuemin="0"
+              :aria-valuemax="progressing"
+            >
+              {{ progressing }}%
+            </div>
           </div>
           <div class="ms-3 mt-5 mb-2" v-if="step_number != 6">
             <ul class="decimal-list">
@@ -19,44 +28,45 @@
               </li>
             </ul>
           </div>
-          
+
           <!-- <div>
             <button @click="testSubmit">test submission</button>
           </div> -->
 
           <div v-if="step_number == 1">
-            <Step1Component @save="handleStep"/>
+            <Step1Component @save="handleStep" />
           </div>
 
           <div v-if="step_number == 2">
-            <Step2Component @save="handleStep" @goToBack="handleBackStep"/>
+            <Step2Component @save="handleStep" @goToBack="handleBackStep" />
           </div>
 
           <div v-if="step_number == 3">
-            <Step3Component @save="handleStep" @goToBack="handleBackStep"/>
+            <Step3Component @save="handleStep" @goToBack="handleBackStep" />
           </div>
 
           <div v-if="step_number == 4">
-            <Step4Component @save="handleStep" @goToBack="handleBackStep"/>
+            <Step4Component @save="handleStep" @goToBack="handleBackStep" />
           </div>
 
           <div v-if="step_number == 5">
-            <Step5Component @save="handleStep" @goToBack="handleBackStep"/>
+            <Step5Component @save="handleStep" @goToBack="handleBackStep" />
           </div>
 
           <div v-if="step_number == 6">
-            <Step6Component @save="handleStep" @goToBack="handleBackStep"/>
+            <Step6Component @save="handleStep" @goToBack="handleBackStep" />
           </div>
 
           <div v-if="step_number == 7">
-            <Step7Component @save="handleStep" @goToBack="handleBackStep"/>
+            <Step7Component @save="handleStep" @goToBack="handleBackStep" />
           </div>
 
           <div v-if="step_number == 8">
             <div class="row py-5 d-flex justify-content-center">
               <div class="col-6">
                 <img
-                  :src="image_url+'/frontend/assets/img/success_submit.png'"
+                  style="width: 100%"
+                  :src="image_url + '/frontend/assets/img/success_submit.png'"
                   alt="Success"
                   class="img-fluid"
                 />
@@ -102,9 +112,9 @@ import Step4Component from "../ApplyFormComponents/Step4Component.vue";
 import Step5Component from "../ApplyFormComponents/Step5Component.vue";
 import Step6Component from "../ApplyFormComponents/Step6Component.vue";
 import Step7Component from "../ApplyFormComponents/Step7Component.vue";
-import path from '../../../src/global-config/mixin/path-solution'
+import path from "../../../src/global-config/mixin/path-solution";
 export default {
-  mixins:[path],
+  mixins: [path],
   components: {
     Step1Component,
     Step2Component,
@@ -120,14 +130,12 @@ export default {
       step_number: 1,
       step_back_number: 1,
       formData: {},
-      initialValue:14.29,
-      progressing:0
-
+      initialValue: 14.29,
+      progressing: 0,
     };
   },
 
   methods: {
-
     handleStep(data) {
       data = this.filterFormData(data);
 
@@ -147,18 +155,14 @@ export default {
 
       this.step_number++;
 
-      this.progressing += this.initialValue
-
-
+      this.progressing += this.initialValue;
 
       if (this.step_number == 8) this.submitData(this.formData);
     },
 
-    handleBackStep(value){
-
-      this.step_number = this.step_number - value
-      this.progressing -= this.initialValue
-      
+    handleBackStep(value) {
+      this.step_number = this.step_number - value;
+      this.progressing -= this.initialValue;
     },
 
     submitData(data) {

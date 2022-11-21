@@ -298,6 +298,9 @@ export default {
   data() {
     return {
       contact_address: "",
+      contact_country: "",
+      contact_phone: "",
+      contact_email: "",
       residential_building_name: "",
       residential_flat_unit: "",
       residential_street_no: "",
