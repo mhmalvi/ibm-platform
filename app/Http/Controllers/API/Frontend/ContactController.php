@@ -26,7 +26,10 @@ class ContactController extends Controller
 
         Contact::create($data);
 
-        Mail::to('ahsanhabib313@gmail.com')->cc('info@ibm.vic.edu.au')->send(new \App\Mail\Contact($data));
+        //  Mail::to('info@ibm.vic.edu.au')->cc('info@quadque.tech')->send(new \App\Mail\Contact($data));
+
+        //  Mail::to('info@ibm.vic.edu.au')->send(new \App\Mail\Contact($data));
+       Mail::to('loucchristensen78@gmail.com')->send(new \App\Mail\Contact($data));
 
         $data['recipient'] = env('MAIL_FROM_ADDRESS');
 

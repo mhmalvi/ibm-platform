@@ -1,6 +1,6 @@
 <template>
     <base-layout>
-        <section class="contact-us-area pt-150 pb-120 pt-md-100 pt-xs-100 pb-md-70 pb-xs-70">
+        <section class="contact-us-area pt-70 pb-40 pt-xs-20 pb-xs-20">
             <great-deal></great-deal>
             <popular-course></popular-course>
             <looking-for></looking-for>
@@ -9,39 +9,41 @@
 </template>
 
 <script>
-    import path from '../../../src/global-config/mixin/path-solution'
-    import BaseLayout from '../layouts/BaseLayout.vue'
-import GreatDeal from '../partials/GreatDeal.vue'
-import LookingFor from '../partials/LookingFor.vue'
-import PopularCourse from '../partials/PopularCourse.vue'
-    export default {
-        mixins: [path],
-        components: {
-            BaseLayout,
-                GreatDeal,
-                PopularCourse
-       ,
-                LookingFor },
+import path from "../../../src/global-config/mixin/path-solution";
+import BaseLayout from "../layouts/BaseLayout.vue";
+import GreatDeal from "../partials/GreatDeal.vue";
+import LookingFor from "../partials/LookingFor.vue";
+import PopularCourse from "../partials/PopularCourse.vue";
+export default {
+    mixins: [path],
+    components: {
+        BaseLayout,
+        GreatDeal,
+        PopularCourse,
+        LookingFor,
+    },
 
-        data() {
-            return {
-                courses: []
-            }
+    data() {
+        return {
+            courses: [],
+        };
+    },
+
+    created() {
+        this.getCourse();
+    },
+
+    methods: {
+        getCourse() {
+            axios.get(this.base_url + "/api/get-course").then((res) => {
+                this.courses = res.data.data;
+            });
         },
 
-        created() {
-            this.getCourse()
+        reloadPage() {
+            window.location.reload();
         },
-
-        methods: {
-            getCourse() {
-                axios.get(this.base_url + '/api/get-course')
-                    .then(res => {
-                        this.courses = res.data.data
-                    })
-            }
-        }
-
-    }
+    },
+};
 
 </script>

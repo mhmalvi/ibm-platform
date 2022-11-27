@@ -1,17 +1,17 @@
 <template>
-  <base-layout>
-    <slider></slider>
-    <our-courses></our-courses>
-    <welcome></welcome>
-    <!-- <testimonial></testimonial> -->
-    <!-- <why-rpl></why-rpl> -->
-    <div class="pt-200"></div>
-    <!-- <great-deal></great-deal> -->
-    <!-- <looking-for></looking-for> -->
-    <!-- <why-choose-us></why-choose-us> -->
-    <!-- <blog-part></blog-part> -->
-    <search-certificate></search-certificate>
-  </base-layout>
+    <base-layout>
+        <slider></slider>
+        <our-courses></our-courses>
+        <welcome></welcome>
+        <!-- <testimonial></testimonial> -->
+        <!-- <why-rpl></why-rpl> -->
+        <!-- <div class="pt-200"></div> -->
+        <!-- <great-deal></great-deal> -->
+        <!-- <looking-for></looking-for> -->
+        <!-- <why-choose-us></why-choose-us> -->
+        <!-- <blog-part></blog-part> -->
+        <search-certificate></search-certificate>
+    </base-layout>
 </template>
 
 <script>
@@ -39,43 +39,43 @@ import WhyRpl from "../partials/WhyRpl.vue";
 import SearchCertificate from "../partials/SearchCertificate.vue";
 
 export default {
-  mixins: [path],
+    mixins: [path],
 
-  data() {
-    return {};
-  },
+    data() {
+        return {};
+    },
 
-  components: {
-    BaseLayout,
-    Slider,
-    PopularCourse,
-    Category,
-    Welcome,
-    StartJourney,
-    Course,
-    Testimonial,
-    StudyPlace,
-    Feature,
-    Team,
-    CtaSidebar,
-    GreatDeal,
-    LookingFor,
-    WhyChooseUs,
-    BlogPart,
-    Subscription,
-    OurCourses,
-    WhyRpl,
-    SearchCertificate,
-  },
+    components: {
+        BaseLayout,
+        Slider,
+        PopularCourse,
+        Category,
+        Welcome,
+        StartJourney,
+        Course,
+        Testimonial,
+        StudyPlace,
+        Feature,
+        Team,
+        CtaSidebar,
+        GreatDeal,
+        LookingFor,
+        WhyChooseUs,
+        BlogPart,
+        Subscription,
+        OurCourses,
+        WhyRpl,
+        SearchCertificate,
+    },
 
-  computed: {
-    ...mapGetters({
-      user: "user",
-    }),
-  },
+    computed: {
+        ...mapGetters({
+            user: "user",
+        }),
+    },
 
-  created() {},
+    created() {},
 
-  methods: {},
+    methods: {},
 };
 </script>

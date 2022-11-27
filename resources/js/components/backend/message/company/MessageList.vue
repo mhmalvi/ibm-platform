@@ -4,7 +4,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                         <table class="table table-bordered">
+                        <table class="table table-bordered">
                             <thead>
                                 <tr class="table-secondary">
                                     <th>Serial No.</th>
@@ -17,16 +17,26 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr v-for="message, index in messages" :key="index">
-                                    <td> {{index + 1}} </td>
-                                    <td>{{message.name}}</td>
-                                    <td>{{message.email}}</td>
-                                    <td>{{message.phone}}</td>
-                                    <td>{{message.message}}</td>
+                                <tr
+                                    v-for="(message, index) in messages"
+                                    :key="index"
+                                >
+                                    <td>{{ index + 1 }}</td>
+                                    <td>{{ message.name }}</td>
+                                    <td>{{ message.email }}</td>
+                                    <td>{{ message.phone }}</td>
+                                    <td>{{ message.message }}</td>
                                     <td>
                                         <p v-html="message.document"></p>
                                     </td>
-                                    <td><a :href="message.download_file" download>Download File <i class="fa fa-download"></i></a></td>
+                                    <td>
+                                        <a
+                                            :href="message.download_file"
+                                            download
+                                            >Download File
+                                            <i class="fa fa-download"></i
+                                        ></a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -38,37 +48,33 @@
 </template>
 
 <script>
-import path from '../../../../src/global-config/mixin/path-solution'
-import {mapGetters} from 'vuex'
+import path from "../../../../src/global-config/mixin/path-solution";
+import { mapGetters } from "vuex";
 export default {
-    mixins:[path],
-    data(){
-        return{
-             messages:[],
-        }
+    mixins: [path],
+    data() {
+        return {
+            messages: [],
+        };
     },
 
-    computed:{
+    computed: {
         ...mapGetters({
-            user:'user'
-        })
+            user: "user",
+        }),
     },
 
-    created(){
-
-        this.getMessage()
-
+    created() {
+        this.getMessage();
     },
 
-    methods:{
-        getMessage(){
-            axios.get(this.base_url+'/api/customer-message')
-            .then(res=>{
-                this.messages = res.data 
-                console.log('res.data', res.data );
-            })
+    methods: {
+        getMessage() {
+            axios.get(this.base_url + "/api/customer-message").then((res) => {
+                this.messages = res.data;
+                console.log("res.data", res.data);
+            });
         },
-    }
-    
-}
+    },
+};
 </script>

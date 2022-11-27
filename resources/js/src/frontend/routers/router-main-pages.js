@@ -38,19 +38,17 @@ import ContactUs from "../../../components/frontend/pages/main-nav-pages/Contact
 import ApplyForm from "../../../components/frontend/pages/ApplyForm.vue";
 
 let routerMainPages = [
+    // About Us
 
-    // About Us 
-    
     {
-        name:'WelcomeToIbm',
-        path:'/about-us',
-        component:WelcomeToIbm,
-        
+        name: "WelcomeToIbm",
+        path: "/about-us",
+        component: WelcomeToIbm,
+
         meta: {
             auth: false,
-          }
-
-    },  
+        },
+    },
 
     {
         name: "WelcomeToIbm",
@@ -123,7 +121,7 @@ let routerMainPages = [
     {
         name: "AQF",
         path: "/aqf",
-        component:AQF,
+        component: AQF,
 
         meta: {
             auth: false,
@@ -132,7 +130,7 @@ let routerMainPages = [
     {
         name: "OurCampus",
         path: "/our-campus",
-        component:OurCampus,
+        component: OurCampus,
 
         meta: {
             auth: false,

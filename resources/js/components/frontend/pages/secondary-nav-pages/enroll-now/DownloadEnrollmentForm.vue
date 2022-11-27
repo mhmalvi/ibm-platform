@@ -288,7 +288,7 @@
                   "
                   target="_blank"
                 >
-                  Receive your confirmation of Enrollment (COE)
+                  Receive your confirmation of Enrolment (COE)
                 </a>
                 <a
                   :href="

@@ -9,7 +9,7 @@
 </head>
 <body>
     <h5>Hi, </h5>
-    <p>{{$mail['name']}} sent you message via contact us form. Email: {{$mail['email']}}, Phone: {{$mail['phone']}} <a class="btn btn-lg btn-success" href="{{url('/admin/contact')}}">View Message</a></p>
+    <p>{{$mail['name']}} sent you message via contact us form. Email: {{$mail['email']}}, Phone: {{$mail['phone']}} <a class="btn btn-lg btn-success" href="{{url('/admin')}}">View Message</a></p>
     <p>{{$mail['message']}} </p>
 </body>
 </html>

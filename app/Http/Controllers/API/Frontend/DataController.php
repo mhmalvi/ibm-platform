@@ -70,7 +70,7 @@ class DataController extends Controller
 
     public function getCourse()
     {
-        return $courses = CourseResource::collection(Course::offset(0)->limit(4)->get());
+        return $courses = CourseResource::collection(Course::get());
     }
 
     public function getSingleCourse($slug)

@@ -4151,6 +4151,16 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -4161,7 +4171,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     };
   },
   computed: _objectSpread({}, (0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapGetters)({
-    user: 'user'
+    user: "user"
   })),
   created: function created() {
     this.getMessage();
@@ -4170,9 +4180,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     getMessage: function getMessage() {
       var _this = this;
 
-      axios.get(this.base_url + '/api/customer-message').then(function (res) {
+      axios.get(this.base_url + "/api/customer-message").then(function (res) {
         _this.messages = res.data;
-        console.log('res.data', res.data);
+        console.log("res.data", res.data);
       });
     }
   }
@@ -7374,7 +7384,7 @@ __webpack_require__.r(__webpack_exports__);
       url: window.location.origin,
       base_url: window.location.origin,
       api_url: window.location.origin,
-      image_url: window.location.origin + "/public" //image_url: window.location.origin,
+      image_url: window.location.origin + "/public" // image_url: window.location.origin,
 
     };
   }
@@ -73612,7 +73622,7 @@ var render = function () {
                 "tbody",
                 _vm._l(_vm.messages, function (message, index) {
                   return _c("tr", { key: index }, [
-                    _c("td", [_vm._v(" " + _vm._s(index + 1) + " ")]),
+                    _c("td", [_vm._v(_vm._s(index + 1))]),
                     _vm._v(" "),
                     _c("td", [_vm._v(_vm._s(message.name))]),
                     _vm._v(" "),
@@ -73635,7 +73645,9 @@ var render = function () {
                           attrs: { href: message.download_file, download: "" },
                         },
                         [
-                          _vm._v("Download File "),
+                          _vm._v(
+                            "Download File\n                                        "
+                          ),
                           _c("i", { staticClass: "fa fa-download" }),
                         ]
                       ),

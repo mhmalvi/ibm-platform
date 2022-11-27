@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-5">
-    <h1 class="pb-5 text-center">Application/Enrollment Form</h1>
+    <h3 class="pb-5 text-center">Application/Enrolment Form</h3>
 
     <form @submit.prevent="formSubmitHandler" name="submit-to-google-sheet">
       <div class="card">

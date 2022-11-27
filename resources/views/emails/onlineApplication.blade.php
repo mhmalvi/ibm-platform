@@ -599,7 +599,7 @@
             <tr>
                 <td>47. Not Required. I am from Level I country. (You will be required to undertake Placement Assessment if you are not fromthe list of exempted countries. Refer Entry requirement policy) </td>
                 <td>
-                    @if (isset($english_language_proficiency_level_1_country))
+                    @if ($english_language_proficiency_level_1_country)
 
                         yes
                     @endif
@@ -608,7 +608,7 @@
             <tr>
                 <td>48. Have you successfully completed any of the following qualifications in Australia or hold any recognized overseas qualification?</td>
                 <td>
-                    @if (isset($previous_completed_qualification))
+                    @if ($previous_completed_qualification)
 
                         {{ $previous_completed_qualification }}
 
@@ -619,7 +619,7 @@
                 <td>49. In case of overseas qualification, has the qualification been skill assessed in
 Australia?</td>
                 <td>
-                    @if (isset($previous_completed_qualification_assessed))
+                    @if ($previous_completed_qualification_assessed)
 
                         {{ $previous_completed_qualification_assessed }}
 
@@ -739,7 +739,7 @@ Australia?</td>
                 <td>I declare that the information I have provided to the best of my knowledge is true and correct.</td>
 
                 <td>
-                      @if (isset($consent_1))
+                      @if ($consent_1)
 
                       yes
                       @endif
@@ -751,7 +751,7 @@ Australia?</td>
 
 
                 <td>
-                    @if (isset($consent_2))
+                    @if ($consent_2)
 
                     yes
                     @endif
@@ -763,7 +763,7 @@ Australia?</td>
 
 
                 <td>
-                    @if (isset($consent_3))
+                    @if ($consent_3)
 
                     yes
                     @endif
@@ -774,7 +774,7 @@ Australia?</td>
                 <td>I confirm that I am fully aware of the fees, cancellation and refund conditions and I agree to be a student at IBM (Victoria). I acknowledge that the provision of incorrect information or documentation or the withholding of information or documentation relating to my application may result in the cancellation of my enrolment.</td>
 
                 <td>
-                    @if (isset($consent_4))
+                    @if ($consent_4)
 
                     yes
                     @endif
@@ -785,7 +785,7 @@ Australia?</td>
             <tr>
                 <td>61. Use of personal information</td>
                 <td>
-                    @if (isset($consent_5))
+                    @if ($consent_5)
 
 
                         yes
@@ -820,7 +820,7 @@ Australia?</td>
              <tr>
                 <td>Completed all sections of this application</td>
                 <td>
-                    @if (isset($application_checklist_completed_all_sections))
+                    @if ($application_checklist_completed_all_sections)
 
                     yes
                     @endif
@@ -830,7 +830,7 @@ Australia?</td>
             <tr>
                 <td> Attached certified true copies of your VISA</td>
                 <td>
-                    @if (isset($application_checklist_attached_certified_visa))
+                    @if ($application_checklist_attached_certified_visa)
 
                     yes
                     @endif
@@ -841,7 +841,7 @@ Australia?</td>
                 <td> Attached certified true copies of your Passport</td>
 
                 <td>
-                    @if (isset($application_checklist_attached_certified_passport))
+                    @if ($application_checklist_attached_certified_passport)
 
                     yes
                     @endif
@@ -851,7 +851,7 @@ Australia?</td>
                 <td> Attached certified true copies of your qualifications</td>
 
                 <td>
-                    @if (isset($application_checklist_attached_certified_qualifications))
+                    @if ($application_checklist_attached_certified_qualifications)
 
                     yes
                     @endif
@@ -862,8 +862,7 @@ Australia?</td>
 
 
                 <td>
-                    @if (isset($application_checklist_copy_of_current_OHSC))
-
+                    @if ($application_checklist_copy_of_current_OHSC)
 
                     yes
                     @endif
@@ -873,7 +872,7 @@ Australia?</td>
                 <td> Attached relevant employment documentation</td>
 
                 <td>
-                    @if (isset($application_checklist_attached_relevant_employment))
+                    @if ($application_checklist_attached_relevant_employment)
 
                     yes
                     @endif
@@ -884,7 +883,7 @@ Australia?</td>
 
 
                 <td>
-                    @if (isset($application_checklist_read_and_signed_declaration))
+                    @if ($application_checklist_read_and_signed_declaration)
 
                     yes
                     @endif
@@ -894,7 +893,7 @@ Australia?</td>
                 <td> Attached certified true copies of your English Proficiency</td>
 
                 <td>
-                    @if (isset($application_checklist_attached_certified_english_proficiency))
+                    @if ($application_checklist_attached_certified_english_proficiency)
 
                     yes
                     @endif
@@ -951,7 +950,7 @@ Australia?</td>
                      Overseas Students 2018)</td>
 
                  <td>
-                     @if (isset($declaration_1))
+                     @if ($declaration_1)
 
                      yes
                      @endif
@@ -966,7 +965,7 @@ Australia?</td>
 
 
                  <td>
-                     @if (isset($declaration_2))
+                     @if ($declaration_2)
 
 
                      yes
@@ -980,7 +979,7 @@ Australia?</td>
                      Students and their families.</td>
 
                  <td>
-                     @if (isset($declaration_3))
+                     @if ($declaration_3)
 
                      yes
                      @endif
@@ -996,7 +995,7 @@ Australia?</td>
 
 
                  <td>
-                     @if (isset($declaration_4))
+                     @if ($declaration_4)
 
                      yes
                      @endif
@@ -1013,7 +1012,7 @@ Australia?</td>
 
 
                  <td>
-                     @if (isset($declaration_5))
+                     @if ($declaration_5)
 
                      yes
                      @endif
@@ -1024,7 +1023,7 @@ Australia?</td>
                  <td> I confirm the student has signed this application form.</td>
 
                  <td>
-                     @if (isset($declaration_6))
+                     @if ($declaration_6)
 
                      yes
                      @endif
@@ -1037,7 +1036,7 @@ Australia?</td>
 
 
                  <td>
-                     @if (isset($declaration_7))
+                     @if ($declaration_7)
 
 
                      yes

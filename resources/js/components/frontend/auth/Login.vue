@@ -9,7 +9,7 @@
                     <h2 class="mb-30">Login</h2>
                        <!--  <p class="mb-20">
                         Don't have an account yet? <router-link to="/signup" class="text-decoration-underline">Sign Up for Free</router-link> -->
-                    </p>
+                    <!-- </p> -->
                     <form  @submit.prevent="login" class="row gx-3 comments-form contact-form">
                         <div class="col-lg-12 mb-30">
                             <input type="text" name="email" v-model="email" placeholder="Email">

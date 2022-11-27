@@ -47,22 +47,30 @@ class StudentController extends Controller
             $data["Qustion68"] = $qustion68;
 
             $data["email"] = "info@ibm.vic.edu.au";
-            $data["title"] = "Student Enrollment";
+            $data["title"] = "Student Enrolment";
             $data["body"] = "This is Demo";
 
             $pdf = PDF::loadView('emails.onlineApplication', $data);
 
             // Mail::to($data['email'])->send(new \App\Mail\OnlineApplication($data, $pdf));
             //Mail::to('anntaffs67@gmail.com')->send(new \App\Mail\OnlineApplication($data, $pdf));
-            //Mail::to('anntaffs67@gmail.com')->send(new \App\Mail\OnlineApplication($data, $pdf));
+            //Mail::to('loucchristensen78@gmail.com')->send(new \App\Mail\OnlineApplication($data, $pdf));
             //dd('here ', $data);
 
             //Mail::to($data["email"])->cc("info@quadque.tech")->send(new \App\Mail\OnlineApplication($data, $pdf));
-            Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
-                $message->to($data["email"])->cc("info@quadque.tech")
+
+            // Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
+            //     $message->to($data["email"])->cc("info@quadque.tech")
+            //         ->subject($data["title"])
+            //         ->attachData($pdf->output(), "ApplyOnline.pdf");
+            // });
+
+ Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
+                $message->to("loucchristensen78@gmail.com")
                     ->subject($data["title"])
                     ->attachData($pdf->output(), "ApplyOnline.pdf");
             });
+
 
             // Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
             //     $message->to($data["email"], $data["email"])->cc("info@quadque.tech")
