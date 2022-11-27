@@ -16,7 +16,7 @@
                             aria-valuemin="0"
                             :aria-valuemax="progressing"
                         >
-                            {{ progressing }}%
+                            {{ parseInt(progressing) }}%
                         </div>
                     </div>
                     <div class="ms-3 mt-5 mb-2" v-if="step_number != 6">

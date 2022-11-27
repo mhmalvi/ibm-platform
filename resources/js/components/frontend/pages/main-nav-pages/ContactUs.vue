@@ -57,11 +57,7 @@
                                 <div class="contact__text">
                                     <!-- <h5>+406538251</h5> -->
                                     <a href="tel:0394783163">
-                                        <i
-                                            class="fa fa-phone mr-5"
-                                            aria-hidden="true"
-                                        ></i
-                                        >+(03) 9478 3163
+                                       +(03) 9478 3163
                                     </a>
                                     <!-- <h5>+(03) 9478 3163</h5> -->
                                     <h5>&nbsp;</h5>
