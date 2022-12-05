@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{asset('frontend/assets/css/slick.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/assets/css/spacing.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/assets/css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/assets/css/essentialDocuments.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend-custom.css')}}">
     <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">

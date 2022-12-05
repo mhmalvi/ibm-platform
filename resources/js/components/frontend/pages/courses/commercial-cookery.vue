@@ -43,7 +43,7 @@
                 <td>:</td>
                 <td>
                   60 Belfast Street, Broadmeadows, VIC, 3047 <br />
-                  170 Victoria St, RICHMOND, Victoria 3121.
+                  170 Victoria St, Richmond, Victoria 3121.
                 </td>
               </tr>
               <tr>

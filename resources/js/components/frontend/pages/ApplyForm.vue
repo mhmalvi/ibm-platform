@@ -35,6 +35,7 @@
 
                     <div v-if="step_number == 1">
                         <Step1Component @save="handleStep" />
+                        <!-- <Step7Component @save="handleStep" /> -->
                     </div>
 
                     <div v-if="step_number == 2">

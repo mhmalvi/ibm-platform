@@ -320,14 +320,12 @@
                         <p><strong>Formative Assessment</strong></p>
                         <ul>
                             <li style="text-align: justify">
-                                <i class="fas fa-check text-success"></i>&nbsp;
                                 Each week students complete a Unit Progress Test
                                 covering Listening, Vocabulary, Grammar and
                                 Reading. Student will be given mark for their
                                 speaking marking criteria on different level.
                             </li>
                             <li style="text-align: justify">
-                                <i class="fas fa-check text-success"></i>&nbsp;
                                 Each week of the course students complete a
                                 formative writing assessment over on hour of
                                 varying word lengths depending on the level. The
@@ -345,7 +343,6 @@
                         <p><strong>Summative Assessment Schedule</strong></p>
                         <ul>
                             <li style="text-align: justify">
-                                <i class="fas fa-check text-success"></i>&nbsp;
                                 Mid-Course and End of Course Tests In weeks 5
                                 and 10 of each level, students take a Mid-Course
                                 or End of Course Test. The tests cover Speaking,
@@ -353,7 +350,6 @@
                                 completed over 2 hours.
                             </li>
                             <li style="text-align: justify">
-                                <i class="fas fa-check text-success"></i>&nbsp;
                                 For the speaking, teachers use a separate room
                                 to give students a 5-minute speaking test one by
                                 one. Speaking and Writing are both marked

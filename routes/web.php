@@ -68,6 +68,7 @@ Route::post('/ipn', 'SslCommerzPaymentController@ipn');
 
 Route::group(['namespace' => 'Frontend'], function () {
 
+    Route::get('/applied', 'HomeController@templateTest')->name('/applied');
     Route::get('/', 'HomeController@index')->name('/');
     Route::get('/{frontend}', 'HomeController@index')->where('frontend', '([A-z\d\-\/_.]+)?');
 });

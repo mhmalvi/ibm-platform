@@ -216,7 +216,7 @@ let routeGeneralPages = [
 
     {
         name: "AdvanceDiplomaOfBusinessAdministration",
-        path: "/advanced-diploma-of-business",
+        path: "/bsb60120-advanced-diploma-of-business",
         component: AdvanceDiplomaOfBusinessAdministration,
 
         meta: {
@@ -225,7 +225,7 @@ let routeGeneralPages = [
     },
     {
         name: "DiplomaOfBusinessAdministrator",
-        path: "/diploma-of-business-administration",
+        path: "/bsb50120-diploma-of-business-administration",
         component: DiplomaOfBusinessAdministrator,
 
         meta: {
@@ -243,7 +243,7 @@ let routeGeneralPages = [
     },
     {
         name: "CertificateCarpentry",
-        path: "/ certificate-III-in-carpentry",
+        path: "/certificate-III-in-carpentry",
         component: CertificateCarpentry,
 
         meta: {

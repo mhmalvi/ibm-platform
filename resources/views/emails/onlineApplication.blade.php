@@ -24,16 +24,9 @@
                 </td>
                 <td>
                     @if (isset($course_id) && isset($courses))
-
                         <ul>
                             @foreach ($course_id as $item)
-
-
                                 <li>{{ $courses[$item]['title'] }}</li>
-
-
-
-
                             @endforeach
                         </ul>
                     @endif

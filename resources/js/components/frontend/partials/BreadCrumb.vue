@@ -40,7 +40,7 @@ export default {
     watch: {
         "$route.params.slug"(newSlug, oldSlug) {
             // this.getSingleBlogs();
-            if (newSlug == "certificate-iii-in-carpentry") {
+            if (newSlug == "cpc30220-certificate-iii-in-carpentry") {
                 return (this.pageName = "Certificate III In Carpentry");
             } else {
                 if (
@@ -96,6 +96,22 @@ export default {
                 return (this.pageName = "Welcome To IBM");
             } else if (text == "WhyChooseIbm") {
                 return (this.pageName = "Welcome To IBM");
+            } else if (text == "cpc30220-certificate-iii-in-carpentry") {
+                return (this.pageName =
+                    "CPC30220 Certificate III In Carpentry");
+            } else if (text == "cpc30220-certificate-iii-in-carpentry") {
+                return (this.pageName =
+                    "CPC30220 Certificate III In Carpentry");
+            } else if (text == "bsb50120-diploma-of-business") {
+                return (this.pageName = "BSB50120 Diploma Of Business");
+            } else if (text == "bsb60120-advanced-diploma-of-business") {
+                return (this.pageName =
+                    "BSB60120 Advanced Diploma Of Business");
+            } else if (
+                text == "bsb80120-graduate-diploma-of-management-learning"
+            ) {
+                return (this.pageName =
+                    "BSB80120 Graduate Diploma Of Management (Learning)");
             } else {
                 var finalResult = result.replaceAll("-", " ");
                 this.pageName = finalResult.replace(

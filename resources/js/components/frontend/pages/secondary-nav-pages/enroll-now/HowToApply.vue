@@ -1,10 +1,10 @@
 <template>
     <base-layout>
         <section
-            class="contact-us-area pb-120 pt-md-100 pt-xs-100 pb-md-70 pb-xs-70"
+            class="contact-us-area pb-120 pt-30 pt-md-100 pt-xs-20 pb-md-70 pb-xs-70"
         >
             <div class="container">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="text-center">
                         <img
                             :src="
@@ -14,14 +14,58 @@
                             class="responsive_img"
                         />
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
                         <h3 class="mb-10 theme-color">Student Enrolment</h3>
                         <hr />
                     </div>
                     <div class="apply-procedure">
-                        <div class="collapsible pb-2">
+                        <a
+                            class="btn-link"
+                            :href="
+                                image_url +
+                                '/frontend/assets/pdf/Enrolment_Form.pdf'
+                            "
+                            donwload
+                        >
+                            <button
+                                class="btn btn-lg fs-5 theme-bg text-white wow fadeInUp2 animated"
+                                style="width: 18rem; height: 18rem"
+                            >
+                                <i
+                                    class="fa fa-download"
+                                    style="
+                                        font-size: 2.5rem;
+                                        margin-bottom: 0.5rem;
+                                    "
+                                ></i>
+                                <br />
+                                Download enrolment form
+                            </button>
+                        </a>
+
+                        <a
+                            class="text-primary btn-link"
+                            :href="base_url + '/apply-form'"
+                        >
+                            <button
+                                class="btn btn-lg fs-5 theme-bg text-white wow fadeInUp2 animated"
+                                style="width: 18rem; height: 18rem"
+                            >
+                                <i
+                                    class="fa fa-ballot-check"
+                                    style="
+                                        font-size: 2.5rem;
+                                        margin-bottom: 0.5rem;
+                                    "
+                                ></i>
+                                <br />
+                                Apply online
+                            </button>
+                        </a>
+
+                        <!-- <div class="collapsible pb-2">
                             <a
                                 @click="changeAngle($event)"
                                 data-position="down"
@@ -62,8 +106,8 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="collapsible pb-2">
+                        </div> -->
+                        <!-- <div class="collapsible pb-2">
                             <a
                                 @click="changeAngle($event)"
                                 data-position="right"
@@ -92,7 +136,7 @@
                                     >
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
