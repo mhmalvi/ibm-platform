@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\API\Frontend\StudentController;
 use App\Http\Controllers\OnlineApplicationsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -110,7 +111,10 @@ Route::group(['namespace' => 'API\Frontend', 'middleware' => 'api'], function ()
     Route::get('get-single-blog-post/{slug}', 'BlogController@getSingleBlog');
 
     Route::post('submit-student-enrolment', 'StudentController@onlineEnrollment');
+    // Route::post('select-a-course/{id}', 'StudentController@onlineEnrollment');
     Route::post('search-for-certificate', 'StudentController@SearchForCertificate');
+    Route::post('applied-documents','StudentController@file_upload');
+    
 });
 
 

@@ -20,11 +20,11 @@
         <div class="d-flex justify-content-end">
             <router-link
                 to="#"
-                class="btn btn-lg theme-bg m-2 text-white"
+                class="btn btn-mc theme-bg m-2 text-white"
                 @click.native="goToBack"
                 ><i class="fa fa-arrow-left"></i> Previous</router-link
             >
-            <button class="btn btn-lg theme-bg m-2 text-white" @click="save">
+            <button class="btn btn-mc theme-bg m-2 text-white" @click="save">
                 Save & Continue
             </button>
         </div>

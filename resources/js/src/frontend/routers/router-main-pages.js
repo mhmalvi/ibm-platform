@@ -37,9 +37,19 @@ import ContactUs from "../../../components/frontend/pages/main-nav-pages/Contact
 
 import ApplyForm from "../../../components/frontend/pages/ApplyForm.vue";
 
+import Step7Component from "../../../components/frontend/ApplyFormComponents/Step7Component.vue"
+
 let routerMainPages = [
     // About Us
+    {
+        name: "Step7Component",
+        path: "/applied-documents",
+        component: Step7Component,
 
+        meta: {
+            auth: false,
+        },
+    },
     {
         name: "WelcomeToIbm",
         path: "/about-us",

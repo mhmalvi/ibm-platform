@@ -18,11 +18,11 @@
         <div class="d-flex justify-content-end">
             <router-link
                 to="#"
-                class="btn btn-lg theme-bg m-2 text-white"
+                class="btn btn-md theme-bg m-2 text-white"
                 @click.native="goToBack"
                 ><i class="fa fa-arrow-left"></i> Previous</router-link
             >
-            <button class="btn btn-lg theme-bg m-2 text-white" @click="save">
+            <button class="btn btn-md theme-bg m-2 text-white" @click="save">
                 Save & Continue
             </button>
         </div>
@@ -48,6 +48,8 @@ export default {
             if (!document.getElementById("phone").value) {
                 document.getElementById("phone").style.border =
                     "1px solid #EB4034";
+                document.documentElement.scrollTop = 700;
+
                 return;
             } else {
                 document.getElementById("phone").style.border =
@@ -56,6 +58,8 @@ export default {
             if (!document.getElementById("email").value) {
                 document.getElementById("email").style.border =
                     "1px solid #EB4034";
+                document.documentElement.scrollTop = 700;
+
                 return;
             } else if (!document.getElementById("email").value.includes("@")) {
                 document.getElementById("email_message").innerText =
@@ -64,6 +68,8 @@ export default {
                     "#EB4034";
                 document.getElementById("email").style.border =
                     "1px solid #EB4034";
+                document.documentElement.scrollTop = 700;
+
                 return;
             } else {
                 document.getElementById("email").style.border =

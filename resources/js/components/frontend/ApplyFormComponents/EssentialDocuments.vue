@@ -6664,588 +6664,7 @@
             <!-- Section 4 -->
 
             <!-- Section 5 -->
-            <div id="sf5" class="frm" style="padding-top: 1.5rem">
-                <div
-                    class="application_checklist port_melbourne_checklist"
-                    id="port_melbourne_checklist"
-                    style="display: block"
-                >
-                    <div class="form_header_title">
-                        Identification documents
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p>
-                                The documents listed below are examples of
-                                documents that can be used as proof of identity.
-                                Other documents may be used as long as the
-                                document as a minimum provides proof of the
-                                participant’s full name as well as a photo:
-                            </p>
-                            <br />
-                            <br />
-                            <h5>ID Form:</h5>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span class="wpcf7-list-item first">
-                                    <input
-                                        id="passport"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload0"
-                                        name="checklist[0]"
-                                        value="1"
-                                        @change="previewFiles"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label for="passport"> Passport </label>
-                                        <br />
-                                        <p class="photoid">
-                                            (Australian Passport current or
-                                            expired within the last two years,
-                                            but not cancelled, International
-                                            Passport must be current)
-                                        </p></span
-                                    >
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    name="upload[0]"
-                                    class="file_btn visa"
-                                    id="upload0"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[0]"
-                                    class="upload0_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_0"
-                                    name="upload_file_checklist[0]"
-                                    class="upload0_file_name"
-                                    value="Passport (Australian Passport current or expired within the last two years, but not cancelled, International Passport must be current)"
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload0_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span class="wpcf7-list-item first">
-                                    <input
-                                        id="licence"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload1"
-                                        name="checklist[1]"
-                                        value="1"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label for="licence">
-                                            Driver’s Licence
-                                        </label>
-                                        <br />
-                                        <p class="photoid">
-                                            Australian with photo, must be
-                                            current. Driver’s Learners Permit –
-                                            Australian with photo, must be
-                                            current.
-                                        </p></span
-                                    >
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    name="upload_file_name1"
-                                    class="file_btn visa"
-                                    id="upload1"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[1]"
-                                    class="upload1_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_1"
-                                    name="upload_file_checklist[1]"
-                                    class="upload1_file_name"
-                                    value="Driver’s Licence – Australian with photo, must be current. Driver’s Learners Permit – Australian with photo, must be current."
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload1_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span class="wpcf7-list-item first">
-                                    <input
-                                        id="boat_passport"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload2"
-                                        name="checklist[2]"
-                                        value="1"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label for="boat_passport">
-                                            Boat Operator’s Licence
-                                        </label>
-                                        <br />
-                                        <p class="photoid">
-                                            Australian with photo, must be
-                                            current.
-                                        </p></span
-                                    >
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    name="upload_file_name2"
-                                    class="file_btn visa"
-                                    id="upload2"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[2]"
-                                    class="upload2_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_2"
-                                    name="upload_file_checklist[2]"
-                                    class="upload2_file_name"
-                                    value="Boat Operator’s Licence – Australian with photo, must be current."
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload2_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span class="wpcf7-list-item first">
-                                    <input
-                                        id="firearm_licence"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload3"
-                                        name="checklist[3]"
-                                        value="1"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label for="firearm_licence">
-                                            Firearm Licence
-                                        </label>
-                                        <br />
-                                        <p class="photoid">
-                                            Victorian with photo, must be
-                                            current. (Can accept interstate
-                                            Firearms Licence as long as it
-                                            contains a photo and is current)
-                                        </p></span
-                                    >
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    name="upload_file_name3"
-                                    class="file_btn visa"
-                                    id="upload3"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[3]"
-                                    class="upload3_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_3"
-                                    name="upload_file_checklist[3]"
-                                    class="upload3_file_name"
-                                    value="Firearm Licence – Victorian with photo, must be current. (Can accept interstate Firearms Licence as long as it contains a photo and is current)"
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload3_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span class="wpcf7-list-item first d-flex">
-                                    <input
-                                        id="certificate_of_competency"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload4"
-                                        name="checklist[4]"
-                                        value="1"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label
-                                            for="certificate_of_competency"
-                                            style="margin-top: 0"
-                                        >
-                                            Licence to Perform High Risk Work or
-                                            equivalent photo certificate of
-                                            competency
-                                        </label>
-                                        <br />
-                                        <p style="margin-left: 15px">
-                                            It should be current, not expired.
-                                        </p></span
-                                    >
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    name="upload_file_name4"
-                                    class="file_btn visa"
-                                    id="upload4"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[4]"
-                                    class="upload4_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_4"
-                                    name="upload_file_checklist[4]"
-                                    class="upload4_file_name"
-                                    value="Licence to Perform High Risk Work or equivalent photo certificate of competency that is current, not expired."
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload4_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span
-                                    class="wpcf7-list-item first d-flex align-items-center"
-                                >
-                                    <input
-                                        id="id_card"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload5"
-                                        name="checklist[5]"
-                                        value="1"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label
-                                            for="id_card"
-                                            style="margin-top: 0"
-                                        >
-                                            State, Territory or Federal
-                                            Government Employee ID card with
-                                            photo
-                                        </label>
-                                        <br
-                                    /></span>
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    name="upload_file_name5"
-                                    class="file_btn visa"
-                                    id="upload5"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[5]"
-                                    class="upload5_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_5"
-                                    name="upload_file_checklist[5]"
-                                    class="upload5_file_name"
-                                    value="State, Territory or Federal Government Employee ID card with photo"
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload5_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span
-                                    class="wpcf7-list-item first d-flex align-items-center align-items-center"
-                                >
-                                    <input
-                                        id="australian_government_issued_id_card"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload6"
-                                        name="checklist[6]"
-                                        value="1"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label
-                                            for="australian_government_issued_id_card"
-                                            style="margin-top: -10px"
-                                        >
-                                            Other Australian Government issued
-                                            ID card with photo
-                                        </label>
-                                        <br
-                                    /></span>
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    name="upload_file_name6"
-                                    class="file_btn visa"
-                                    id="upload6"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[6]"
-                                    class="upload6_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_6"
-                                    name="upload_file_checklist[6]"
-                                    class="upload6_file_name"
-                                    value="Other Australian Government issued ID card with photo"
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload6_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span class="wpcf7-list-item first d-flex">
-                                    <input
-                                        id="tertiary_education_institution"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload7"
-                                        name="checklist[7]"
-                                        value="1"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label
-                                            for="tertiary_education_institution"
-                                            style="margin-top: 0"
-                                        >
-                                            Photo identity card issued by a
-                                            Tertiary Education Institution must
-                                            be current
-                                        </label>
-                                        <br />
-                                        <p style="margin-left: 15px">
-                                            Keypass ID Card with photo, must be
-                                            current
-                                        </p></span
-                                    >
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    name="upload_file_name7"
-                                    class="file_btn visa"
-                                    id="upload7"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[7]"
-                                    class="upload7_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_7"
-                                    name="upload_file_checklist[7]"
-                                    class="upload7_file_name"
-                                    value="Photo identity card issued by a Tertiary Education Institution must be current Keypass ID Card with photo, must be current"
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload7_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 my-2 row">
-                            <div class="col-md-6">
-                                <span
-                                    class="wpcf7-list-item first d-flex align-items-center"
-                                >
-                                    <input
-                                        id="affairs_victoria_proof"
-                                        type="checkbox"
-                                        class="input_checkbox checklist_upload8"
-                                        name="checklist[8]"
-                                        value="1"
-                                    />
-                                    <span
-                                        class="wpcf7-list-item-label text_checkbox"
-                                    >
-                                        <label
-                                            for="affairs_victoria_proof"
-                                            style="margin-top: 0"
-                                        >
-                                            Consumer Affairs Victoria Proof of
-                                            Age Card with photo
-                                        </label>
-                                        <br />
-                                    </span>
-                                </span>
-                            </div>
-                            <div class="col-md-4">
-                                <input
-                                    type="file"
-                                    accept="image/gif, image/jpg, image/png, application/pdf, application/doc, application/docx"
-                                    name="upload_file_name8"
-                                    class="file_btn visa"
-                                    id="upload8"
-                                    @change="previewFiles"
-                                />
-                                <input
-                                    type="hidden"
-                                    name="upload_file_name[8]"
-                                    class="upload8_file"
-                                    value=""
-                                />
-                                <input
-                                    type="hidden"
-                                    id="this_file_8"
-                                    name="upload_file_checklist[8]"
-                                    class="upload8_file_name"
-                                    value="Consumer Affairs Victoria Proof of Age Card with photo"
-                                />
-                                <p class="error">
-                                    Maximum size: 2 MB and File Type: PDF, JPG,
-                                    JPEG, PNG &amp; TIFF.
-                                </p>
-                            </div>
-                            <div class="col-md-2" style="text-align: right">
-                                <div
-                                    id="upload8_custom_error"
-                                    class="select_box_error_fix pull-right m_t_10"
-                                ></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="m_t_10">
-                        <div class="col-md-12">
-                            <p class="error">
-                                <small
-                                    >Maximum upload file size: 2 MB for each
-                                    documents<br />Only PDF, JPG, JPEG, PNG
-                                    &amp; TIFF file is supported for
-                                    attachment.</small
-                                >
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </form>
         <p class="ab_app_note">
             Note: If you are facing any issues in filling up the Domestic
@@ -7268,40 +6687,68 @@ export default {
             this_file_7: null,
             this_file_8: null,
             this_file_8: null,
-            this_file_9: null,
+            this_file_9: "null",
+            passport_data:""
+            // file_name:""
+            // fileData:[]
+            // passport_ref:"",
+            // driver_license:"",
+            // license:"",
+            // firearm_license:"",
+            // photo_certificate_of_competency:"",
+            // emp_id_card:"",
+            // govt_issued_id_card:"",
+            // photo_id_card_tertiary:"",
+            // victoria_proof_age_card:""
         };
     },
 
     methods: {
-        previewFiles(event) {
-            const fileData = new FormData();
-            console.log(event.target.files[0]);
+       
+        // previewFiles(event) {
+        //     // let fileData = new Formdata()
+        //     this.file = event.target.files;
+        //     localStorage.setItem('selected_files',this.file)
+        //     // this.$emit('selected_files',this.file)
+        //     // console.log(this.file)
+        //     // this.driver_license = this.$refs.driver_license.files[0];
+        //     // this.license = this.$refs.license.files[0];
+        //     // this.firearm_license = this.$refs.firearm_license.files[0];
+        //     // this.photo_certificate_of_competency = this.$refs.photo_certificate_of_competency.files[0];
+        //     // this.emp_id_card = this.$refs.emp_id_card.files[0];
+        //     // this.govt_issued_id_card = this.$refs.govt_issued_id_card.files[0];
+        //     // this.photo_id_card_tertiary = this.$refs.photo_id_card_tertiary.files[0];
+        //     // this.victoria_proof_age_card = this.$refs.victoria_proof_age_card.files[0];
+        //     // console.log(this.passport)
+        //     // const fileData = new FormData();
+        //     // console.log(event.target.files[0]);
+        //     // exit()
 
-            // for (const key of fileData.keys()) {
-            //     if (key !== event.target.name) {
-            //         fileData.append(event.target.name, event.target.files);
-            //     } else {
-            //         fileData.delete(event.target.name);
-            //         fileData.append(event.target.name, event.target.files);
-            //     }
+        //     // for (const key of fileData.keys()) {
+        //     //     if (key !== event.target.name) {
+        //     //         fileData.append(event.target.name, event.target.files[0]);
+        //     //     } else {
+        //     //         fileData.delete(event.target.name);
+        //     //         fileData.append(event.target.name, event.target.files);
+        //     //     }
 
-            //     console.log(key);
-            // }
-            // this.$set(this.$data.this_file_1, event.target.name);
+                
+        //     // }
+        //     // this.$set(this.$data.this_file_1, event.target.name);
 
-            fileData.append(`${event.target.name}`, event.target.files);
+        //     // fileData.append(`${event.target.name}`, event.target.files);
 
-            for (const key of fileData) {
-                // if (key !== event.target.name) {
-                //     fileData.append(event.target.name, event.target.files);
-                // } else {
-                //     fileData.delete(event.target.name);
-                //     fileData.append(event.target.name, event.target.files);
-                // }
+        //     // for (const key of fileData) {
+        //     //     // if (key !== event.target.name) {
+        //     //     //     fileData.append(event.target.name, event.target.files);
+        //     //     // } else {
+        //     //     //     fileData.delete(event.target.name);
+        //     //     //     fileData.append(event.target.name, event.target.files);
+        //     //     // }
 
-                console.log(key);
-            }
-        },
+        //     //     console.log(key);
+        //     // }
+        // },
     },
 };
 </script>

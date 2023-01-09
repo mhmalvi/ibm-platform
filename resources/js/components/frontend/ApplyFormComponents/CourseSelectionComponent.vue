@@ -4,15 +4,32 @@
             <h5 class="input-title">Course selection</h5>
             <label for="courses" class="form-label">Select a course</label>
             <div class="row">
-                <div class="col-12">
-                    <v-select
+                <div id="course_select" class="col-12">
+                    <!-- <v-select
                         :options="courses"
                         :reduce="(course) => course.id"
                         v-model="course_id"
                         label="title"
                         placeholder="Select Course"
                         multiple
-                    ></v-select>
+                    ></v-select> -->
+                    <!-- hello -->
+
+                    <select
+                        name="LeaveType"
+                        @change="onChange($event)"
+                        v-model="course_id"
+                        :reduce="(course) => course.id"
+                        class="form-control"
+                    >
+                        <option
+                            v-for="(course, index) in courses"
+                            :key="index"
+                            :value="course.id"
+                        >
+                            {{ course.title }}
+                        </option>
+                    </select>
                 </div>
             </div>
         </div>
@@ -50,12 +67,18 @@ export default {
     data() {
         return {
             course_id: "",
+            course_title: "",
+            course_code: "",
+            cricos_code: "",
             airport_pickup: null,
             courses: [],
+            id: "",
         };
     },
 
-    created() {
+    // props: ["courses"],
+
+    mounted() {
         this.getCourses();
     },
     methods: {
@@ -64,6 +87,15 @@ export default {
                 console.log(res.data.data);
                 this.courses = res.data.data;
             });
+        },
+        onChange(event) {
+            var coursee = this.courses.find(
+                (course) => course.id === this.course_id
+            );
+
+            this.course_title = coursee.title;
+            this.course_code = coursee.course_code;
+            this.cricos_code = coursee.cricos_code;
         },
     },
 };

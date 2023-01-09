@@ -29,14 +29,65 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\File;
+use IlluminateAgnostic\Arr\Support\Arr;
+use Image;
 
 class StudentController extends Controller
 {
+    public function file_upload(Request $request){
+        // dd($request);
+        if(!$request->hasFile('fileName')) {
+           return response()->json(['document_url'=>''], 401);
+         }
+ 
+        $file = $request->file('fileName');
+        $newAuthorFileName = time() . '.' . $file->getClientOriginalExtension();
+        $path = public_path('uploads/applied-documents');
+        if(!$file->move($path, $newAuthorFileName)){
+            return response()->json(['document_url'=>''], 401);
+        }
+ 
+        return response()->json(['document_url'=>$newAuthorFileName], 200);
+ 
+    }
+
     public function onlineEnrollment(Request $request)
     {
+        // dd($request);
+        $path = '/uploads/applied-documents';
+        $base_url = env("ASSET_URL", "somedefaultvalue"). $path;
+        $attachedFiles = [];    
+        // dd($base_url);
         try {
-            $qustion01 = explode(",", $request->Qustion01);
+            // ($request->passport!="")?array_push($attachedFiles, $base_url.'/'.$request->passport):'';
+            // ($request->driver_licence!="")?array_push($attachedFiles, $base_url.'/'.$request->driver_licence):'';
+            // ($request->boat_licence!="")?array_push($attachedFiles, $base_url.'/'.$request->boat_licence):'';
+            // ($request->firearm_licence!="")?array_push($attachedFiles, $base_url.'/'.$request->firearm_licence):'';
+            // ($request->certificate_of_competency!="")?array_push($attachedFiles, $base_url.'/'.$request->certificate_of_competency):'';
+            // ($request->territory!="")?array_push($attachedFiles, $base_url.'/'.$request->territory):'';
+            // ($request->govt_issued_id_card!="")?array_push($attachedFiles, $base_url.'/'.$request->govt_issued_id_card):'';
+            // ($request->photo_id_card!="")?array_push($attachedFiles, $base_url.'/'.$request->photo_id_card):'';
+            // ($request->age_card_with_photo!="")?array_push($attachedFiles, $base_url.'/'.$request->age_card_with_photo):'';
 
+           
+          // ($request->passport!="")? $attachedFiles['Passport Document'] = 'https://ibm.vic.edu.au/public/frontend/assets/pdf/form-policy/Fee-and-Refund-Policy-and-procedures.pdf':'';
+
+           
+           //($request->driver_licence!="")? $attachedFiles['Driving Licence'] ='https://ibm.vic.edu.au/public/frontend/assets/pdf/form-policy/Completion-within-expected-duration-Policy-Procedure.pdf':'';
+           
+           ($request->passport!="")? $attachedFiles['Passport Document'] = $base_url.'/'.$request->passport:'';
+           ($request->driver_licence!="")? $attachedFiles['Driving Licence'] = $base_url.'/'.$request->driver_licence:'';
+           ($request->boat_licence!="")? $attachedFiles['Boat Licence']=  $base_url.'/'.$request->boat_licence:'';
+           ($request->firearm_licence!="")? $attachedFiles['Fiream Licence'] = $base_url.'/'.$request->firearm_licence:'';
+           ($request->certificate_of_competency!="")? $attachedFiles['Certificate Of Competency'] = $base_url.'/'.$request->certificate_of_competency:'';
+           ($request->territory!="")? $attachedFiles['Territory Document'] =$base_url.'/'.$request->territory:'';
+           ($request->govt_issued_id_card!="")? $attachedFiles['Govt Issued Id Card']= $base_url.'/'.$request->govt_issued_id_card:'';
+           ($request->photo_id_card!="")? $attachedFiles['Photo Id Card'] = $base_url.'/'.$request->photo_id_card:'';
+           ($request->age_card_with_photo!="")? $attachedFiles['Age Card With Photo'] =$base_url.'/'.$request->age_card_with_photo:'';
+
+           // dd($attachedFiles);
+            $qustion01 = explode(",", $request->Qustion01);
             $qustion60 = explode(",", $request->Qustion60);
             $qustion64 = explode(",", $request->Qustion64);
             $qustion68 = explode(",", $request->Qustion68);
@@ -50,7 +101,64 @@ class StudentController extends Controller
             $data["title"] = "Student Enrolment";
             $data["body"] = "This is Demo";
 
-            $pdf = PDF::loadView('emails.onlineApplication', $data);
+            // $pdf = PDF::loadView('emails.onlineApplication', $data);
+
+            // dd($data);
+            
+            $pdf1 = Pdf::loadView('emails.onlineApplication', $data);
+            $pdf2 = Pdf::loadView('emails.onlineApplication_2', $data);
+            $pdf3 = Pdf::loadView('emails.onlineApplication_3', $data);
+            $pdf4 = Pdf::loadView('emails.onlineApplication_4', $data);
+            $pdf5 = Pdf::loadView('emails.onlineApplication_5', $data);
+            
+
+            //  $path = public_path('uploads/pdf/');
+            //  $fileName = 'ApplyOnline3' . '.' . 'pdf' ;
+            //  $pdf3->setPaper('a4', 'P')->save($path . '/' . $fileName);
+            //  return $pdf3->stream();
+            
+
+            // if ($request->hasfile('filenames')) {
+            // foreach ($request->file('filenames') as $file) {
+            //     $name = $file->getClientOriginalName();
+            //      $path = public_path('assets/uploads/applied-documents');
+            //     $file->move($path, $name);
+            // }
+            
+            // return back()->with('Success!','Data Added!');
+        //}
+
+            // if ($request->file('thumbnail')) {
+
+            //     $file = $request->file('thumbnail');
+            //     $newThumbnailName = time() . '.' . $file->getClientOriginalExtension();
+            //     $path = public_path('assets/uploads/applied-documents');
+            //     $file->move($path, $newThumbnailName);
+            // }
+
+            // StudentEnroll::create([
+
+            //     // 'blog_slug' => md5($request->title . time()),
+            //     // 'title' => $request->title,
+            //     // 'intro_details' => $request->intro_details,
+            //     // 'details' => $request->details,
+            //     'thumbnail' => $newThumbnailName ? $newThumbnailName : '',
+            //     // 'tags' => json_encode($request->tags),
+            //     // 'author_name' => $request->author_name,
+            //     // 'author_image' => $newAuthorFileName ? $newAuthorFileName : '',
+            //     // 'meta_tags' => $request->meta_tags,
+            //     // 'meta_keys' => $request->meta_keys,
+            //     // 'meta_desc' => $request->meta_desc,
+
+            // ]);
+
+
+            // $notification = [
+            //     'message'   =>  'Successfully saved',
+            //     'alert-type'    =>  'success'
+            // ];
+
+            // return redirect()->back()->with($notification);
 
             // Mail::to($data['email'])->send(new \App\Mail\OnlineApplication($data, $pdf));
             //Mail::to('anntaffs67@gmail.com')->send(new \App\Mail\OnlineApplication($data, $pdf));
@@ -65,23 +173,40 @@ class StudentController extends Controller
             //         ->attachData($pdf->output(), "ApplyOnline.pdf");
             // });
 
- Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
-                $message->to("loucchristensen78@gmail.com")
-                    ->subject($data["title"])
-                    ->attachData($pdf->output(), "ApplyOnline.pdf");
-            });
+                         Mail::send('emails.greetingMail', $data, function ($message) use ($data, $pdf1, $pdf2, $pdf3, $pdf4,$pdf5,$attachedFiles) {
+                            $message->to("loucchristensen78@gmail.com")
+                                ->subject($data["title"])
+                                // ->attachData($pdf->output(), "ApplyOnline.pdf");  
+                                ->attachData($pdf1->output(), "ApplyOnline Part-1.pdf", ['mime' => 'application/pdf'])
+                                ->attachData($pdf2->output(), "ApplyOnline Part-2.pdf", ['mime' => 'application/pdf'])
+                                ->attachData($pdf3->output(), "ApplyOnline Part-3.pdf", ['mime' => 'application/pdf'])
+                                ->attachData($pdf4->output(), "ApplyOnline Part-4.pdf", ['mime' => 'application/pdf'])
+                                ->attachData($pdf5->output(), "ApplyOnline Part-5.pdf", ['mime' => 'application/pdf']);
+                                
 
+                            if($attachedFiles!=""){
+                                    foreach ($attachedFiles as $key=>$value){
+                                    // dd($file);        
+                                       //  $message->attach($value);
+                                       $message->attach($value, array(
+                                            'as' => $key
+                                            ));
+                                }
+                            }                        
+                        });
+                        
+                        // dd($message);
 
-            // Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
-            //     $message->to($data["email"], $data["email"])->cc("info@quadque.tech")
-            //         ->subject($data["title"])
-            //         ->attachData($pdf->output(), "ApplyOnline.pdf");
-            // });
+                        // Mail::send('emails.onlineApplication', $data, function ($message) use ($data, $pdf) {
+                        //     $message->to($data["email"], $data["email"])->cc("info@quadque.tech")
+                        //         ->subject($data["title"])
+                        //         ->attachData($pdf->output(), "ApplyOnline.pdf");
+                        // });
 
-            return response()->json(["message" => "mail sent successfully"], 200);
-        } catch (\throwable $th) {
-            return response()->json(["message" => "something went wrong"], 503);
-        }
+                        return response()->json(["message" => "mail sent successfully"], 200);
+                    } catch (\throwable $th) {
+                        push
+                    }
     }
 
     public function enrollStudent(Request $request)

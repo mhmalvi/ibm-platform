@@ -9,8 +9,8 @@
     <EducationAgentDetailsComponent ref="education_agent_details" />
 
     <div class="d-flex justify-content-end">
-      <router-link to="#" class="btn btn-lg theme-bg m-2 text-white" @click.native="goToBack"><i class="fa fa-arrow-left"></i> Previous</router-link>
-      <button class="btn btn-lg theme-bg m-2 text-white" @click="save">Save & Continue</button>
+      <router-link to="#" class="btn btn-md theme-bg m-2 text-white" @click.native="goToBack"><i class="fa fa-arrow-left"></i> Previous</router-link>
+      <button class="btn btn-md theme-bg m-2 text-white" @click="save">Save & Continue</button>
     </div>
   </div>
 </template>

@@ -27,7 +27,7 @@
                                 image_url +
                                 '/frontend/assets/pdf/Enrolment_Form.pdf'
                             "
-                            donwload
+                            download
                         >
                             <button
                                 class="btn btn-lg fs-5 theme-bg text-white wow fadeInUp2 animated"
