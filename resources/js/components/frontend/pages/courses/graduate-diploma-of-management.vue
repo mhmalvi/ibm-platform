@@ -669,49 +669,19 @@
                                         </td>
                                         <td>Core</td>
                                     </tr>
-
-                                    <!-- ELECTIVE UNITS -->
-                                    <!-- <tr>
-                                        <td colspan="2">
-                                            <b>ELECTIVE UNITS</b>
-                                        </td>
-                                    </tr> -->
-
                                     <tr>
-                                        <td>BSBCRT611</td>
+                                        <td>BSBSTR801</td>
                                         <td>
-                                            Apply critical thinking for complex
-                                            problem solving
+                                            Lead innovative thinking and
+                                            practice
                                         </td>
                                         <td>Elective</td>
                                     </tr>
                                     <tr>
-                                        <td>BSBFIN801</td>
+                                        <td>BSBSTR802</td>
                                         <td>
-                                            Lead financial strategy development
-                                        </td>
-                                        <td>Elective</td>
-                                    </tr>
-                                    <tr>
-                                        <td>BSBHRM611</td>
-                                        <td>
-                                            Contribute to organisational
-                                            performance development
-                                        </td>
-                                        <td>Elective</td>
-                                    </tr>
-                                    <tr>
-                                        <td>BSBINS603</td>
-                                        <td>
-                                            Initiate and lead applied research
-                                        </td>
-                                        <td>Elective</td>
-                                    </tr>
-                                    <tr>
-                                        <td>BSBLDR601</td>
-                                        <td>
-                                            Lead and manage organisational
-                                            change
+                                            Lead strategic planning processes
+                                            for an organisation
                                         </td>
                                         <td>Elective</td>
                                     </tr>
@@ -723,31 +693,19 @@
                                         </td>
                                         <td>Elective</td>
                                     </tr>
+
                                     <tr>
-                                        <td>BSBOPS601</td>
+                                        <td>BSBINS603</td>
                                         <td>
-                                            Develop and implement business plans
+                                            Initiate and lead applied research
                                         </td>
                                         <td>Elective</td>
                                     </tr>
+
                                     <tr>
-                                        <td>BSBSTR801</td>
+                                        <td>BSBPMG810</td>
                                         <td>
-                                            Lead innovative thinking and
-                                            practice
-                                        </td>
-                                        <td>Elective</td>
-                                    </tr>
-                                    <tr>
-                                        <td>PSPMGT012</td>
-                                        <td>Facilitate knowledge management</td>
-                                        <td>Elective</td>
-                                    </tr>
-                                    <tr>
-                                        <td>TAELED804</td>
-                                        <td>
-                                            Review enterprise e-learning systems
-                                            and solutions implementation
+                                            Prioritise projects and programs
                                         </td>
                                         <td>Elective</td>
                                     </tr>

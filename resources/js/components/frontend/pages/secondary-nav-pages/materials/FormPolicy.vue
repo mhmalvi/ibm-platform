@@ -427,7 +427,7 @@
                                     class="fw-bold me-auto"
                                     :href="
                                         image_url +
-                                        '/frontend/assets/pdf/form-policy/December-2021_Enrollment-Form_IBM.docx.pdf'
+                                        '/frontend/assets/pdf/Enrolment_Form.pdf'
                                     "
                                     donwload
                                     >Enrolment Form

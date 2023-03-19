@@ -53,6 +53,8 @@
                                     Make a click and get updated with our latest
                                     news.
                                 </p>
+                                <p class="text-left">RTO Code: 45516</p>
+                                <p class="text-left">CRICOS CODE: 03785D</p>
                                 <div
                                     class="alert alert-success alert-dismissible fade show"
                                     role="alert"
