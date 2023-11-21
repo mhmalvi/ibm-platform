@@ -516,6 +516,137 @@
                   <tr>
                     <th colspan="2">CORE UNITS</th>
                   </tr>
+                  <!-- <tr>
+                    <td>CPCCWHS2001</td>
+                    <td>
+                      Apply WHS requirements, policies, and procedures in the
+                      construction industry
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCWHS3001</td>
+                    <td>
+                      Identify construction work hazards and select risk control
+                      strategies
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCOM1012</td>
+                    <td>
+                      Work effectively and sustainably in the construction
+                      industry.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA2002</td>
+                    <td>Use carpentry tools and equipment</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA2011</td>
+                    <td>Handle carpentry materials</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3025</td>
+                    <td>
+                      Read and interpret plans, specifications and drawings for
+                      carpentry work
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCM2012</td>
+                    <td>Work safely at heights</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCOM1015</td>
+                    <td>Carry out measurements and calculations</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCOM3001</td>
+                    <td>
+                      Perform construction calculations to determine carpentry
+                      material requirements
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3001</td>
+                    <td>
+                      Carry out general demolition of minor building structures
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3002</td>
+                    <td>Carry out setting out</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCO2013</td>
+                    <td>Carry out concreting to simple forms</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCM2006</td>
+                    <td>Apply basic levelling procedures</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCOM3006</td>
+                    <td>Carry out levelling operations</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3004</td>
+                    <td>Construct and erect wall frames</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3005</td>
+                    <td>Construct ceiling frames</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3007</td>
+                    <td>Construct pitched roofs</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3008</td>
+                    <td>Construct eaves</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3016</td>
+                    <td>
+                      Construct, assemble and install timber external stairs
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3006</td>
+                    <td>Erect roof trusses</td>
+                  </tr>
+
+                  <tr>
+                    <td>CPCCCA3028</td>
+                    <td>
+                      Erect and dismantle formwork for footings and slabs on
+                      ground
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCM2008</td>
+                    <td>Erect and dismantle restricted height scaffolding</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3003</td>
+                    <td>Install flooring systems</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3010</td>
+                    <td>Install windows and doors</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3017</td>
+                    <td>Install exterior cladding</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCCA3024</td>
+                    <td>Install lining, paneling and molding</td>
+                  </tr>
+                  <tr>
+                    <td>CPCCOM1014</td>
+                    <td>Conduct workplace communication</td>
+                  </tr> -->
                   <tr>
                     <td>CPCCWHS2001</td>
                     <td>
@@ -771,7 +902,7 @@
           </div>
         </div>
       </div>
-      <div class="row my-2">
+      <!-- <div class="row my-2">
         <div class="col-md-12">
           <div class="course-structure">
             <h3 class="course-page-title">Work Based Training</h3>
@@ -791,7 +922,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="row my-2">
         <div class="col-md-12">
           <div class="course-structure">

@@ -35,10 +35,8 @@
     @section('content')
      <div id="frontend_app">
         
-    </div>   
-    @show
-    
-   
+    </div>
+    @show   
 
     @include('frontend.layouts.script')
    

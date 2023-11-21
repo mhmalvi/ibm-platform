@@ -32,7 +32,7 @@
                                     <h2 class="mb-25 text-white">
                                         WELCOME TO IBM
                                     </h2>
-                                    <p
+                                    <!-- <p
                                         class="text-white text-justify"
                                         style="text-align: justify"
                                     >
@@ -48,6 +48,12 @@
                                         make the process much easier for any
                                         student through Courses for Overseas
                                         Students (CRICOS).
+                                    </p> -->
+                                    <p
+                                        class="text-white text-justify"
+                                        style="text-align: justify"
+                                    >
+                                        Institute of Business and Management is a Registered Training Organisation RTO Number: 45516 | CRICOS Number: 03785D). We offer training and assessment in nationally recognised qualification courses. We are also registered for the provision of vocational education and training to international students studying in Australia. Our aim at IBM (VIC) is to deliver courses and other learning experiences that will empower our students to learn fully, effectively, efficiently, and with great satisfaction.
                                     </p>
                                 </div>
                             </div>

@@ -60,7 +60,7 @@
                         >
                             Explore Courses!
                         </h1>
-                        <div class="sub-text mt-3 mb-3 pt-2 pb-2">
+                        <!-- <div class="sub-text mt-3 mb-3 pt-2 pb-2">
                             <p
                                 class="text-white fw-bolder fs-5 wow fadeInUp2 animated my-1"
                                 data-wow-delay=".01s"
@@ -84,6 +84,32 @@
                                 data-wow-delay=".01s"
                             >
                                 ELICOS General English
+                            </p>
+                        </div> -->
+                        <div class="sub-text mt-3 mb-3 pt-2 pb-2">
+                            <p
+                                class="text-white fw-bolder fs-5 wow fadeInUp2 animated my-1"
+                                data-wow-delay=".01s"
+                            >
+                                Business
+                            </p>
+                            <p
+                                class="text-white fw-bolder my-1 fs-5 wow fadeInUp2 animated"
+                                data-wow-delay=".01s"
+                            >
+                                Building and Construction
+                            </p>
+                            <p
+                                class="text-white fw-bolder fs-5 wow fadeInUp2 animated my-1"
+                                data-wow-delay=".01s"
+                            >
+                                Hospitality
+                            </p>
+                            <p
+                                class="text-white fw-bolder fs-5 wow fadeInUp2 animated my-1"
+                                data-wow-delay=".01s"
+                            >
+                                General English
                             </p>
                         </div>
                         <div>

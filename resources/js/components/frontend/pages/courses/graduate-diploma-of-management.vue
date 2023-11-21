@@ -800,7 +800,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row my-2">
+            <!-- <div class="row my-2">
                 <div class="col-md-12">
                     <div class="course-structure">
                         <h3 class="course-page-title">Work Based Training</h3>
@@ -823,7 +823,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row my-2">
                 <div class="col-md-12">
                     <div class="course-structure">

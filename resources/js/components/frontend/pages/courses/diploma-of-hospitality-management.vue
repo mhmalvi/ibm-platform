@@ -587,7 +587,7 @@
                   <tr>
                     <th colspan="2">CORE UNITS</th>
                   </tr>
-                  <tr>
+                  <!-- <tr>
                     <td>SITXCCS015</td>
                     <td>Enhance customer service experiences.</td>
                   </tr>
@@ -634,12 +634,60 @@
                     <td>
                       Implement and monitor work health and safety practices
                     </td>
+                  </tr> -->
+                  <tr>
+                    <td>SITXCCS015</td>
+                    <td>Enhance customer service experiences.</td>
+                  </tr>
+                  <tr>
+                    <td>SITXCCS016</td>
+                    <td>
+                      Develop and manage quality customer service practices.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>SITXFIN010</td>
+                    <td>Prepare and monitor budgets</td>
+                  </tr>
+                  <tr>
+                    <td>SITXGLC002</td>
+                    <td>Identify and manage legal risks and comply with law</td>
+                  </tr>
+                  <tr>
+                    <td>SITXMGT005</td>
+                    <td>Establish and conduct business relationships</td>
+                  </tr>
+                  <tr>
+                    <td>SITXCOM010</td>
+                    <td>Manage conflict</td>
+                  </tr>
+                  <tr>
+                    <td>SITXFIN009</td>
+                    <td>Manage finances within a budget</td>
+                  </tr>
+                  <tr>
+                    <td>SITXHRM008</td>
+                    <td>Roster staff</td>
+                  </tr>
+                  <tr>
+                    <td>SITXHRM009</td>
+                    <td>Lead and manage people</td>
+                  </tr>
+                  <tr>
+                    <td>SITXMGT004</td>
+                    <td>Monitor work operations</td>
+                  </tr>
+                  <tr>
+                    <td>SITXWHS007</td>
+                    <td>
+                      Implement and monitor work health and safety practices
+                    </td>
                   </tr>
                   <tr>
                     <td colspan="2"><b>ELECTIVE UNITS</b></td>
                   </tr>
 
-                  <tr>
+                  <!-- <tr>
                     <td>SITXFSA005</td>
                     <td>Use hygienic practices for food safety</td>
                   </tr>
@@ -709,6 +757,77 @@
                   <tr>
                     <td>SITHCCC039</td>
                     <td>Produce pates and terrines</td>
+                  </tr> -->
+                  <tr>
+                    <td>SITXFSA005</td>
+                    <td>Use hygienic practices for food safety</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC043</td>
+                    <td>Work effectively as a cook</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC042</td>
+                    <td>Prepare food to meet special dietary requirements</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC027</td>
+                    <td>Prepare dishes using basic methods of cookery</td>
+                  </tr>
+                  <tr>
+                    <td>SITHPAT016</td>
+                    <td>Produce desserts</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC029</td>
+                    <td>Prepare stocks, sauces and soups</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC030</td>
+                    <td>
+                      Prepare vegetable, fruit, egg and farinaceous dishes
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC031</td>
+                    <td>prepare vegetrain & vegan dishes</td>
+                  </tr>
+
+                  <tr>
+                    <td>SITXFSA008</td>
+                    <td>Develop and implement a food safety program*</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC036</td>
+                    <td>Prepare meat dishes</td>
+                  </tr>
+                  <tr>
+                    <td>SITXCCS019</td>
+                    <td>Prepare quotations</td>
+                  </tr>
+                  <tr>
+                    <td>SITXCCS017</td>
+                    <td>Use a computerised booking system</td>
+                  </tr>
+                  <tr>
+                    <td>CPPCLO3105</td>
+                    <td>Clean glass surfaces</td>
+                  </tr>
+                  <tr>
+                    <td>CPPCLO3100</td>
+                    <td>Maintain cleaning storage areas</td>
+                  </tr>
+                  <tr>
+                    <td>CPPCLO3101</td>
+                    <td>Clean carpeted floors</td>
+                  </tr>
+                  <tr>
+                    <td>CPPCLO3102</td>
+                    <td>Clean hard floors</td>
+                  </tr>
+                  <tr>
+                    <td>CPPCLO3103</td>
+                    <td>Clean and maintain amenities</td>
                   </tr>
                 </tbody>
               </table>
@@ -811,6 +930,29 @@
               it meets all requirements. The assessor will visit and assess the
               student at least twice during this time at a mutually convenient
               time.
+            </p><p
+              class="my-4"
+              style="text-align: justify; font-weight: 800; color: black"
+            >
+              PLEASE NOTE: – No work-based training applies to this course if
+              student has successfully completed SIT30820 Certificate III in
+              Commercial Cookery from Institute of business and Management
+              (Victoria)
+            </p>
+            <p class="my-3">
+              <span style="font-weight: 800" class="mb-2">Duration :</span
+              ><br />
+              <span
+                >This program will be delivered over a period of 78 weeks
+                including a 10-week work placement, and up to 18 weeks of term
+                breaks</span
+              >
+            </p>
+            <p style="color: black; font-weight: 800" class="my-4">
+              PLEASE NOTE: The course duration for Institute of Business and
+              Management’s student who have successfully completed SIT30820
+              Certificate III in Commercial Cookery 26 weeks (20 weeks study and
+              6 weeks holidays).
             </p>
           </div>
         </div>
