@@ -73,7 +73,7 @@
                         </a>
 
                         <div class="collapse show" id="clps1">
-                            <div class="p-justify card card-body">
+                            <!-- <div class="p-justify card card-body">
                                 An IELTS level of 5.5 or equivalent for direct
                                 entry into a VET course or IELTS band score of
                                 5.0 (Academic or general version) then
@@ -81,7 +81,96 @@
                                 at upper intermediate level to be taken before
                                 the main VET course. (Results older than two
                                 years are not acceptable)
-                            </div>
+                            </div> -->
+                            <p>
+                We accept the admission to the students if they qualify in
+                ANYONE (1) of the following :
+              </p>
+              <li
+                style="list-style-type: circle !important"
+                class="p-justify card card-body"
+              >
+                IELTS overall band of 5.5 TOEFL iBT test score band of 46
+                equivalent or above;
+                <div style="display: flex">
+                  <b class="m-auto">Refer:</b>
+                  <a
+                    target="_blank"
+                    style="border: none !important; color: #f44706 !important"
+                    href="http://www.ets.org/toefl/ibt/about"
+                  >
+                    http://www.ets.org/toefl/ibt/about</a
+                  >
+                </div>
+              </li>
+              <li
+                style="list-style-type: circle !important"
+                class="p-justify card card-body"
+              >
+                PTE Academic band score 42 equivalent or above;
+                <div style="display: flex">
+                  <b class="m-auto">Refer:</b>
+                  <a
+                    target="_blank"
+                    style="border: none !important; color: #f44706 !important"
+                    href="https://pearsonpte.com/the-test"
+                  >
+                    https://pearsonpte.com/the-test</a
+                  >
+                </div>
+              </li>
+              <li
+                style="list-style-type: circle !important"
+                class="p-justify card card-body"
+              >
+                Cambridge English Advanced (CAE) test score band of 47
+                equivalent or above; Refer:
+                <div style="display: flex">
+                  <b class="m-auto">Refer:</b>
+                  <a
+                    target="_blank"
+                    style="border: none !important; color: #f44706 !important"
+                    href="http://www.cambridgeenglish.org/exams-and-tests/advanced/"
+                  >
+                    http://www.cambridgeenglish.org/exams-and-tests/advanced/</a
+                  >
+                </div>
+              </li>
+              <li
+                style="list-style-type: circle !important"
+                class="p-justify card card-body"
+              >
+                OET score band “C” Pass equivalent or above;
+                <div style="display: flex">
+                  <b class="m-auto">Refer:</b>
+                  <a
+                    target="_blank"
+                    style="border: none !important; color: #f44706 !important"
+                    href="https://www.occupationalenglishtest.org/test-information/results-assessment/"
+                  >
+                    https://www.occupationalenglishtest.org/test-information/results-assessment/</a
+                  >
+                </div>
+              </li>
+              <li
+                style="list-style-type: circle !important"
+                class="p-justify card card-body"
+              >
+                Completion of a full-time studies in Australia towards a
+                Certificate IV or above Satisfactory completion of the ESL
+                course / English language course or satisfactory completion of
+                10-20 weeks ELICOS from a National ELT Accreditation Scheme
+                (NEAS)Accredited English Institution with an IELTS score of 5.0.
+                
+              </li>
+              <li
+                style="list-style-type: circle !important"
+                class="p-justify card card-body"
+              >
+                OR Any other form which satisfies the Institution during their
+                pre-enrolment interview.
+                
+              </li>
                         </div>
                     </div>
                     <div class="collapsible">
