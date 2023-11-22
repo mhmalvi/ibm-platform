@@ -90,9 +90,9 @@
                   <a
                     target="_blank"
                     style="border: none !important; color: #f44706 !important"
-                    href="http://www.ets.org/toefl/ibt/about"
+                    href="https://www.ets.org/toefl/test-takers/ibt/about.html"
                   >
-                    http://www.ets.org/toefl/ibt/about</a
+                    https://www.ets.org/toefl/test-takers/ibt/about.html</a
                   >
                 </div>
               </li>
