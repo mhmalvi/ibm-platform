@@ -18,7 +18,7 @@
           class="col-sm-9 wow fadeInUp2 animated my-3 my-sm-0 footer-social-icon-list d-flex flex-column flex-md-row justify-content-end align-items-center"
           style="padding-top: 1%"
         >
-          <div>Contact Now</div>
+          <div style="color: white !important">Contact Now</div>
           <div class="">
             <a href="tel:0394783163">
               <i class="fa fa-phone mr-5" aria-hidden="true"></i>03 9478 3163
@@ -73,7 +73,7 @@
                 <div
                   class="mt-25 d-flex justify-content-center justify-content-sm-start footer-social-icon"
                 >
-                  <div>Follow Us:</div>
+                  <div style="color: white !important">Follow Us:</div>
                   <div>
                     <a
                       href="https://www.facebook.com/ibmmelbourne "
@@ -100,7 +100,7 @@
         >
           <div class="footer__widget mb-25 pl-90 pl-md-0 pl-xs-0">
             <h6 class="widget-title mb-35">Navigation</h6>
-            <ul class="fot-list">
+            <ul class="font-list navigation-wrapper">
               <li>
                 <router-link to="/contact-us">Contact Us</router-link>
               </li>
@@ -127,7 +127,7 @@
         >
           <div class="footer__widget mb-30 pl-lg-0 pl-md-0 pl-xs-0">
             <h6 class="widget-title mb-35">Programs</h6>
-            <ul class="fot-list mb-30">
+            <ul class="font-list mb-30">
               <li>
                 <router-link to="/industry/business">Business</router-link>
               </li>
@@ -169,25 +169,31 @@
           class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp2 animated footer-list"
           data-wow-delay=".3s"
         >
-          <div class="footer__widget mb-30 pl-40 pl-md-0 pl-xs-0">
+          <div class="footer__widget campus mb-30 pl-40 pl-md-0 pl-xs-0">
             <h6 class="widget-title mb-35">Campus</h6>
-            <ul class="fot-list">
+            <ul class="font-list">
               <li>
-                <a href="#" class=""
-                  ><i class="fa fa-map-marker-alt" aria-hidden="true"></i>&nbsp;
-                  60 Belfast St BROADMEADOWS VIC 3047
+                <a href="#" class="">
+                  <div class="" style="font-weight: 700; line-height: 16px">
+                    <i class="fal fa-map-marker"></i>&nbsp; Main Campus
+                  </div>
+                  <span>60 Belfast St BROADMEADOWS VIC 3047</span>
                 </a>
               </li>
               <li>
-                <a href="#" class=""
-                  ><i class="fa fa-map-marker-alt" aria-hidden="true"></i>&nbsp;
-                  City Campus : Level 1, 190 Queen street, Melbourne, VIC. 3000
+                <a href="#" class="">
+                  <div class="mt-4" style="font-weight: 700; line-height: 16px">
+                    <i class="fal fa-map-marker"></i>&nbsp; City Campus
+                  </div>
+                  <span>Level 1, 190 Queen street, Melbourne, VIC. 3000</span>
                 </a>
               </li>
               <li>
-                <a href="#" class=""
-                  ><i class="fa fa-map-marker-alt" aria-hidden="true"></i>&nbsp;
-                  Kitchen: 170 Victoria Street, Richmond, VIC, 3121
+                <a href="#" class="">
+                  <div class="mt-4" style="font-weight: 700; line-height: 16px">
+                    <i class="fal fa-map-marker"></i>&nbsp; Kitchen
+                  </div>
+                  <span>170 Victoria Street, Richmond, VIC, 3121</span>
                 </a>
               </li>
               <li>
@@ -291,10 +297,13 @@ export default {
 </script>
 
 <style scoped>
+footer {
+  background: #12538f;
+}
 .footer-area p,
 a,
 li {
-  color: #000;
+  color: white;
 }
 .subscribe-form {
   position: relative;
@@ -307,8 +316,17 @@ li {
   z-index: 20;
   cursor: pointer;
 }
+.subscribe-wrapper p {
+  color: white !important;
+}
+.copyright h5 {
+  color: white;
+}
+.widget-title .navigation-wrapper li router-link {
+  color: white !important;
+}
 .subscribe-form input {
-  color: #afafaf;
+  color: #000000;
   font-size: 15px;
   width: 100%;
   height: 38px;
@@ -356,6 +374,12 @@ iframe {
     text-align: center;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .campus {
+    width: 121%;
+  }
+}
 .footer-social-icon div {
   margin-right: 10px;
 }
@@ -369,5 +393,13 @@ iframe {
 }
 .footer-social-icon-list div:nth-of-type(3) {
   margin-right: 0px;
+}
+
+li a span {
+  font-size: 67%;
+  margin-left: 7%;
+}
+
+li a p {
 }
 </style>
