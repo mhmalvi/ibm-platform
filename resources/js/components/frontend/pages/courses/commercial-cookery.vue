@@ -130,37 +130,95 @@
 
             <div class="collapse" id="clps2">
               <div class="card card-body">
-                <ul class="list-items p-justify">
+                <p>
+                  International Students applying for this qualification must
+                  have a minimum English language proficiency of IELTS 6.0 or an
+                  equivalent exam result recognised by the Department of Home
+                  Affairs.
+                </p>
+                <p style="font-weight: bold">
+                  You must still take the IBM (VIC)’s pre-entry placement test
+                  at Orientation. It is used as a guide to determine the level
+                  of language, literacy and numeracy required for competent
+                  performance.
+                </p>
+                <p>
+                  Other equivalent English language proficiency level is deemed
+                  one of the following:
+                </p>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>English language test providers</th>
+                      <th>Minimum score</th>
+                      <th>
+                        Minimum score and at least 20 weeks English Language
+                        Intensive Courses for Overseas Students (ELICOS)
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        International English Language Testing System (IELTS)
+                      </td>
+                      <td>6</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>Pearson Test of English Academic (PTE Academic)</td>
+                      <td>50</td>
+                      <td>40</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>OR</p>
+                <p>
+                  any other form that satisfies the Institution during their
+                  pre-enrolment interview
+                </p>
+                <p style="font-weight: bold">
+                  English Language Evidence Exemptions:
+                </p>
+                <p>
+                  You do not need to provide evidence of an English test score
+                  with your visa application if one of the following applies:
+                </p>
+                <ul class="pt-3 list-items">
                   <li>
-                    Have a minimum IELTS score of 5.5 for direct entry into a
-                    VET course OR.
+                    you are a citizen and hold a passport from UK, USA, Canada,
+                    NZ or Republic of Ireland
                   </li>
                   <li>
-                    IELTS score of 5.0 or equivalent with an ELICOS course (up
-                    to 10 weeks) to be taken before the main VET course;or,
-                    IELTS score of 4.5 or equivalent with an ELICOS course (up
-                    to 20 weeks) to be taken before the main VET course OR.
+                    you are an applicant who is a Foreign Affairs or, Defence
+                    sponsored student or a Secondary Exchange student (AASES)
                   </li>
                   <li>
-                    to provide evidence that they have studied in English for at
-                    least five years in Australia, Canada, New Zealand, Republic
-                    of Ireland, South Africa, United Kingdom or United State OR.
+                    you are enrolled in a principal course of study that is a
+                    registered school course, a standalone English Language
+                    Intensive Course for Overseas Students (ELICOS), a course
+                    registered to be delivered in a language other than English,
+                    or a registered post-graduate research course
                   </li>
                   <li>
-                    to provide evidence that, within two years* of their signed
-                    written agreement date, they have successfully completed in
-                    Australia a Certificate IV or higher-level qualification,
-                    from the Australian Qualifications Framework.
+                    you have completed at least 5 years’ study in English in one
+                    or more of the following countries: Australia, UK, USA,
+                    Canada, New Zealand, South Africa, or the Republic of
+                    Ireland
                   </li>
                   <li>
-                    In the 2 years before commencing the course, has completed
-                    secondary studies equivalent to an Australian Year 12
-                    qualification from an English language speaking country.
-                  </li>
-                  <li>
-                    Institute of Business and Management also has an English
-                    proficiency test to ensure that students have the English
-                    language capacity to successfully complete this course.
+                    in the 2 years before applying for the student visa, you
+                    completed, in Australia and in the English language, either
+                    the Senior Secondary Certificate of Education or a
+                    substantial component of a course leading to a qualification
+                    from the Australian Qualifications Framework at the
+                    Certificate IV or higher level, while you held a student
+                    visa.
                   </li>
                 </ul>
               </div>
@@ -784,6 +842,7 @@ export default {
 .requirementAddon {
   float: right;
 }
+
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -802,16 +861,20 @@ export default {
   border: 1px solid #f1592a;
   border-radius: 5px;
 }
+
 .list-items {
   padding-left: 2rem !important;
 }
+
 .list-items li {
   padding-left: 10px;
   list-style: square;
 }
+
 table tbody tr {
   text-align: left !important;
 }
+
 ul {
   list-style-type: circle;
 }

@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
-  >
+  <section class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -52,16 +50,8 @@
 
           <div class="my-3"></div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps0"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps1"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps0"
+              role="button" aria-expanded="true" aria-controls="clps1">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Age Requirements</span>
@@ -77,16 +67,8 @@
             </div>
           </div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps1"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps1"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps1"
+              role="button" aria-expanded="true" aria-controls="clps1">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Academic Requirements</span>
@@ -102,22 +84,12 @@
             </div>
           </div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps11"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps1"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps11"
+              role="button" aria-expanded="true" aria-controls="clps1">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span
-                >Academic Requirements for Institute of Business and Management
-                (Victoria)</span
-              >
+              <span>Academic Requirements for Institute of Business and Management
+                (Victoria)</span>
               &nbsp;
               <i class="fas fa-angle-down requirementAddon"></i>
             </a>
@@ -134,16 +106,8 @@
             </div>
           </div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps2"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps2"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps2"
+              role="button" aria-expanded="false" aria-controls="clps2">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>English Language Requirements</span>
@@ -153,7 +117,7 @@
 
             <div class="collapse" id="clps2">
               <div class="card card-body">
-                <ul class="list-items p-justify">
+                <!-- <ul class="list-items p-justify">
                   <li>
                     Have a minimum IELTS score of 5.5 for direct entry into a
                     VET course OR.
@@ -185,21 +149,67 @@
                     proficiency test to ensure that students have the English
                     language capacity to successfully complete this course.
                   </li>
+                </ul> -->
+                <p>International Students applying for this qualification must have a minimum English language
+                  proficiency
+                  of IELTS 6.0 or an equivalent exam result recognised by the Department of Home Affairs.</p>
+                <p style="font-weight: bold;">You must still take the IBM (VIC)’s pre-entry placement test at
+                  Orientation.
+                  It is used as a guide to determine the level of language, literacy and numeracy required for competent
+                  performance.</p>
+                <p>Other equivalent English language proficiency level is deemed one of the following: </p>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>English language test providers</th>
+                      <th>Minimum score</th>
+                      <th>Minimum score and at least 20 weeks English Language Intensive Courses for Overseas Students
+                        (ELICOS)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>International English Language Testing System (IELTS)</td>
+                      <td>6</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>Pearson Test of English Academic (PTE Academic)</td>
+                      <td>50</td>
+                      <td>40</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>OR</p>
+                <p>any other form that satisfies the Institution during their pre-enrolment interview</p>
+                <p style="font-weight: bold;">English Language Evidence Exemptions: </p>
+                <p>You do not need to provide evidence of an English test score with your visa application if one of the
+                  following applies: </p>
+                <ul class="pt-3 list-items">
+                  <li>you are a citizen and hold a passport from UK, USA, Canada, NZ or Republic of Ireland </li>
+                  <li>you are an applicant who is a Foreign Affairs or, Defence sponsored student or a Secondary
+                    Exchange student (AASES) </li>
+                  <li>you are enrolled in a principal course of study that is a registered school course, a standalone
+                    English Language Intensive Course for Overseas Students (ELICOS), a course registered to be
+                    delivered in a language other than English, or a registered post-graduate research course </li>
+                  <li>you have completed at least 5 years’ study in English in one or more of the following countries:
+                    Australia, UK, USA, Canada, New Zealand, South Africa, or the Republic of Ireland </li>
+                  <li>in the 2 years before applying for the student visa, you completed, in Australia and in the
+                    English language, either the Senior Secondary Certificate of Education or a substantial component of
+                    a course leading to a qualification from the Australian Qualifications Framework at the Certificate
+                    IV or higher level, while you held a student visa. </li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps23"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps23"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps23"
+              role="button" aria-expanded="false" aria-controls="clps23">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Other Requirement</span>
@@ -216,8 +226,8 @@
                     course and student needs.
                   </li>
                   <li>
-                    <b>Language, Literacy and Numeracy assessment test: </b
-                    >Prior enrolment to determine the student’s ability to
+                    <b>Language, Literacy and Numeracy assessment test: </b>Prior enrolment to determine the student’s
+                    ability to
                     complete the course or any LLN support during the study
                     period.
                   </li>
@@ -282,16 +292,8 @@
           <h3 class="course-page-title">Pathways</h3>
           <div class="my-3"></div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps5"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps5"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps5"
+              role="button" aria-expanded="true" aria-controls="clps5">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Educational Pathways</span>
@@ -316,16 +318,8 @@
             </div>
           </div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps6"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps6"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps6"
+              role="button" aria-expanded="true" aria-controls="clps6">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Employment Pathways</span>
@@ -363,16 +357,8 @@
           <h3 class="course-page-title">Courses Details</h3>
           <div class="my-3"></div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps7"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps7"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps7"
+              role="button" aria-expanded="true" aria-controls="clps7">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>RPL / Credit Transfer</span>
@@ -406,16 +392,8 @@
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps8"
-              role="button"
-              aria-expanded="fasle"
-              aria-controls="clps8"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps8"
+              role="button" aria-expanded="fasle" aria-controls="clps8">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Assessment Method</span>
@@ -446,22 +424,12 @@
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps9"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps9"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps9"
+              role="button" aria-expanded="false" aria-controls="clps9">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span
-                >Important Information – Student Handbook, Policies and
-                Procedures, Fees and Charges</span
-              >
+              <span>Important Information – Student Handbook, Policies and
+                Procedures, Fees and Charges</span>
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
@@ -481,16 +449,8 @@
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps10"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps10"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps10"
+              role="button" aria-expanded="false" aria-controls="clps10">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Course Duration</span>
@@ -506,10 +466,8 @@
                   including a 10-week work placement.
                 </p>
                 <p>
-                  <b
-                    >Students Progressing from SIT30821 & SIT40521 (Packaging
-                    Course)</b
-                  >
+                  <b>Students Progressing from SIT30821 & SIT40521 (Packaging
+                    Course)</b>
                 </p>
                 <p>
                   The course duration for IBM(VIC)’ students who have
@@ -523,16 +481,8 @@
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps11"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps11"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps11"
+              role="button" aria-expanded="false" aria-controls="clps11">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Student Support</span>
@@ -687,105 +637,34 @@
                     <td colspan="2"><b>ELECTIVE UNITS</b></td>
                   </tr>
 
-                  <!-- <tr>
+                  <tr>
                     <td>SITXFSA005</td>
                     <td>Use hygienic practices for food safety</td>
                   </tr>
                   <tr>
                     <td>SITHCCC043</td>
                     <td>Work effectively as a cook</td>
+                  </tr>
+                  <tr>
+                    <td>SITXFSA006</td>
+                    <td>Participate in safe food handling practices</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC027</td>
+                    <td>Prepare dishes using basic methods of cookery</td>
                   </tr>
                   <tr>
                     <td>SITHCCC023</td>
                     <td>Use food preparation equipment</td>
                   </tr>
                   <tr>
-                    <td>SITHCCC027</td>
-                    <td>Prepare dishes using basic methods of cookery</td>
-                  </tr>
-                  <tr>
                     <td>SITHCCC028</td>
                     <td>Prepare appetisers and salads</td>
                   </tr>
                   <tr>
-                    <td>SITHCCC029</td>
-                    <td>Prepare stocks, sauces and soups</td>
-                  </tr>
-                  <tr>
                     <td>SITHCCC030</td>
                     <td>
-                      Prepare vegetable, fruit, egg and farinaceous dishes
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC031</td>
-                    <td>prepare vegetrain & vegan dishes</td>
-                  </tr>
-
-                  <tr>
-                    <td>SITHCCC035</td>
-                    <td>Prepare poultry dishes*</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC036</td>
-                    <td>Prepare meat dishes</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC037</td>
-                    <td>Prepare seafood dishes</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC038</td>
-                    <td>Produce and serve food for buffets</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC040</td>
-                    <td>PREPARE AND SERVE CHEESE</td>
-                  </tr>
-                  <tr>
-                    <td>BSBCMM411</td>
-                    <td>Make presentations</td>
-                  </tr>
-                  <tr>
-                    <td>BSBTWK503</td>
-                    <td>Manage meetings</td>
-                  </tr>
-                  <tr>
-                    <td>SITXINV007</td>
-                    <td>Purchase goods</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC039</td>
-                    <td>Produce pates and terrines</td>
-                  </tr> -->
-                  <tr>
-                    <td>SITXFSA005</td>
-                    <td>Use hygienic practices for food safety</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC043</td>
-                    <td>Work effectively as a cook</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC042</td>
-                    <td>Prepare food to meet special dietary requirements</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC027</td>
-                    <td>Prepare dishes using basic methods of cookery</td>
-                  </tr>
-                  <tr>
-                    <td>SITHPAT016</td>
-                    <td>Produce desserts</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC029</td>
-                    <td>Prepare stocks, sauces and soups</td>
-                  </tr>
-                  <tr>
-                    <td>SITHCCC030</td>
-                    <td>
-                      Prepare vegetable, fruit, egg and farinaceous dishes
+                      Prepare vegetable, fruit, eggs and farinaceous dishes
                     </td>
                   </tr>
                   <tr>
@@ -795,40 +674,111 @@
 
                   <tr>
                     <td>SITXFSA008</td>
-                    <td>Develop and implement a food safety program*</td>
+                    <td>Develop and implement a food safety program</td>
                   </tr>
                   <tr>
                     <td>SITHCCC036</td>
                     <td>Prepare meat dishes</td>
                   </tr>
                   <tr>
+                    <td>SITHKOP010</td>
+                    <td>Plan and cost recipes</td>
+                  </tr>
+                  <tr>
+                    <td>SITHKOP015</td>
+                    <td>Design and cost menus</td>
+                  </tr>
+                  <tr>
+                    <td>SITXINV007</td>
+                    <td>Purchase goods</td>
+                  </tr>
+                  <tr>
+                    <td>SITXINV006</td>
+                    <td>Receive, store, and maintain stock</td>
+                  </tr>
+                  <tr>
+                    <td>SITHKOP012</td>
+                    <td>Develop recipes for special dietary requirements</td>
+                  </tr>
+                  <tr>
+                    <td>BSBTWK503</td>
+                    <td>Manage meetings</td>
+                  </tr>
+                  <tr>
+                    <td>SITXHRM010</td>
+                    <td>Recruit, select and induct staff</td>
+                  </tr>
+                  <!-- <tr>
+                    <td>SITXFSA005</td>
+                    <td>Use hygienic practices for food safety</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC043</td>
+                    <td>Work effectively as a cook</td>
+                  </tr>
+                  <tr>
+                    <td>SITHRM007</td>
+                    <td>Develop recipes for special dietary requirements</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC027</td>
+                    <td>Prepare dishes using basic methods of cookery</td>
+                  </tr> -->
+                  <!-- <tr>
+                    <td>SITHPAT016</td>
+                    <td>Produce desserts</td>
+                  </tr> -->
+                  <!-- <tr>
+                    <td>SITHCCC029</td>
+                    <td>Prepare stocks, sauces and soups</td>
+                  </tr> -->
+                  <!-- <tr>
+                    <td>SITHCCC030</td>
+                    <td>
+                      Prepare vegetable, fruit, eggs and farinaceous dishes
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC031</td>
+                    <td>prepare vegetarian & vegan dishes</td>
+                  </tr>
+
+                  <tr>
+                    <td>SITXFSA008</td>
+                    <td>Develop and implement a food safety program</td>
+                  </tr>
+                  <tr>
+                    <td>SITHCCC036</td>
+                    <td>Prepare meat dishes</td>
+                  </tr> -->
+                  <!-- <tr>
                     <td>SITXCCS019</td>
                     <td>Prepare quotations</td>
-                  </tr>
-                  <tr>
+                  </tr> -->
+                  <!-- <tr>
                     <td>SITXCCS017</td>
                     <td>Use a computerised booking system</td>
-                  </tr>
-                  <tr>
+                  </tr> -->
+                  <!-- <tr>
                     <td>CPPCLO3105</td>
                     <td>Clean glass surfaces</td>
-                  </tr>
-                  <tr>
+                  </tr> -->
+                  <!-- <tr>
                     <td>CPPCLO3100</td>
                     <td>Maintain cleaning storage areas</td>
-                  </tr>
-                  <tr>
+                  </tr> -->
+                  <!-- <tr>
                     <td>CPPCLO3101</td>
                     <td>Clean carpeted floors</td>
-                  </tr>
-                  <tr>
+                  </tr> -->
+                  <!-- <tr>
                     <td>CPPCLO3102</td>
                     <td>Clean hard floors</td>
                   </tr>
-                  <tr>
-                    <td>CPPCLO3103</td>
+                  <tr> -->
+                    <!-- <td>CPPCLO3103</td>
                     <td>Clean and maintain amenities</td>
-                  </tr>
+                  </tr> -->
                 </tbody>
               </table>
               <table class="table table-striped table-hover">
@@ -844,16 +794,8 @@
             <h3 class="course-page-title">Fees Information</h3>
             <div class="my-3"></div>
             <div class="collapsible">
-              <a
-                @click="changeAngle($event)"
-                data-position="down"
-                class="w-100"
-                data-bs-toggle="collapse"
-                href="#fees"
-                role="button"
-                aria-expanded="true"
-                aria-controls="clps1"
-              >
+              <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#fees"
+                role="button" aria-expanded="true" aria-controls="clps1">
                 <i class="fas fa-file-certificate"></i>
                 &nbsp;
                 <span>Fees</span>
@@ -930,23 +872,18 @@
               it meets all requirements. The assessor will visit and assess the
               student at least twice during this time at a mutually convenient
               time.
-            </p><p
-              class="my-4"
-              style="text-align: justify; font-weight: 800; color: black"
-            >
+            </p>
+            <p class="my-4" style="text-align: justify; font-weight: 800; color: black">
               PLEASE NOTE: – No work-based training applies to this course if
               student has successfully completed SIT30820 Certificate III in
               Commercial Cookery from Institute of business and Management
               (Victoria)
             </p>
             <p class="my-3">
-              <span style="font-weight: 800" class="mb-2">Duration :</span
-              ><br />
-              <span
-                >This program will be delivered over a period of 78 weeks
+              <span style="font-weight: 800" class="mb-2">Duration :</span><br />
+              <span>This program will be delivered over a period of 78 weeks
                 including a 10-week work placement, and up to 18 weeks of term
-                breaks</span
-              >
+                breaks</span>
             </p>
             <p style="color: black; font-weight: 800" class="my-4">
               PLEASE NOTE: The course duration for Institute of Business and
@@ -1003,6 +940,7 @@ export default {
 .requirementAddon {
   float: right;
 }
+
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -1021,16 +959,20 @@ export default {
   border: 1px solid #f1592a;
   border-radius: 5px;
 }
+
 .list-items {
   padding-left: 2rem !important;
 }
+
 .list-items li {
   padding-left: 10px;
   list-style: square;
 }
+
 table tbody tr {
   text-align: left !important;
 }
+
 ul {
   list-style-type: circle;
 }

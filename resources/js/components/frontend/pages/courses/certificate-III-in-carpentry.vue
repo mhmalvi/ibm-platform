@@ -1,21 +1,20 @@
 <template>
-  <section
-    class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
-  >
+  <section class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h3 class="course-page-title">Course Overview</h3>
           <div class="my-3"></div>
           <p class="p-justify">
-            This is a trade qualification for carpenters in residential and
-            commercial workplaces. It includes setting out, manufacturing,
-            constructing, assembling, installing and repairing products made
-            using timber and non-timber materials. State and territory
-            jurisdictions may have different licensing, legislative, regulatory
-            or certification requirements. Relevant state and territory
-            regulatory authorities should be consulted to confirm those
-            requirements
+            This is a trade qualification for carpenters in
+            residential and commercial workplaces. It includes
+            setting out, manufacturing, constructing, assembling,
+            installing and repairing products made using timber and
+            non-timber materials. State and territory jurisdictions
+            may have different licensing, legislative, regulatory or
+            certification requirements. Relevant state and territory
+            regulatory authorities should be consulted to confirm
+            those requirements
           </p>
           <div class="my-3"></div>
           <table class="table table-responsive p-justify">
@@ -34,7 +33,8 @@
                 <th>Delivery Location</th>
                 <td>:</td>
                 <td>
-                  60 Belfast Street, Broadmeadows, VIC, 3047<br />
+                  60 Belfast Street, Broadmeadows, VIC,
+                  3047<br />
                   61 Riggall Street, Broadmeadows, VIC, 3047.
                 </td>
               </tr>
@@ -42,8 +42,8 @@
                 <th>Mode of Delivery</th>
                 <td>:</td>
                 <td>
-                  Face to face classroom, Practical training and assessment is
-                  completed in IBM workshop.
+                  Face to face classroom, Practical training
+                  and assessment is completed in IBM workshop.
                 </td>
               </tr>
             </tbody>
@@ -52,16 +52,8 @@
           <h3 class="course-page-title">Course Requirement</h3>
           <div class="my-3"></div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps0"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps1"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps0"
+              role="button" aria-expanded="true" aria-controls="clps1">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Age Requirements</span>
@@ -71,22 +63,14 @@
 
             <div class="collapse show" id="clps0">
               <div class="card card-body">
-                Students must be a minimum age of 18 years or above at the time
-                of course commencement.
+                Students must be a minimum age of 18 years or
+                above at the time of course commencement.
               </div>
             </div>
           </div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps1"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps1"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps1"
+              role="button" aria-expanded="true" aria-controls="clps1">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Academic Requirements</span>
@@ -96,22 +80,14 @@
 
             <div class="collapse show" id="clps1">
               <div class="card card-body">
-                Satisfactory completion of Year 11 VCE or its equivalent
-                overseas qualification.
+                Satisfactory completion of Year 11 VCE or its
+                equivalent overseas qualification.
               </div>
             </div>
           </div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps2"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps2"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps2"
+              role="button" aria-expanded="false" aria-controls="clps2">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>English Language Requirements</span>
@@ -121,7 +97,7 @@
 
             <div class="collapse" id="clps2">
               <div class="card card-body">
-                <ul class="list-items p-justify">
+                <!--<ul class="list-items p-justify">
                   <li>
                     Have a minimum IELTS score of 5.5 for direct entry into a
                     VET course OR.
@@ -153,22 +129,120 @@
                     proficiency test to ensure that students have the English
                     language capacity to successfully complete this course.
                   </li>
+                </ul>-->
+
+                <p>
+                  International Students applying for this
+                  qualification must have a minimum English
+                  language proficiency of IELTS 6.0 or an
+                  equivalent exam result recognised by the
+                  Department of Home Affairs.
+                </p>
+                <p style="font-weight: bold">
+                  You must still take the IBM (VIC)’s pre-entry
+                  placement test at Orientation. It is used as a
+                  guide to determine the level of language,
+                  literacy and numeracy required for competent
+                  performance.
+                </p>
+                <p>
+                  Other equivalent English language proficiency
+                  level is deemed one of the following:
+                </p>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>English language test providers</th>
+                      <th>Minimum score</th>
+                      <th>
+                        Minimum score and at least 20 weeks
+                        English Language Intensive Courses
+                        for Overseas Students (ELICOS)
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        International English Language
+                        Testing System (IELTS)
+                      </td>
+                      <td>6</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Pearson Test of English Academic
+                        (PTE Academic)
+                      </td>
+                      <td>50</td>
+                      <td>40</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>OR</p>
+                <p>
+                  any other form that satisfies the Institution
+                  during their pre-enrolment interview
+                </p>
+                <p style="font-weight: bold">
+                  English Language Evidence Exemptions:
+                </p>
+                <p>
+                  You do not need to provide evidence of an
+                  English test score with your visa application if
+                  one of the following applies:
+                </p>
+                <ul class="pt-3 list-items">
+                  <li>
+                    you are a citizen and hold a passport from
+                    UK, USA, Canada, NZ or Republic of Ireland
+                  </li>
+                  <li>
+                    you are an applicant who is a Foreign
+                    Affairs or, Defence sponsored student or a
+                    Secondary Exchange student (AASES)
+                  </li>
+                  <li>
+                    you are enrolled in a principal course of
+                    study that is a registered school course, a
+                    standalone English Language Intensive Course
+                    for Overseas Students (ELICOS), a course
+                    registered to be delivered in a language
+                    other than English, or a registered
+                    post-graduate research course
+                  </li>
+                  <li>
+                    you have completed at least 5 years’ study
+                    in English in one or more of the following
+                    countries: Australia, UK, USA, Canada, New
+                    Zealand, South Africa, or the Republic of
+                    Ireland
+                  </li>
+                  <li>
+                    in the 2 years before applying for the
+                    student visa, you completed, in Australia
+                    and in the English language, either the
+                    Senior Secondary Certificate of Education or
+                    a substantial component of a course leading
+                    to a qualification from the Australian
+                    Qualifications Framework at the Certificate
+                    IV or higher level, while you held a student
+                    visa.
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps23"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps23"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps23"
+              role="button" aria-expanded="false" aria-controls="clps23">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Other Requirement</span>
@@ -180,48 +254,60 @@
               <div class="card card-body">
                 <ul class="list-items p-justify">
                   <li>
-                    <b>Pre-Training Review:</b> all international students will
-                    take the PTR to determine the determine suitability for the
-                    course and student needs.
+                    <b>Pre-Training Review:</b> all
+                    international students will take the PTR
+                    to determine the determine suitability
+                    for the course and student needs.
                   </li>
                   <li>
-                    <b>Language, Literacy and Numeracy assessment test: </b
-                    >prior enrolment to determine the student’s ability to
-                    complete the course or any LLN support during the study
+                    <b>Language, Literacy and Numeracy
+                      assessment test: </b>prior enrolment to determine the
+                    student’s ability to complete the course
+                    or any LLN support during the study
                     period.
                   </li>
 
                   <li>
-                    <b>Physical requirements:</b> applicants will need to be
-                    physically able to carry out manual handling required to
-                    perform tasks involved while undergoing training. As part of
-                    this course students are expected to handle complex foods –
-                    e.g. cooking of various processed or raw meats, poultry,
-                    seafood’s, dairy items and student must keep in mind of any
-                    religious or dietary barriers to handle such foods before
-                    enrolling in this course. Institute of Business and
-                    Management (Victoria) will identify any such barriers
-                    presented by applicants during pre-training review and
-                    provide required support and reasonable adjustment where
-                    possible.
+                    <b>Physical requirements:</b> applicants
+                    will need to be physically able to carry
+                    out manual handling required to perform
+                    tasks involved while undergoing
+                    training. As part of this course
+                    students are expected to handle complex
+                    foods – e.g. cooking of various
+                    processed or raw meats, poultry,
+                    seafood’s, dairy items and student must
+                    keep in mind of any religious or dietary
+                    barriers to handle such foods before
+                    enrolling in this course. Institute of
+                    Business and Management (Victoria) will
+                    identify any such barriers presented by
+                    applicants during pre-training review
+                    and provide required support and
+                    reasonable adjustment where possible.
                   </li>
                   <li>
-                    <b>Hardware/Software requirements: </b>Institute of Business
-                    and Management (Victoria) will provide access to
-                    computers/laptops during classroom hours. However, for
-                    students to work on assessments, tasks and self-study, all
-                    learners are expected to have access to a laptop or computer
-                    with Windows/macOS operating system at their own cost.
+                    <b>Hardware/Software requirements: </b>Institute of Business and Management
+                    (Victoria) will provide access to
+                    computers/laptops during classroom
+                    hours. However, for students to work on
+                    assessments, tasks and self-study, all
+                    learners are expected to have access to
+                    a laptop or computer with Windows/macOS
+                    operating system at their own cost.
                   </li>
                   <li>
-                    <b>Student Support:</b> Student needs are declared by the
-                    applicant at the time of enrolment: the application form
-                    allows the applicant to self-declare where they have
-                    learning disabilities. Every student is interviewed either
-                    face-to-face or over the telephone to attempt to establish
-                    the applicant skill and knowledge levels, their current
-                    employment and how that relates to the course content and
-                    interaction.
+                    <b>Student Support:</b> Student needs
+                    are declared by the applicant at the
+                    time of enrolment: the application form
+                    allows the applicant to self-declare
+                    where they have learning disabilities.
+                    Every student is interviewed either
+                    face-to-face or over the telephone to
+                    attempt to establish the applicant skill
+                    and knowledge levels, their current
+                    employment and how that relates to the
+                    course content and interaction.
                   </li>
                 </ul>
               </div>
@@ -231,16 +317,8 @@
           <h3 class="course-page-title">Pathways</h3>
           <div class="my-3"></div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps5"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps5"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps5"
+              role="button" aria-expanded="true" aria-controls="clps5">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Educational Pathways</span>
@@ -251,33 +329,26 @@
             <div class="collapse show" id="clps5">
               <div class="card card-body p-justify">
                 <p>
-                  On completion of CPC30220 Certificate III in Carpentry,
-                  students may undertake one or more of following
-                  qualifications:
+                  On completion of CPC30220 Certificate III in
+                  Carpentry, students may undertake one or
+                  more of following qualifications:
                 </p>
                 <ul class="list-items">
                   <li>
-                    CPC40120 Certificate IV in Building and Construction
-                    (Building).
+                    CPC40120 Certificate IV in Building and
+                    Construction (Building).
                   </li>
                   <li>
-                    A range of other qualifications at Certificate IV level.
+                    A range of other qualifications at
+                    Certificate IV level.
                   </li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps6"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps6"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps6"
+              role="button" aria-expanded="true" aria-controls="clps6">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Employment Pathways</span>
@@ -287,11 +358,13 @@
             <div class="collapse show" id="clps6">
               <div class="card card-body">
                 <p>
-                  Students completing CPC30220 Certificate III in Carpentry can
-                  expect to gain work as a:
+                  Students completing CPC30220 Certificate III
+                  in Carpentry can expect to gain work as a:
                 </p>
                 <ul class="list-items">
-                  <li>Carpenter-commercial/Formwork/Residential.</li>
+                  <li>
+                    Carpenter-commercial/Formwork/Residential.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -305,16 +378,8 @@
           <h3 class="course-page-title">Courses Details</h3>
           <div class="my-3"></div>
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="down"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps7"
-              role="button"
-              aria-expanded="true"
-              aria-controls="clps7"
-            >
+            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#clps7"
+              role="button" aria-expanded="true" aria-controls="clps7">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>RPL / Credit Transfer</span>
@@ -325,11 +390,13 @@
             <div class="collapse show" id="clps7">
               <div class="p-justify card card-body">
                 <p>
-                  Students with prior learning and work experience can apply for
-                  RPL. Students who have completed corresponding units of
-                  competency and/or units contained within the packaging rules
-                  can apply for Credit Transfer. RPL evidence must include some
-                  of the following:
+                  Students with prior learning and work
+                  experience can apply for RPL. Students who
+                  have completed corresponding units of
+                  competency and/or units contained within the
+                  packaging rules can apply for Credit
+                  Transfer. RPL evidence must include some of
+                  the following:
                 </p>
 
                 <ul class="pt-3 list-items">
@@ -339,25 +406,18 @@
                   <li>Professional development programs.</li>
                 </ul>
                 <p class="pt-3">
-                  If you wish to apply for RPL or Credit Transfer, please notify
-                  Institute of Business and Management (Victoria) at the time of
-                  enrolment.
+                  If you wish to apply for RPL or Credit
+                  Transfer, please notify Institute of
+                  Business and Management (Victoria) at the
+                  time of enrolment.
                 </p>
               </div>
             </div>
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps8"
-              role="button"
-              aria-expanded="fasle"
-              aria-controls="clps8"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps8"
+              role="button" aria-expanded="fasle" aria-controls="clps8">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Assessment Method</span>
@@ -368,9 +428,10 @@
             <div class="collapse" id="clps8">
               <div class="p-justify card card-body">
                 <p>
-                  Assessment methods used for this qualification will provide a
-                  range of ways for individuals to demonstrate that they have
-                  met the required outcomes including:
+                  Assessment methods used for this
+                  qualification will provide a range of ways
+                  for individuals to demonstrate that they
+                  have met the required outcomes including:
                 </p>
 
                 <ul class="pt-3 list-items">
@@ -380,30 +441,21 @@
                   <li>Observations.</li>
                 </ul>
                 <p class="pt-3">
-                  At the beginning of each unit, trainers will outline the
-                  assessment tasks that must be completed.
+                  At the beginning of each unit, trainers will
+                  outline the assessment tasks that must be
+                  completed.
                 </p>
               </div>
             </div>
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps9"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps9"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps9"
+              role="button" aria-expanded="false" aria-controls="clps9">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
-              <span
-                >Important Information – Student Handbook, Policies and
-                Procedures, Fees and Charges</span
-              >
+              <span>Important Information – Student Handbook,
+                Policies and Procedures, Fees and Charges</span>
               &nbsp;
               <i class="fas fa-angle-right requirementAddon"></i>
             </a>
@@ -411,28 +463,22 @@
             <div class="collapse" id="clps9">
               <div class="p-justify card card-body">
                 <p>
-                  Information about our training and assessment, policies and
-                  procedures are included in student handbook and should be read
-                  by you, prior to enrolment, which is available on institute’s
-                  website. These documents contain important information about
-                  your training course, fees and charges including our refund
-                  policy.
+                  Information about our training and
+                  assessment, policies and procedures are
+                  included in student handbook and should be
+                  read by you, prior to enrolment, which is
+                  available on institute’s website. These
+                  documents contain important information
+                  about your training course, fees and charges
+                  including our refund policy.
                 </p>
               </div>
             </div>
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps10"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps10"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps10"
+              role="button" aria-expanded="false" aria-controls="clps10">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Course Duration</span>
@@ -443,25 +489,17 @@
             <div class="collapse" id="clps10">
               <div class="p-justify card card-body">
                 <p>
-                  The duration of this qualification is 94 weeks, including 24
-                  weeks term breaks. The contact hours are 20 contact hours per
-                  week.
+                  The duration of this qualification is 94
+                  weeks, including 24 weeks term breaks. The
+                  contact hours are 20 contact hours per week.
                 </p>
               </div>
             </div>
           </div>
 
           <div class="collapsible">
-            <a
-              @click="changeAngle($event)"
-              data-position="right"
-              class="w-100"
-              data-bs-toggle="collapse"
-              href="#clps11"
-              role="button"
-              aria-expanded="false"
-              aria-controls="clps11"
-            >
+            <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse" href="#clps11"
+              role="button" aria-expanded="false" aria-controls="clps11">
               <i class="fas fa-file-certificate"></i>
               &nbsp;
               <span>Student Support</span>
@@ -472,24 +510,28 @@
             <div class="collapse" id="clps11">
               <div class="card card-body">
                 <p class="p-justify pb-2">
-                  Student needs are declared by the applicant at the time of
-                  enrolment: the application form allows the applicant to
-                  self-declare where they have learning disabilities.
+                  Student needs are declared by the applicant
+                  at the time of enrolment: the application
+                  form allows the applicant to self-declare
+                  where they have learning disabilities.
                 </p>
 
                 <p class="pb-2">
-                  Every student is interviewed either face-to-face or over the
-                  telephone to attempt to establish the applicant skill and
-                  knowledge levels, their current employment and how that
-                  relates to the course content and interaction.
+                  Every student is interviewed either
+                  face-to-face or over the telephone to
+                  attempt to establish the applicant skill and
+                  knowledge levels, their current employment
+                  and how that relates to the course content
+                  and interaction.
                 </p>
 
                 <p class="pb-2">
-                  Where language, literacy and numeracy are in question
-                  Institute of Business and Management (Victoria) has a
-                  language, literacy and numeracy (LLN) assessment they may
-                  undertake to confirm their level of language, literacy and
-                  numeracy skills.
+                  Where language, literacy and numeracy are in
+                  question Institute of Business and
+                  Management (Victoria) has a language,
+                  literacy and numeracy (LLN) assessment they
+                  may undertake to confirm their level of
+                  language, literacy and numeracy skills.
                 </p>
               </div>
             </div>
@@ -650,27 +692,30 @@
                   <tr>
                     <td>CPCCWHS2001</td>
                     <td>
-                      Apply WHS requirements, policies, and procedures in the
-                      construction industry
+                      Apply WHS requirements, policies,
+                      and procedures in the construction
+                      industry
                     </td>
                   </tr>
                   <tr>
                     <td>CPCWHS3001</td>
                     <td>
-                      Identify construction work hazards and select risk control
-                      strategies
+                      Identify construction work hazards
+                      and select risk control strategies
                     </td>
                   </tr>
                   <tr>
                     <td>CPCCOM1012</td>
                     <td>
-                      Work effectively and sustainably in the construction
-                      industry.
+                      Work effectively and sustainably in
+                      the construction industry.
                     </td>
                   </tr>
                   <tr>
                     <td>CPCCCA2002</td>
-                    <td>Use carpentry tools and equipment</td>
+                    <td>
+                      Use carpentry tools and equipment
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCCA2011</td>
@@ -679,7 +724,8 @@
                   <tr>
                     <td>CPCCCA3025</td>
                     <td>
-                      Read and interpret plans, specifications and drawings for
+                      Read and interpret plans,
+                      specifications and drawings for
                       carpentry work
                     </td>
                   </tr>
@@ -689,19 +735,24 @@
                   </tr>
                   <tr>
                     <td>CPCCOM1015</td>
-                    <td>Carry out measurements and calculations</td>
+                    <td>
+                      Carry out measurements and
+                      calculations
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCOM3001</td>
                     <td>
-                      Perform construction calculations to determine carpentry
-                      material requirements
+                      Perform construction calculations to
+                      determine carpentry material
+                      requirements
                     </td>
                   </tr>
                   <tr>
                     <td>CPCCCA3001</td>
                     <td>
-                      Carry out general demolition of minor building structures
+                      Carry out general demolition of
+                      minor building structures
                     </td>
                   </tr>
                   <tr>
@@ -710,11 +761,15 @@
                   </tr>
                   <tr>
                     <td>CPCCCO2013</td>
-                    <td>Carry out concreting to simple forms</td>
+                    <td>
+                      Carry out concreting to simple forms
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCCM2006</td>
-                    <td>Apply basic levelling procedures</td>
+                    <td>
+                      Apply basic levelling procedures
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCOM3006</td>
@@ -739,7 +794,8 @@
                   <tr>
                     <td>CPCCCA3016</td>
                     <td>
-                      Construct, assemble and install timber external stairs
+                      Construct, assemble and install
+                      timber external stairs
                     </td>
                   </tr>
                   <tr>
@@ -750,13 +806,16 @@
                   <tr>
                     <td>CPCCCA3028</td>
                     <td>
-                      Erect and dismantle formwork for footings and slabs on
-                      ground
+                      Erect and dismantle formwork for
+                      footings and slabs on ground
                     </td>
                   </tr>
                   <tr>
                     <td>CPCCCM2008</td>
-                    <td>Erect and dismantle restricted height scaffolding</td>
+                    <td>
+                      Erect and dismantle restricted
+                      height scaffolding
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCCA3003</td>
@@ -772,21 +831,26 @@
                   </tr>
                   <tr>
                     <td>CPCCCA3024</td>
-                    <td>Install lining, paneling and molding</td>
+                    <td>
+                      Install lining, paneling and molding
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCOM1014</td>
                     <td>Conduct workplace communication</td>
                   </tr>
                   <tr>
-                    <td colspan="2"><b>ELECTIVE UNITS</b></td>
+                    <td colspan="2">
+                      <b>ELECTIVE UNITS</b>
+                    </td>
                   </tr>
 
                   <tr>
                     <td>CPCCCA3027</td>
                     <td>
-                      Set up, operate, and maintain indirect action
-                      powder-actuated power tools
+                      Set up, operate, and maintain
+                      indirect action powder-actuated
+                      power tools
                     </td>
                   </tr>
                   <tr>
@@ -795,22 +859,31 @@
                   </tr>
                   <tr>
                     <td>CPCCCA3020</td>
-                    <td>Erect and dismantle jump-form formwork</td>
+                    <td>
+                      Erect and dismantle jump-form
+                      formwork
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCCM3005</td>
-                    <td>Calculate costs of construction work</td>
+                    <td>
+                      Calculate costs of construction work
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCCA3019</td>
                     <td>
-                      Erect and dismantle formwork to suspended slabs, columns,
-                      beams and walls
+                      Erect and dismantle formwork to
+                      suspended slabs, columns, beams and
+                      walls
                     </td>
                   </tr>
                   <tr>
                     <td>CPCCCM3001</td>
-                    <td>Operate elevated work platforms up to 11 meters</td>
+                    <td>
+                      Operate elevated work platforms up
+                      to 11 meters
+                    </td>
                   </tr>
                   <tr>
                     <td>CPCCOM1013</td>
@@ -833,16 +906,8 @@
             <h3 class="course-page-title">Fees Information</h3>
             <div class="my-3"></div>
             <div class="collapsible">
-              <a
-                @click="changeAngle($event)"
-                data-position="down"
-                class="w-100"
-                data-bs-toggle="collapse"
-                href="#fees"
-                role="button"
-                aria-expanded="true"
-                aria-controls="clps1"
-              >
+              <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse" href="#fees"
+                role="button" aria-expanded="true" aria-controls="clps1">
                 <i class="fas fa-file-certificate"></i>
                 &nbsp;
                 <span>Fees</span>
@@ -879,9 +944,12 @@
                         <th>:</th>
                         <td>
                           <p class="p-justify">
-                            The duration of this qualification is 94 weeks,
-                            including 24 weeks term breaks. The contact hours
-                            are 20 contact hours per week.
+                            The duration of this
+                            qualification is 94
+                            weeks, including 24
+                            weeks term breaks. The
+                            contact hours are 20
+                            contact hours per week.
                           </p>
                         </td>
                       </tr>
@@ -929,9 +997,9 @@
             <h3 class="course-page-title">Further Information</h3>
             <div class="my-3"></div>
             <p>
-              For further information please call Institute of Business and
-              Management (Victoria) on 03 9478 3163 or email us on:
-              info@ibm.vic.edu.au
+              For further information please call Institute of
+              Business and Management (Victoria) on 03 9478 3163
+              or email us on: info@ibm.vic.edu.au
             </p>
           </div>
         </div>
@@ -954,12 +1022,20 @@ export default {
 
       if (position == "right") {
         $(requirement).attr("data-position", "down");
-        $(requirement).find(".requirementAddon").removeClass("fa-angle-right");
-        $(requirement).find(".requirementAddon").addClass("fa-angle-down");
+        $(requirement)
+          .find(".requirementAddon")
+          .removeClass("fa-angle-right");
+        $(requirement)
+          .find(".requirementAddon")
+          .addClass("fa-angle-down");
       } else {
         $(requirement).attr("data-position", "right");
-        $(requirement).find(".requirementAddon").removeClass("fa-angle-down");
-        $(requirement).find(".requirementAddon").addClass("fa-angle-right");
+        $(requirement)
+          .find(".requirementAddon")
+          .removeClass("fa-angle-down");
+        $(requirement)
+          .find(".requirementAddon")
+          .addClass("fa-angle-right");
       }
     },
   },
@@ -969,6 +1045,7 @@ export default {
 .requirementAddon {
   float: right;
 }
+
 .course-page-title {
   font-size: 24px !important;
   color: #f1592a !important;
@@ -987,16 +1064,20 @@ export default {
   border: 1px solid #f1592a;
   border-radius: 5px;
 }
+
 .list-items {
   padding-left: 2rem !important;
 }
+
 .list-items li {
   padding-left: 10px;
   list-style: square;
 }
+
 table tbody tr {
   text-align: left !important;
 }
+
 ul {
   list-style-type: circle;
 }

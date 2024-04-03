@@ -1,7 +1,5 @@
 <template>
-    <section
-        class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70"
-    >
+    <section class="about-us-area pt-50 pb-40 pt-md-100 pb-md-70 pt-xs-100 pb-xs-70">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -55,16 +53,8 @@
                     </p>
                     <div class="my-3"></div>
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="down"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps1"
-                            role="button"
-                            aria-expanded="true"
-                            aria-controls="clps1"
-                        >
+                        <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse"
+                            href="#clps1" role="button" aria-expanded="true" aria-controls="clps1">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>English Language Requirement</span>
@@ -73,8 +63,8 @@
                         </a>
 
                         <div class="collapse show" id="clps1">
-                            <!-- <div class="p-justify card card-body">
-                                An IELTS level of 5.5 or equivalent for direct
+                            <div class="p-justify card card-body">
+                                <!-- An IELTS level of 5.5 or equivalent for direct
                                 entry into a VET course or IELTS band score of
                                 5.0 (Academic or general version) then
                                 satisfactory completion of ELICOS up to 20 weeks
@@ -82,108 +72,140 @@
                                 the main VET course. (Results older than two
                                 years are not acceptable)
                             </div> -->
-                            <p>
-                We accept the admission to the students if they qualify in
-                ANYONE (1) of the following :
-              </p>
-              <li
-                style="list-style-type: circle !important"
-                class="p-justify card card-body"
-              >
-                IELTS overall band of 5.5 TOEFL iBT test score band of 46
-                equivalent or above;
-                <div style="display: flex">
-                  <b class="m-auto">Refer:</b>
-                  <a
-                    target="_blank"
-                    style="border: none !important; color: #f44706 !important"
-                    href="https://www.ets.org/toefl/test-takers/ibt/about.html"
-                  >
-                    https://www.ets.org/toefl/test-takers/ibt/about.html</a
-                  >
-                </div>
-              </li>
-              <li
-                style="list-style-type: circle !important"
-                class="p-justify card card-body"
-              >
-                PTE Academic band score 42 equivalent or above;
-                <div style="display: flex">
-                  <b class="m-auto">Refer:</b>
-                  <a
-                    target="_blank"
-                    style="border: none !important; color: #f44706 !important"
-                    href="https://pearsonpte.com/the-test"
-                  >
-                    https://pearsonpte.com/the-test</a
-                  >
-                </div>
-              </li>
-              <li
-                style="list-style-type: circle !important"
-                class="p-justify card card-body"
-              >
-                Cambridge English Advanced (CAE) test score band of 47
-                equivalent or above; Refer:
-                <div style="display: flex">
-                  <b class="m-auto">Refer:</b>
-                  <a
-                    target="_blank"
-                    style="border: none !important; color: #f44706 !important"
-                    href="http://www.cambridgeenglish.org/exams-and-tests/advanced/"
-                  >
-                    http://www.cambridgeenglish.org/exams-and-tests/advanced/</a
-                  >
-                </div>
-              </li>
-              <li
-                style="list-style-type: circle !important"
-                class="p-justify card card-body"
-              >
-                OET score band “C” Pass equivalent or above;
-                <div style="display: flex">
-                  <b class="m-auto">Refer:</b>
-                  <a
-                    target="_blank"
-                    style="border: none !important; color: #f44706 !important"
-                    href="https://www.occupationalenglishtest.org/test-information/results-assessment/"
-                  >
-                    https://www.occupationalenglishtest.org/test-information/results-assessment/</a
-                  >
-                </div>
-              </li>
-              <li
-                style="list-style-type: circle !important"
-                class="p-justify card card-body"
-              >
-                Completion of a full-time studies in Australia towards a
-                Certificate IV or above Satisfactory completion of the ESL
-                course / English language course or satisfactory completion of
-                10-20 weeks ELICOS from a National ELT Accreditation Scheme
-                (NEAS)Accredited English Institution with an IELTS score of 5.0.
-                
-              </li>
-              <li
-                style="list-style-type: circle !important"
-                class="p-justify card card-body"
-              >
-                OR Any other form which satisfies the Institution during their
-                pre-enrolment interview.
-                
-              </li>
+                                <!-- <p>
+                                We accept the admission to the students if they qualify in
+                                ANYONE (1) of the following :
+                            </p>
+                            <li style="list-style-type: circle !important" class="p-justify card card-body">
+                                IELTS overall band of 5.5 TOEFL iBT test score band of 46
+                                equivalent or above;
+                                <div style="display: flex">
+                                    <b class="m-auto">Refer:</b>
+                                    <a target="_blank" style="border: none !important; color: #f44706 !important"
+                                        href="https://www.ets.org/toefl/test-takers/ibt/about.html">
+                                        https://www.ets.org/toefl/test-takers/ibt/about.html</a>
+                                </div>
+                            </li>
+                            <li style="list-style-type: circle !important" class="p-justify card card-body">
+                                PTE Academic band score 42 equivalent or above;
+                                <div style="display: flex">
+                                    <b class="m-auto">Refer:</b>
+                                    <a target="_blank" style="border: none !important; color: #f44706 !important"
+                                        href="https://pearsonpte.com/the-test">
+                                        https://pearsonpte.com/the-test</a>
+                                </div>
+                            </li>
+                            <li style="list-style-type: circle !important" class="p-justify card card-body">
+                                Cambridge English Advanced (CAE) test score band of 47
+                                equivalent or above; Refer:
+                                <div style="display: flex">
+                                    <b class="m-auto">Refer:</b>
+                                    <a target="_blank" style="border: none !important; color: #f44706 !important"
+                                        href="http://www.cambridgeenglish.org/exams-and-tests/advanced/">
+                                        http://www.cambridgeenglish.org/exams-and-tests/advanced/</a>
+                                </div>
+                            </li>
+                            <li style="list-style-type: circle !important" class="p-justify card card-body">
+                                OET score band “C” Pass equivalent or above;
+                                <div style="display: flex">
+                                    <b class="m-auto">Refer:</b>
+                                    <a target="_blank" style="border: none !important; color: #f44706 !important"
+                                        href="https://www.occupationalenglishtest.org/test-information/results-assessment/">
+                                        https://www.occupationalenglishtest.org/test-information/results-assessment/</a>
+                                </div>
+                            </li>
+                            <li style="list-style-type: circle !important" class="p-justify card card-body">
+                                Completion of a full-time studies in Australia towards a
+                                Certificate IV or above Satisfactory completion of the ESL
+                                course / English language course or satisfactory completion of
+                                10-20 weeks ELICOS from a National ELT Accreditation Scheme
+                                (NEAS)Accredited English Institution with an IELTS score of 5.0.
+
+                            </li>
+                            <li style="list-style-type: circle !important" class="p-justify card card-body">
+                                OR Any other form which satisfies the Institution during their
+                                pre-enrolment interview.
+
+                            </li> -->
+                                <p>International Students applying for this qualification must have a minimum English
+                                    language proficiency
+                                    of IELTS 6.0 or an equivalent exam result recognised by the Department of Home
+                                    Affairs.
+                                </p>
+                                <p style="font-weight: bold;">You must still take the IBM (VIC)’s pre-entry placement
+                                    test
+                                    at Orientation.
+                                    It is used as a guide to determine the level of language, literacy and numeracy
+                                    required
+                                    for competent
+                                    performance.</p>
+                                <p>Other equivalent English language proficiency level is deemed one of the following:
+                                </p>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>English language test providers</th>
+                                            <th>Minimum score</th>
+                                            <th>Minimum score and at least 20 weeks English Language Intensive Courses
+                                                for
+                                                Overseas Students
+                                                (ELICOS)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>International English Language Testing System (IELTS)</td>
+                                            <td>6</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pearson Test of English Academic (PTE Academic)</td>
+                                            <td>50</td>
+                                            <td>40</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>OR</p>
+                                <p>any other form that satisfies the Institution during their pre-enrolment interview
+                                </p>
+                                <p style="font-weight: bold;">English Language Evidence Exemptions: </p>
+                                <p>You do not need to provide evidence of an English test score with your visa
+                                    application
+                                    if one of the following applies: </p>
+                                <ul class="pt-3 list-items">
+                                    <li>you are a citizen and hold a passport from UK, USA, Canada, NZ or Republic of
+                                        Ireland </li>
+                                    <li>you are an applicant who is a Foreign Affairs or, Defence sponsored student or a
+                                        Secondary Exchange student (AASES) </li>
+                                    <li>you are enrolled in a principal course of study that is a registered school
+                                        course,
+                                        a standalone English Language Intensive Course for Overseas Students (ELICOS), a
+                                        course registered to be delivered in a language other than English, or a
+                                        registered
+                                        post-graduate research course </li>
+                                    <li>you have completed at least 5 years’ study in English in one or more of the
+                                        following countries: Australia, UK, USA, Canada, New Zealand, South Africa, or
+                                        the
+                                        Republic of Ireland </li>
+                                    <li>in the 2 years before applying for the student visa, you completed, in Australia
+                                        and
+                                        in the English language, either the Senior Secondary Certificate of Education or
+                                        a
+                                        substantial component of a course leading to a qualification from the Australian
+                                        Qualifications Framework at the Certificate IV or higher level, while you held a
+                                        student visa. </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="right"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps2"
-                            role="button"
-                            aria-expanded="false"
-                            aria-controls="clps2"
-                        >
+                        <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse"
+                            href="#clps2" role="button" aria-expanded="false" aria-controls="clps2">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>Academic Requirement</span>
@@ -194,18 +216,12 @@
                         <div class="collapse" id="clps2">
                             <div class="card card-body">
                                 <p class="p-justify">
-                                    <i
-                                        class="fas fa-arrow-right theme-color"
-                                        aria-hidden="true"
-                                    ></i>
+                                    <i class="fas fa-arrow-right theme-color" aria-hidden="true"></i>
                                     Students must be of 18 years of age to
                                     apply.
                                 </p>
                                 <p class="p-justify">
-                                    <i
-                                        class="fas fa-arrow-right theme-color"
-                                        aria-hidden="true"
-                                    ></i>
+                                    <i class="fas fa-arrow-right theme-color" aria-hidden="true"></i>
                                     Successful completion of Diploma or Advanced
                                     Diploma from the BSB training package
                                     (Current or superseded equivalent version).
@@ -223,10 +239,7 @@
                 (Results older than two years are not acceptable)
                 </p> -->
                                 <p class="p-justify">
-                                    <i
-                                        class="fas fa-arrow-right theme-color"
-                                        aria-hidden="true"
-                                    ></i>
+                                    <i class="fas fa-arrow-right theme-color" aria-hidden="true"></i>
                                     Completed a Language, Literacy and Numeracy
                                     ( LLN ) and Pre-Training Review ( PTR )
                                     assessment test prior to commencement of the
@@ -236,16 +249,8 @@
                         </div>
                     </div>
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="right"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps3"
-                            role="button"
-                            aria-expanded="false"
-                            aria-controls="clps3"
-                        >
+                        <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse"
+                            href="#clps3" role="button" aria-expanded="false" aria-controls="clps3">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>LLN</span>
@@ -266,16 +271,8 @@
                         </div>
                     </div>
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="right"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps4"
-                            role="button"
-                            aria-expanded="false"
-                            aria-controls="clps4"
-                        >
+                        <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse"
+                            href="#clps4" role="button" aria-expanded="false" aria-controls="clps4">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>Overseas Student Health Cover (OSHC)</span>
@@ -295,16 +292,8 @@
                     <h3 class="course-page-title">Pathways</h3>
                     <div class="my-3"></div>
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="down"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps5"
-                            role="button"
-                            aria-expanded="true"
-                            aria-controls="clps5"
-                        >
+                        <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse"
+                            href="#clps5" role="button" aria-expanded="true" aria-controls="clps5">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>Educational Pathways</span>
@@ -323,16 +312,8 @@
                         </div>
                     </div>
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="down"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps6"
-                            role="button"
-                            aria-expanded="true"
-                            aria-controls="clps6"
-                        >
+                        <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse"
+                            href="#clps6" role="button" aria-expanded="true" aria-controls="clps6">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>Employment Pathways</span>
@@ -366,16 +347,8 @@
                     <h3 class="course-page-title">Courses Details</h3>
                     <div class="my-3"></div>
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="down"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps7"
-                            role="button"
-                            aria-expanded="true"
-                            aria-controls="clps7"
-                        >
+                        <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse"
+                            href="#clps7" role="button" aria-expanded="true" aria-controls="clps7">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>RPL / Credit Transfer</span>
@@ -412,16 +385,8 @@
                     </div>
 
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="right"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps8"
-                            role="button"
-                            aria-expanded="fasle"
-                            aria-controls="clps8"
-                        >
+                        <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse"
+                            href="#clps8" role="button" aria-expanded="fasle" aria-controls="clps8">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>Assessment Method</span>
@@ -454,22 +419,12 @@
                     </div>
 
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="right"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps9"
-                            role="button"
-                            aria-expanded="false"
-                            aria-controls="clps9"
-                        >
+                        <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse"
+                            href="#clps9" role="button" aria-expanded="false" aria-controls="clps9">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
-                            <span
-                                >Important Information – Student Handbook,
-                                Policies and Procedures, Fees and Charges</span
-                            >
+                            <span>Important Information – Student Handbook,
+                                Policies and Procedures, Fees and Charges</span>
                             &nbsp;
                             <i class="fas fa-angle-right requirementAddon"></i>
                         </a>
@@ -491,16 +446,8 @@
                     </div>
 
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="right"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps10"
-                            role="button"
-                            aria-expanded="false"
-                            aria-controls="clps10"
-                        >
+                        <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse"
+                            href="#clps10" role="button" aria-expanded="false" aria-controls="clps10">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>Course Duration</span>
@@ -521,16 +468,8 @@
                     </div>
 
                     <div class="collapsible">
-                        <a
-                            @click="changeAngle($event)"
-                            data-position="right"
-                            class="w-100"
-                            data-bs-toggle="collapse"
-                            href="#clps11"
-                            role="button"
-                            aria-expanded="false"
-                            aria-controls="clps11"
-                        >
+                        <a @click="changeAngle($event)" data-position="right" class="w-100" data-bs-toggle="collapse"
+                            href="#clps11" role="button" aria-expanded="false" aria-controls="clps11">
                             <i class="fas fa-file-certificate"></i>
                             &nbsp;
                             <span>Student Support</span>
@@ -670,23 +609,13 @@
                         <h3 class="course-page-title">Fees Information</h3>
                         <div class="my-3"></div>
                         <div class="collapsible">
-                            <a
-                                @click="changeAngle($event)"
-                                data-position="down"
-                                class="w-100"
-                                data-bs-toggle="collapse"
-                                href="#fees"
-                                role="button"
-                                aria-expanded="true"
-                                aria-controls="clps1"
-                            >
+                            <a @click="changeAngle($event)" data-position="down" class="w-100" data-bs-toggle="collapse"
+                                href="#fees" role="button" aria-expanded="true" aria-controls="clps1">
                                 <i class="fas fa-file-certificate"></i>
                                 &nbsp;
                                 <span>Fees</span>
                                 &nbsp;
-                                <i
-                                    class="fas fa-angle-down requirementAddon"
-                                ></i>
+                                <i class="fas fa-angle-down requirementAddon"></i>
                             </a>
 
                             <div class="collapse show" id="fees">
@@ -772,21 +701,13 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="collapsible">
-                                <a
-                                    class="w-100"
-                                    data-bs-toggle="collapse"
-                                    href="#handbook"
-                                    role="button"
-                                    aria-expanded="true"
-                                    aria-controls="handbook"
-                                >
+                                <a class="w-100" data-bs-toggle="collapse" href="#handbook" role="button"
+                                    aria-expanded="true" aria-controls="handbook">
                                     <i class="fas fa-file-certificate"></i>
                                     &nbsp;
                                     <span>Important Information</span>
                                     &nbsp;
-                                    <i
-                                        class="fas fa-angle-right requirementAddon"
-                                    ></i>
+                                    <i class="fas fa-angle-right requirementAddon"></i>
                                 </a>
 
                                 <div class="collapse" id="handbook">
@@ -812,21 +733,13 @@
                             </div>
                             <div class="my-3"></div>
                             <div class="collapsible">
-                                <a
-                                    class="w-100"
-                                    data-bs-toggle="collapse"
-                                    href="#stdSupport"
-                                    role="button"
-                                    aria-expanded="false"
-                                    aria-controls="stdSupport"
-                                >
+                                <a class="w-100" data-bs-toggle="collapse" href="#stdSupport" role="button"
+                                    aria-expanded="false" aria-controls="stdSupport">
                                     <i class="fas fa-file-certificate"></i>
                                     &nbsp;
                                     <span>Student Support </span>
                                     &nbsp;
-                                    <i
-                                        class="fas fa-angle-right requirementAddon"
-                                    ></i>
+                                    <i class="fas fa-angle-right requirementAddon"></i>
                                 </a>
 
                                 <div class="collapse" id="stdSupport">
@@ -925,6 +838,7 @@ export default {
     border: 1px solid #f1592a;
     border-radius: 5px;
 }
+
 table tbody tr {
     text-align: left !important;
 }
