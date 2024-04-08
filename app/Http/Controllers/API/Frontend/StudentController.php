@@ -205,7 +205,7 @@ class StudentController extends Controller
 
                         return response()->json(["message" => "mail sent successfully"], 200);
                     } catch (\throwable $th) {
-                        push
+                        // push
                     }
     }
 
