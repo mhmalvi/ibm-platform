@@ -1,3 +1,6 @@
+<!-- repo-card -->
+![ibm-platform](docs/assets/social-card.png)
+
 # IBM Platform
 
 A comprehensive education and service management platform built with Laravel and Vue.js. This full-stack application manages student enrollments, course bookings, service orders, agent workflows, and payment processing for an international education business.
